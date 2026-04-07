@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+<rect width="100%" height="100%" fill="#f8fafc" />
+<text x="90" y="30" font-size="28" font-weight="700" fill="#0f172a">PA 04 | 김택연 vs 최인호</text>
+<text x="90" y="52" font-size="15" fill="#475569">9회 초 | 4 pitches | zone 1.599 - 3.296 ft</text>
+<line x1="90" y1="630.0" x2="660" y2="630.0" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="630" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="90.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="232.5" y1="60" x2="232.5" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="232.5" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="375.0" y1="60" x2="375.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="375.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="517.5" y1="60" x2="517.5" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="517.5" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="660.0" y1="60" x2="660.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="660.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="630.0" x2="660" y2="630.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="635.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="516.0" x2="660" y2="516.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="521.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="402.0" x2="660" y2="402.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="407.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="288.0" x2="660" y2="288.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="293.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="174.0" x2="660" y2="174.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="179.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="60.0" x2="660" y2="60.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="65.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<text x="375.0" y="696" text-anchor="middle" font-size="16" fill="#0f172a">cross_plate_x (ft)</text>
+<text x="24" y="345.0" text-anchor="middle" font-size="16" fill="#0f172a" transform="rotate(-90 24 345.0)">plate_z (ft)</text>
+<rect x="274.06725" y="254.25599999999997" width="201.8655" height="193.45800000000008" fill="none" stroke="#0f172a" stroke-width="2.5" />
+<line x1="341.35575" y1="254.25599999999997" x2="341.35575" y2="447.71400000000006" stroke="#94a3b8" stroke-width="1" />
+<line x1="408.64425" y1="254.25599999999997" x2="408.64425" y2="447.71400000000006" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="383.228" x2="475.93275" y2="383.228" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="318.74199999999996" x2="475.93275" y2="318.74199999999996" stroke="#94a3b8" stroke-width="1" />
+<g><circle cx="347.7815025" cy="617.5182215184094" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>1구 | 직구 | B | 149km/h | x=-0.191, z=0.109</title></circle><text x="347.7815025" y="622.5182215184094" text-anchor="middle" font-size="12" font-weight="700" fill="white">1</text></g>
+<g><circle cx="398.80605" cy="194.04058077293053" r="12" fill="#f59e0b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>2구 | 직구 | F | 148km/h | x=0.167, z=3.824</title></circle><text x="398.80605" y="199.04058077293053" text-anchor="middle" font-size="12" font-weight="700" fill="white">2</text></g>
+<g><circle cx="351.22301999999996" cy="329.7420410854973" r="12" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>3구 | 포크 | T | 135km/h | x=-0.167, z=2.634</title></circle><text x="351.22301999999996" y="334.7420410854973" text-anchor="middle" font-size="12" font-weight="700" fill="white">3</text></g>
+<g><circle cx="356.789925" cy="557.3017733297817" r="12" fill="#2563eb" fill-opacity="0.9" stroke="white" stroke-width="2"><title>4구 | 포크 | S | 135km/h | x=-0.128, z=0.638</title></circle><text x="356.789925" y="562.3017733297817" text-anchor="middle" font-size="12" font-weight="700" fill="white">4</text></g>
+<rect x="492" y="52" width="170" height="120" rx="10" fill="white" stroke="#cbd5e1" stroke-width="1" />
+<text x="510" y="72" font-size="14" font-weight="700" fill="#0f172a">pitch_result</text>
+<circle cx="510" cy="80" r="6" fill="#2563eb" />
+<text x="524" y="85" font-size="13" fill="#334155">S</text>
+<circle cx="510" cy="100" r="6" fill="#dc2626" />
+<text x="524" y="105" font-size="13" fill="#334155">B</text>
+<circle cx="510" cy="120" r="6" fill="#f59e0b" />
+<text x="524" y="125" font-size="13" fill="#334155">F</text>
+<circle cx="510" cy="140" r="6" fill="#16a34a" />
+<text x="524" y="145" font-size="13" fill="#334155">H</text>
+<circle cx="510" cy="160" r="6" fill="#7c3aed" />
+<text x="524" y="165" font-size="13" fill="#334155">T</text>
+</svg>

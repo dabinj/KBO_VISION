@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+<rect width="100%" height="100%" fill="#f8fafc" />
+<text x="90" y="30" font-size="28" font-weight="700" fill="#0f172a">PA 01 | 김택연 vs 채은성</text>
+<text x="90" y="52" font-size="15" fill="#475569">9회 초 | 1 pitches | zone 1.661 - 3.424 ft</text>
+<line x1="90" y1="630.0" x2="660" y2="630.0" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="630" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="90.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="232.5" y1="60" x2="232.5" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="232.5" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="375.0" y1="60" x2="375.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="375.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="517.5" y1="60" x2="517.5" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="517.5" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="660.0" y1="60" x2="660.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="660.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="630.0" x2="660" y2="630.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="635.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="516.0" x2="660" y2="516.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="521.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="402.0" x2="660" y2="402.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="407.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="288.0" x2="660" y2="288.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="293.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="174.0" x2="660" y2="174.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="179.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="60.0" x2="660" y2="60.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="65.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<text x="375.0" y="696" text-anchor="middle" font-size="16" fill="#0f172a">cross_plate_x (ft)</text>
+<text x="24" y="345.0" text-anchor="middle" font-size="16" fill="#0f172a" transform="rotate(-90 24 345.0)">plate_z (ft)</text>
+<rect x="274.06725" y="239.66400000000004" width="201.8655" height="200.98199999999997" fill="none" stroke="#0f172a" stroke-width="2.5" />
+<line x1="341.35575" y1="239.66400000000004" x2="341.35575" y2="440.646" stroke="#94a3b8" stroke-width="1" />
+<line x1="408.64425" y1="239.66400000000004" x2="408.64425" y2="440.646" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="373.65200000000004" x2="475.93275" y2="373.65200000000004" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="306.658" x2="475.93275" y2="306.658" stroke="#94a3b8" stroke-width="1" />
+<g><circle cx="479.5494" cy="333.61976811791425" r="12" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>1구 | 직구 | H | 151km/h | x=0.734, z=2.600</title></circle><text x="479.5494" y="338.61976811791425" text-anchor="middle" font-size="12" font-weight="700" fill="white">1</text></g>
+<rect x="492" y="52" width="170" height="120" rx="10" fill="white" stroke="#cbd5e1" stroke-width="1" />
+<text x="510" y="72" font-size="14" font-weight="700" fill="#0f172a">pitch_result</text>
+<circle cx="510" cy="80" r="6" fill="#2563eb" />
+<text x="524" y="85" font-size="13" fill="#334155">S</text>
+<circle cx="510" cy="100" r="6" fill="#dc2626" />
+<text x="524" y="105" font-size="13" fill="#334155">B</text>
+<circle cx="510" cy="120" r="6" fill="#f59e0b" />
+<text x="524" y="125" font-size="13" fill="#334155">F</text>
+<circle cx="510" cy="140" r="6" fill="#16a34a" />
+<text x="524" y="145" font-size="13" fill="#334155">H</text>
+<circle cx="510" cy="160" r="6" fill="#7c3aed" />
+<text x="524" y="165" font-size="13" fill="#334155">T</text>
+</svg>

@@ -1,0 +1,6 @@
+game_id,game_date,game_datetime,category_id,status_code,status_info,stadium,home_team_code,home_team_name,away_team_code,away_team_name,home_score,away_score,home_starter_name,away_starter_name,win_pitcher_name,lose_pitcher_name,broad_channel,manual_relay_url,round_code,title
+20260407HHSK02026,2026-04-07,2026-04-07T18:30:00,kbo,READY,경기전,문학,SK,SSG,HH,한화,0,0,타케다,류현진,,,SPOTV,,kbo_r,
+20260407KTLT02026,2026-04-07,2026-04-07T18:30:00,kbo,READY,경기전,사직,LT,롯데,KT,KT,0,0,나균안,고영표,,,MBC SPORTS+,,kbo_r,
+20260407LGNC02026,2026-04-07,2026-04-07T18:30:00,kbo,BEFORE,경기전,창원,NC,NC,LG,LG,0,0,버하겐,송승기,,,SBS SPORTS,,kbo_r,
+20260407SSHT02026,2026-04-07,2026-04-07T18:30:00,kbo,READY,경기전,광주,HT,KIA,SS,삼성,0,0,양현종,양창섭,,,KBS N SPORTS^TVING,,kbo_r,
+20260407WOOB02026,2026-04-07,2026-04-07T18:30:00,kbo,READY,경기전,잠실,OB,두산,WO,키움,0,0,최승용,배동현,,,SPOTV2,,kbo_r,

@@ -1,0 +1,6 @@
+game_id,game_date,game_datetime,category_id,status_code,status_info,stadium,home_team_code,home_team_name,away_team_code,away_team_name,home_score,away_score,home_starter_name,away_starter_name,win_pitcher_name,lose_pitcher_name,broad_channel,manual_relay_url,round_code,title
+20260403HHOB02026,2026-04-03,2026-04-03T18:30:00,kbo,RESULT,9회말,잠실,OB,두산,HH,한화,6,11,플렉센,에르난데스,에르난데스,플렉센,,,kbo_r,
+20260403LGWO02026,2026-04-03,2026-04-03T18:30:00,kbo,RESULT,9회초,고척,WO,키움,LG,LG,5,2,알칸타라,치리노스,알칸타라,치리노스,,,kbo_r,
+20260403NCHT02026,2026-04-03,2026-04-03T18:30:00,kbo,RESULT,9회말,광주,HT,KIA,NC,NC,2,5,네일,구창모,구창모,네일,,,kbo_r,
+20260403SKLT02026,2026-04-03,2026-04-03T18:30:00,kbo,RESULT,9회말,사직,LT,롯데,SK,SSG,2,17,로드리게스,화이트,화이트,로드리게스,,,kbo_r,
+20260403SSKT02026,2026-04-03,2026-04-03T18:30:00,kbo,RESULT,9회말,수원,KT,KT,SS,삼성,1,2,사우어,후라도,후라도,사우어,,,kbo_r,

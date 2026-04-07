@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+<rect width="100%" height="100%" fill="#f8fafc" />
+<text x="90" y="30" font-size="28" font-weight="700" fill="#0f172a">All Pitches</text>
+<text x="90" y="52" font-size="15" fill="#475569">Pitch order is shown by seqno order. Zone uses average top/bottom across rows.</text>
+<line x1="90" y1="630.0" x2="660" y2="630.0" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="630" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="90.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="232.5" y1="60" x2="232.5" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="232.5" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="375.0" y1="60" x2="375.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="375.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="517.5" y1="60" x2="517.5" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="517.5" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="660.0" y1="60" x2="660.0" y2="630" stroke="#e2e8f0" stroke-width="1" />
+<text x="660.0" y="658" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="630.0" x2="660" y2="630.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="635.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="516.0" x2="660" y2="516.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="521.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="402.0" x2="660" y2="402.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="407.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="288.0" x2="660" y2="288.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="293.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="174.0" x2="660" y2="174.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="179.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="60.0" x2="660" y2="60.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="65.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<text x="375.0" y="696" text-anchor="middle" font-size="16" fill="#0f172a">cross_plate_x (ft)</text>
+<text x="24" y="345.0" text-anchor="middle" font-size="16" fill="#0f172a" transform="rotate(-90 24 345.0)">plate_z (ft)</text>
+<rect x="274.06725" y="250.17882352941177" width="201.8655" height="195.5904705882353" fill="none" stroke="#0f172a" stroke-width="2.5" />
+<line x1="341.35575" y1="250.17882352941177" x2="341.35575" y2="445.76929411764706" stroke="#94a3b8" stroke-width="1" />
+<line x1="408.64425" y1="250.17882352941177" x2="408.64425" y2="445.76929411764706" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="380.5724705882353" x2="475.93275" y2="380.5724705882353" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="315.3756470588236" x2="475.93275" y2="315.3756470588236" stroke="#94a3b8" stroke-width="1" />
+<g><circle cx="479.5494" cy="333.61976811791425" r="12" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>1구 | 직구 | H | 151km/h | x=0.734, z=2.600</title></circle><text x="479.5494" y="338.61976811791425" text-anchor="middle" font-size="12" font-weight="700" fill="white">1</text></g>
+<g><circle cx="550.470225" cy="337.0494109119887" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>2구 | 직구 | B | 151km/h | x=1.231, z=2.570</title></circle><text x="550.470225" y="342.0494109119887" text-anchor="middle" font-size="12" font-weight="700" fill="white">2</text></g>
+<g><circle cx="500.75525250000004" cy="477.3388132592588" r="12" fill="#f59e0b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>3구 | 슬라이더 | F | 134km/h | x=0.882, z=1.339</title></circle><text x="500.75525250000004" y="482.3388132592588" text-anchor="middle" font-size="12" font-weight="700" fill="white">3</text></g>
+<g><circle cx="432.927105" cy="167.58112152619088" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>4구 | 포크 | B | 138km/h | x=0.407, z=4.056</title></circle><text x="432.927105" y="172.58112152619088" text-anchor="middle" font-size="12" font-weight="700" fill="white">4</text></g>
+<g><circle cx="187.64954999999998" cy="219.33810360693587" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>5구 | 포크 | B | 134km/h | x=-1.315, z=3.602</title></circle><text x="187.64954999999998" y="224.33810360693587" text-anchor="middle" font-size="12" font-weight="700" fill="white">5</text></g>
+<g><circle cx="282.659715" cy="426.79454764108897" r="12" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>6구 | 직구 | T | 149km/h | x=-0.648, z=1.783</title></circle><text x="282.659715" y="431.79454764108897" text-anchor="middle" font-size="12" font-weight="700" fill="white">6</text></g>
+<g><circle cx="538.78665" cy="299.2090420471386" r="12" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>7구 | 직구 | H | 150km/h | x=1.149, z=2.902</title></circle><text x="538.78665" y="304.2090420471386" text-anchor="middle" font-size="12" font-weight="700" fill="white">7</text></g>
+<g><circle cx="525.8319749999999" cy="411.383907205249" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>8구 | 슬라이더 | B | 137km/h | x=1.058, z=1.918</title></circle><text x="525.8319749999999" y="416.383907205249" text-anchor="middle" font-size="12" font-weight="700" fill="white">8</text></g>
+<g><circle cx="379.4310375" cy="339.8853882270086" r="12" fill="#2563eb" fill-opacity="0.9" stroke="white" stroke-width="2"><title>9구 | 슬라이더 | S | 136km/h | x=0.031, z=2.545</title></circle><text x="379.4310375" y="344.8853882270086" text-anchor="middle" font-size="12" font-weight="700" fill="white">9</text></g>
+<g><circle cx="149.768775" cy="340.205269797579" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>10구 | 슬라이더 | B | 133km/h | x=-1.581, z=2.542</title></circle><text x="149.768775" y="345.205269797579" text-anchor="middle" font-size="12" font-weight="700" fill="white">10</text></g>
+<g><circle cx="432.19237499999997" cy="326.64869280651936" r="12" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>11구 | 슬라이더 | T | 134km/h | x=0.401, z=2.661</title></circle><text x="432.19237499999997" y="331.64869280651936" text-anchor="middle" font-size="12" font-weight="700" fill="white">11</text></g>
+<g><circle cx="455.0748825" cy="562.6842187966427" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>12구 | 직구 | B | 152km/h | x=0.562, z=0.590</title></circle><text x="455.0748825" y="567.6842187966427" text-anchor="middle" font-size="12" font-weight="700" fill="white">12</text></g>
+<g><circle cx="579.585825" cy="258.74360065492317" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>13구 | 슬라이더 | B | 132km/h | x=1.436, z=3.257</title></circle><text x="579.585825" y="263.74360065492317" text-anchor="middle" font-size="12" font-weight="700" fill="white">13</text></g>
+<g><circle cx="347.7815025" cy="617.5182215184094" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>14구 | 직구 | B | 149km/h | x=-0.191, z=0.109</title></circle><text x="347.7815025" y="622.5182215184094" text-anchor="middle" font-size="12" font-weight="700" fill="white">14</text></g>
+<g><circle cx="398.80605" cy="194.04058077293053" r="12" fill="#f59e0b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>15구 | 직구 | F | 148km/h | x=0.167, z=3.824</title></circle><text x="398.80605" y="199.04058077293053" text-anchor="middle" font-size="12" font-weight="700" fill="white">15</text></g>
+<g><circle cx="351.22301999999996" cy="329.7420410854973" r="12" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>16구 | 포크 | T | 135km/h | x=-0.167, z=2.634</title></circle><text x="351.22301999999996" y="334.7420410854973" text-anchor="middle" font-size="12" font-weight="700" fill="white">16</text></g>
+<g><circle cx="356.789925" cy="557.3017733297817" r="12" fill="#2563eb" fill-opacity="0.9" stroke="white" stroke-width="2"><title>17구 | 포크 | S | 135km/h | x=-0.128, z=0.638</title></circle><text x="356.789925" y="562.3017733297817" text-anchor="middle" font-size="12" font-weight="700" fill="white">17</text></g>
+<rect x="492" y="52" width="170" height="120" rx="10" fill="white" stroke="#cbd5e1" stroke-width="1" />
+<text x="510" y="72" font-size="14" font-weight="700" fill="#0f172a">pitch_result</text>
+<circle cx="510" cy="80" r="6" fill="#2563eb" />
+<text x="524" y="85" font-size="13" fill="#334155">S</text>
+<circle cx="510" cy="100" r="6" fill="#dc2626" />
+<text x="524" y="105" font-size="13" fill="#334155">B</text>
+<circle cx="510" cy="120" r="6" fill="#f59e0b" />
+<text x="524" y="125" font-size="13" fill="#334155">F</text>
+<circle cx="510" cy="140" r="6" fill="#16a34a" />
+<text x="524" y="145" font-size="13" fill="#334155">H</text>
+<circle cx="510" cy="160" r="6" fill="#7c3aed" />
+<text x="524" y="165" font-size="13" fill="#334155">T</text>
+</svg>

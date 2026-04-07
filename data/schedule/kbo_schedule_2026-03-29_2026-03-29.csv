@@ -1,0 +1,6 @@
+game_id,game_date,game_datetime,category_id,status_code,status_info,stadium,home_team_code,home_team_name,away_team_code,away_team_name,home_score,away_score,home_starter_name,away_starter_name,win_pitcher_name,lose_pitcher_name,broad_channel,manual_relay_url,round_code,title
+20260329HTSK02026,2026-03-29,2026-03-29T14:00:00,kbo,RESULT,9회초,문학,SK,SSG,HT,KIA,11,6,김건우,이의리,김건우,이의리,,,kbo_r,
+20260329KTLG02026,2026-03-29,2026-03-29T14:00:00,kbo,RESULT,9회말,잠실,LG,LG,KT,KT,5,6,임찬규,소형준,전용주,유영찬,,,kbo_r,
+20260329LTSS02026,2026-03-29,2026-03-29T14:00:00,kbo,RESULT,9회말,대구,SS,삼성,LT,롯데,2,6,최원태,비슬리,비슬리,최원태,,,kbo_r,
+20260329OBNC02026,2026-03-29,2026-03-29T14:00:00,kbo,RESULT,9회말,창원,NC,NC,OB,두산,6,9,테일러,곽빈,타무라,김진호,,,kbo_r,
+20260329WOHH02026,2026-03-29,2026-03-29T14:00:00,kbo,RESULT,9회초,대전,HH,한화,WO,키움,10,4,왕옌청,하영민,왕옌청,하영민,,,kbo_r,

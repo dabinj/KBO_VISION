@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="860" viewBox="0 0 720 860">
+<rect width="100%" height="100%" fill="#f8fafc" />
+<text x="90" y="30" font-size="28" font-weight="700" fill="#0f172a">PA 01 | 플렉센 vs 페라자</text>
+<text x="90" y="52" font-size="15" fill="#475569">1회 초 | 2 pitches | zone 1.576 - 3.250 ft</text>
+<line x1="90" y1="770.0" x2="660" y2="770.0" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="770" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="90.0" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="232.5" y1="60" x2="232.5" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="232.5" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="375.0" y1="60" x2="375.0" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="375.0" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="517.5" y1="60" x2="517.5" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="517.5" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="660.0" y1="60" x2="660.0" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="660.0" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="770.0" x2="660" y2="770.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="775.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="628.0" x2="660" y2="628.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="633.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="486.0" x2="660" y2="486.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="491.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="344.0" x2="660" y2="344.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="349.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="202.0" x2="660" y2="202.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="207.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="60.0" x2="660" y2="60.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="65.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<text x="375.0" y="836" text-anchor="middle" font-size="16" fill="#0f172a">cross_plate_x (ft)</text>
+<text x="24" y="415.0" text-anchor="middle" font-size="16" fill="#0f172a" transform="rotate(-90 24 415.0)">plate_z (ft)</text>
+<rect x="274.06725" y="308.5" width="201.8655" height="237.70799999999997" fill="none" stroke="#0f172a" stroke-width="2.5" />
+<line x1="341.35575" y1="308.5" x2="341.35575" y2="546.208" stroke="#94a3b8" stroke-width="1" />
+<line x1="408.64425" y1="308.5" x2="408.64425" y2="546.208" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="466.972" x2="475.93275" y2="466.972" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="387.736" x2="475.93275" y2="387.736" stroke="#94a3b8" stroke-width="1" />
+<g><polygon points="271.8158775,391.59100122267245 299.4158775,391.59100122267245 285.6158775,418.59100122267245" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>1구 | 커브 | T | 113km/h | x=-0.627, z=2.585 | 1구 스트라이크</title></polygon><text x="285.6158775" y="407.9910012226724" text-anchor="middle" font-size="12" font-weight="700" fill="white">1</text></g>
+<g><circle cx="452.8564425" cy="442.02847896076827" r="12" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>2구 | 직구 | H | 146km/h | x=0.546, z=2.310 | 2구 타격 | 결과: 페라자 : 2루수 땅볼 아웃 (2루수-&gt;1루수 송구아웃)</title></circle><text x="452.8564425" y="447.02847896076827" text-anchor="middle" font-size="12" font-weight="700" fill="white">2</text></g>
+<rect x="492" y="52" width="168" height="208" rx="10" fill="white" stroke="#cbd5e1" stroke-width="1" />
+<text x="510" y="72" font-size="14" font-weight="700" fill="#0f172a">pitch_result</text>
+<circle cx="510" cy="80" r="6" fill="#2563eb" />
+<text x="524" y="85" font-size="13" fill="#334155">S</text>
+<circle cx="510" cy="100" r="6" fill="#dc2626" />
+<text x="524" y="105" font-size="13" fill="#334155">B</text>
+<circle cx="510" cy="120" r="6" fill="#f59e0b" />
+<text x="524" y="125" font-size="13" fill="#334155">F</text>
+<circle cx="510" cy="140" r="6" fill="#16a34a" />
+<text x="524" y="145" font-size="13" fill="#334155">H</text>
+<circle cx="510" cy="160" r="6" fill="#7c3aed" />
+<text x="524" y="165" font-size="13" fill="#334155">T</text>
+<text x="510" y="196" font-size="14" font-weight="700" fill="#0f172a">pitch_type</text>
+<circle cx="510" cy="216" r="6" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>직구</title></circle>
+<text x="524" y="221" font-size="13" fill="#334155">직구</text>
+<polygon points="503.1,228.3 516.9,228.3 510,241.8" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>커브</title></polygon>
+<text x="524" y="239" font-size="13" fill="#334155">커브</text>
+<rect x="504.9" y="246.9" width="10.2" height="10.2" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>슬라이더</title></rect>
+<text x="524" y="257" font-size="13" fill="#334155">슬라이더</text>
+<polygon points="510,262.2 516.6,270 510,277.8 503.4,270" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>포크</title></polygon>
+<text x="524" y="275" font-size="13" fill="#334155">포크</text>
+<polygon points="503.1,293.7 516.9,293.7 510,280.2" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>체인지업</title></polygon>
+<text x="524" y="293" font-size="13" fill="#334155">체인지업</text>
+<polygon points="516.6,300 516.6,312 501.9,306" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>스위퍼</title></polygon>
+<text x="524" y="311" font-size="13" fill="#334155">스위퍼</text>
+<rect x="90" y="710" width="570" height="96" rx="10" fill="white" stroke="#cbd5e1" stroke-width="1" />
+<text x="104" y="732" font-size="14" font-weight="700" fill="#0f172a">pitch events</text>
+<text x="104" y="752" font-size="12" fill="#334155">1구 1구 스트라이크</text>
+<text x="104" y="768" font-size="12" fill="#334155">2구 2구 타격 -&gt; 페라자 : 2루수 땅볼 아웃 (2루수-&gt;1루수 송구아웃)</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="860" viewBox="0 0 720 860">
+<rect width="100%" height="100%" fill="#f8fafc" />
+<text x="90" y="30" font-size="28" font-weight="700" fill="#0f172a">All Pitches</text>
+<text x="90" y="52" font-size="15" fill="#475569">Pitch order is shown by seqno order. Zone uses average top/bottom across rows.</text>
+<line x1="90" y1="770.0" x2="660" y2="770.0" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="770" stroke="#94a3b8" stroke-width="1.5" />
+<line x1="90.0" y1="60" x2="90.0" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="90.0" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="232.5" y1="60" x2="232.5" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="232.5" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="375.0" y1="60" x2="375.0" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="375.0" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="517.5" y1="60" x2="517.5" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="517.5" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="660.0" y1="60" x2="660.0" y2="770" stroke="#e2e8f0" stroke-width="1" />
+<text x="660.0" y="798" text-anchor="middle" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="770.0" x2="660" y2="770.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="775.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="628.0" x2="660" y2="628.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="633.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="486.0" x2="660" y2="486.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="491.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="344.0" x2="660" y2="344.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="349.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="202.0" x2="660" y2="202.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="207.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<line x1="90" y1="60.0" x2="660" y2="60.0" stroke="#e2e8f0" stroke-width="1" />
+<text x="72" y="65.0" text-anchor="end" font-size="14" fill="#334155">{value}</text>
+<text x="375.0" y="836" text-anchor="middle" font-size="16" fill="#0f172a">cross_plate_x (ft)</text>
+<text x="24" y="415.0" text-anchor="middle" font-size="16" fill="#0f172a" transform="rotate(-90 24 415.0)">plate_z (ft)</text>
+<rect x="274.06725" y="308.5" width="201.8655" height="237.70799999999997" fill="none" stroke="#0f172a" stroke-width="2.5" />
+<line x1="341.35575" y1="308.5" x2="341.35575" y2="546.208" stroke="#94a3b8" stroke-width="1" />
+<line x1="408.64425" y1="308.5" x2="408.64425" y2="546.208" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="466.972" x2="475.93275" y2="466.972" stroke="#94a3b8" stroke-width="1" />
+<line x1="274.06725" y1="387.736" x2="475.93275" y2="387.736" stroke="#94a3b8" stroke-width="1" />
+<g><polygon points="271.8158775,391.59100122267245 299.4158775,391.59100122267245 285.6158775,418.59100122267245" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>1구 | 커브 | T | 113km/h | x=-0.627, z=2.585 | 1구 스트라이크</title></polygon><text x="285.6158775" y="407.9910012226724" text-anchor="middle" font-size="12" font-weight="700" fill="white">1</text></g>
+<g><circle cx="452.8564425" cy="442.02847896076827" r="12" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>2구 | 직구 | H | 146km/h | x=0.546, z=2.310 | 2구 타격 | 결과: 페라자 : 2루수 땅볼 아웃 (2루수-&gt;1루수 송구아웃)</title></circle><text x="452.8564425" y="447.02847896076827" text-anchor="middle" font-size="12" font-weight="700" fill="white">2</text></g>
+<g><polygon points="225.65200499999997,735.9173322737281 253.252005,735.9173322737281 239.45200499999999,762.9173322737281" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>3구 | 커브 | B | 122km/h | x=-0.951, z=0.160 | 1구 볼</title></polygon><text x="239.45200499999999" y="752.3173322737281" text-anchor="middle" font-size="12" font-weight="700" fill="white">3</text></g>
+<g><circle cx="541.51695" cy="398.8596300895773" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>4구 | 직구 | B | 145km/h | x=1.169, z=2.614 | 2구 볼</title></circle><text x="541.51695" y="403.8596300895773" text-anchor="middle" font-size="12" font-weight="700" fill="white">4</text></g>
+<g><circle cx="414.64749" cy="333.2648935211943" r="12" fill="#f59e0b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>5구 | 직구 | F | 145km/h | x=0.278, z=3.076 | 3구 파울</title></circle><text x="414.64749" y="338.2648935211943" text-anchor="middle" font-size="12" font-weight="700" fill="white">5</text></g>
+<g><circle cx="460.8819" cy="537.552095346422" r="12" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>6구 | 직구 | T | 147km/h | x=0.603, z=1.637 | 4구 스트라이크</title></circle><text x="460.8819" y="542.552095346422" text-anchor="middle" font-size="12" font-weight="700" fill="white">6</text></g>
+<g><polygon points="224.279175,408.6618540610624 237.479175,424.2618540610624 224.279175,439.86185406106244 211.07917500000002,424.2618540610624" fill="#f59e0b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>7구 | 포크 | F | 131km/h | x=-1.058, z=2.435 | 5구 파울</title></polygon><text x="224.279175" y="429.2618540610624" text-anchor="middle" font-size="12" font-weight="700" fill="white">7</text></g>
+<g><polygon points="390.4536975,367.06059516858573 403.65369749999996,382.66059516858576 390.4536975,398.2605951685858 377.2536975,382.66059516858576" fill="#f59e0b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>8구 | 포크 | F | 131km/h | x=0.108, z=2.728 | 6구 파울</title></polygon><text x="390.4536975" y="387.66059516858576" text-anchor="middle" font-size="12" font-weight="700" fill="white">8</text></g>
+<g><circle cx="516.6849" cy="619.0072136343782" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>9구 | 직구 | B | 148km/h | x=0.994, z=1.063 | 7구 볼</title></circle><text x="516.6849" y="624.0072136343782" text-anchor="middle" font-size="12" font-weight="700" fill="white">9</text></g>
+<g><polygon points="393.5624625,738.6352523800449 421.1624625,738.6352523800449 407.3624625,765.6352523800449" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>10구 | 커브 | B | 123km/h | x=0.227, z=0.141 | 8구 볼 | 결과: 페라자 : 볼넷</title></polygon><text x="407.3624625" y="755.0352523800449" text-anchor="middle" font-size="12" font-weight="700" fill="white">10</text></g>
+<g><circle cx="378.3865125" cy="320.2529970242061" r="12" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>11구 | 직구 | H | 147km/h | x=0.024, z=3.167 | 1구 타격 | 결과: 페라자 : 우익수 뒤 홈런 (홈런거리:120M)</title></circle><text x="378.3865125" y="325.2529970242061" text-anchor="middle" font-size="12" font-weight="700" fill="white">11</text></g>
+<g><circle cx="454.48550250000005" cy="439.40081131315577" r="12" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>12구 | 직구 | T | 146km/h | x=0.558, z=2.328 | 1구 스트라이크</title></circle><text x="454.48550250000005" y="444.40081131315577" text-anchor="middle" font-size="12" font-weight="700" fill="white">12</text></g>
+<g><polygon points="232.39068749999998,358.8053732835992 259.9906875,358.8053732835992 246.1906875,331.8053732835992" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>13구 | 체인지업 | B | 129km/h | x=-0.904, z=2.976 | 2구 볼</title></polygon><text x="246.1906875" y="352.4053732835992" text-anchor="middle" font-size="12" font-weight="700" fill="white">13</text></g>
+<g><circle cx="319.75588500000003" cy="276.78977363808104" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>14구 | 직구 | B | 145km/h | x=-0.388, z=3.473 | 3구 볼</title></circle><text x="319.75588500000003" y="281.78977363808104" text-anchor="middle" font-size="12" font-weight="700" fill="white">14</text></g>
+<g><polygon points="403.27640249999996,485.6806817978723 430.8764025,485.6806817978723 417.0764025,458.6806817978723" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>15구 | 체인지업 | T | 130km/h | x=0.295, z=2.083 | 4구 스트라이크</title></polygon><text x="417.0764025" y="479.2806817978723" text-anchor="middle" font-size="12" font-weight="700" fill="white">15</text></g>
+<g><rect x="455.51193750000004" y="450.38681560358" width="20.4" height="20.4" fill="#f59e0b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>16구 | 슬라이더 | F | 135km/h | x=0.637, z=2.179 | 5구 파울</title></rect><text x="465.71193750000003" y="465.58681560357996" text-anchor="middle" font-size="12" font-weight="700" fill="white">16</text></g>
+<g><circle cx="365.2245" cy="307.91910257652495" r="12" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>17구 | 직구 | H | 149km/h | x=-0.069, z=3.254 | 6구 타격 | 결과: 페라자 : 중견수 앞 1루타</title></circle><text x="365.2245" y="312.91910257652495" text-anchor="middle" font-size="12" font-weight="700" fill="white">17</text></g>
+<g><rect x="321.21238500000004" y="153.752332892703" width="20.4" height="20.4" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>18구 | 슬라이더 | B | 126km/h | x=-0.306, z=4.268 | 1구 볼</title></rect><text x="331.41238500000003" y="168.952332892703" text-anchor="middle" font-size="12" font-weight="700" fill="white">18</text></g>
+<g><rect x="376.29291000000006" y="394.39776427276774" width="20.4" height="20.4" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>19구 | 슬라이더 | T | 125km/h | x=0.081, z=2.573 | 2구 스트라이크</title></rect><text x="386.49291000000005" y="409.59776427276773" text-anchor="middle" font-size="12" font-weight="700" fill="white">19</text></g>
+<g><circle cx="370.0967175" cy="188.24188134292046" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>20구 | 직구 | B | 144km/h | x=-0.034, z=4.097 | 3구 볼</title></circle><text x="370.0967175" y="193.24188134292046" text-anchor="middle" font-size="12" font-weight="700" fill="white">20</text></g>
+<g><rect x="288.66225000000003" y="335.3201459533351" width="20.4" height="20.4" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>21구 | 슬라이더 | T | 127km/h | x=-0.534, z=2.989 | 4구 스트라이크</title></rect><text x="298.86225" y="350.5201459533351" text-anchor="middle" font-size="12" font-weight="700" fill="white">21</text></g>
+<g><polygon points="421.4933175,683.3820037525433 449.0933175,683.3820037525433 435.2933175,710.3820037525433" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>22구 | 커브 | B | 118km/h | x=0.423, z=0.530 | 5구 볼</title></polygon><text x="435.2933175" y="699.7820037525432" text-anchor="middle" font-size="12" font-weight="700" fill="white">22</text></g>
+<g><rect x="280.017915" y="331.3498237508703" width="20.4" height="20.4" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>23구 | 슬라이더 | H | 130km/h | x=-0.595, z=3.017 | 6구 타격 | 결과: 페라자 : 3루수 플라이 아웃</title></rect><text x="290.217915" y="346.5498237508703" text-anchor="middle" font-size="12" font-weight="700" fill="white">23</text></g>
+<g><polygon points="287.6011725,305.60188658150355 315.20117250000004,305.60188658150355 301.40117250000003,332.60188658150355" fill="#7c3aed" fill-opacity="0.9" stroke="white" stroke-width="2"><title>24구 | 커브 | T | 127km/h | x=-0.516, z=3.190 | 1구 스트라이크</title></polygon><text x="301.40117250000003" y="322.0018865815035" text-anchor="middle" font-size="12" font-weight="700" fill="white">24</text></g>
+<g><circle cx="175.202175" cy="462.5611703207586" r="12" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>25구 | 직구 | B | 147km/h | x=-1.402, z=2.165 | 2구 볼</title></circle><text x="175.202175" y="467.5611703207586" text-anchor="middle" font-size="12" font-weight="700" fill="white">25</text></g>
+<g><polygon points="594.257325,624.4936683478044 621.857325,624.4936683478044 608.057325,651.4936683478044" fill="#dc2626" fill-opacity="0.9" stroke="white" stroke-width="2"><title>26구 | 커브 | B | 128km/h | x=1.635, z=0.944 | 3구 볼</title></polygon><text x="608.057325" y="640.8936683478044" text-anchor="middle" font-size="12" font-weight="700" fill="white">26</text></g>
+<g><polygon points="378.80532,489.89227270894895 392.00532,505.492272708949 378.80532,521.0922727089489 365.60532,505.492272708949" fill="#16a34a" fill-opacity="0.9" stroke="white" stroke-width="2"><title>27구 | 포크 | H | 132km/h | x=0.027, z=1.863 | 4구 타격 | 결과: 페라자 : 2루수 땅볼 아웃 (2루수-&gt;1루수 송구아웃)</title></polygon><text x="378.80532" y="510.492272708949" text-anchor="middle" font-size="12" font-weight="700" fill="white">27</text></g>
+<rect x="492" y="52" width="168" height="208" rx="10" fill="white" stroke="#cbd5e1" stroke-width="1" />
+<text x="510" y="72" font-size="14" font-weight="700" fill="#0f172a">pitch_result</text>
+<circle cx="510" cy="80" r="6" fill="#2563eb" />
+<text x="524" y="85" font-size="13" fill="#334155">S</text>
+<circle cx="510" cy="100" r="6" fill="#dc2626" />
+<text x="524" y="105" font-size="13" fill="#334155">B</text>
+<circle cx="510" cy="120" r="6" fill="#f59e0b" />
+<text x="524" y="125" font-size="13" fill="#334155">F</text>
+<circle cx="510" cy="140" r="6" fill="#16a34a" />
+<text x="524" y="145" font-size="13" fill="#334155">H</text>
+<circle cx="510" cy="160" r="6" fill="#7c3aed" />
+<text x="524" y="165" font-size="13" fill="#334155">T</text>
+<text x="510" y="196" font-size="14" font-weight="700" fill="#0f172a">pitch_type</text>
+<circle cx="510" cy="216" r="6" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>직구</title></circle>
+<text x="524" y="221" font-size="13" fill="#334155">직구</text>
+<polygon points="503.1,228.3 516.9,228.3 510,241.8" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>커브</title></polygon>
+<text x="524" y="239" font-size="13" fill="#334155">커브</text>
+<rect x="504.9" y="246.9" width="10.2" height="10.2" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>슬라이더</title></rect>
+<text x="524" y="257" font-size="13" fill="#334155">슬라이더</text>
+<polygon points="510,262.2 516.6,270 510,277.8 503.4,270" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>포크</title></polygon>
+<text x="524" y="275" font-size="13" fill="#334155">포크</text>
+<polygon points="503.1,293.7 516.9,293.7 510,280.2" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>체인지업</title></polygon>
+<text x="524" y="293" font-size="13" fill="#334155">체인지업</text>
+<polygon points="516.6,300 516.6,312 501.9,306" fill="#64748b" fill-opacity="0.9" stroke="white" stroke-width="2"><title>스위퍼</title></polygon>
+<text x="524" y="311" font-size="13" fill="#334155">스위퍼</text>
+<rect x="90" y="710" width="570" height="96" rx="10" fill="white" stroke="#cbd5e1" stroke-width="1" />
+<text x="104" y="732" font-size="14" font-weight="700" fill="#0f172a">pitch events</text>
+<text x="104" y="752" font-size="12" fill="#334155">1구 1구 스트라이크</text>
+<text x="104" y="768" font-size="12" fill="#334155">2구 2구 타격 -&gt; 페라자 : 2루수 땅볼 아웃 (2루수-&gt;1루수 송구아웃)</text>
+<text x="104" y="784" font-size="12" fill="#334155">3구 1구 볼</text>
+<text x="104" y="800" font-size="12" fill="#334155">4구 2구 볼</text>
+<text x="104" y="816" font-size="12" fill="#334155">5구 3구 파울</text>
+<text x="104" y="832" font-size="12" fill="#334155">6구 4구 스트라이크</text>
+<text x="104" y="848" font-size="12" fill="#334155">7구 5구 파울</text>
+<text x="104" y="864" font-size="12" fill="#334155">8구 6구 파울</text>
+</svg>
