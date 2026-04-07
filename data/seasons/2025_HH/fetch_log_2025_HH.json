@@ -1,0 +1,1268 @@
+[
+  {
+    "game_id": "20250322HHKT02025",
+    "game_date": "2025-03-22",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 305,
+    "game_index": 1
+  },
+  {
+    "game_id": "20250323HHKT02025",
+    "game_date": "2025-03-23",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 296,
+    "game_index": 2
+  },
+  {
+    "game_id": "20250325HHLG02025",
+    "game_date": "2025-03-25",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 260,
+    "game_index": 3
+  },
+  {
+    "game_id": "20250326HHLG02025",
+    "game_date": "2025-03-26",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 271,
+    "game_index": 4
+  },
+  {
+    "game_id": "20250327HHLG02025",
+    "game_date": "2025-03-27",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 253,
+    "game_index": 5
+  },
+  {
+    "game_id": "20250328HTHH02025",
+    "game_date": "2025-03-28",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 313,
+    "game_index": 6
+  },
+  {
+    "game_id": "20250329HTHH02025",
+    "game_date": "2025-03-29",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 306,
+    "game_index": 7
+  },
+  {
+    "game_id": "20250330HTHH02025",
+    "game_date": "2025-03-30",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 280,
+    "game_index": 8
+  },
+  {
+    "game_id": "20250401LTHH02025",
+    "game_date": "2025-04-01",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 9
+  },
+  {
+    "game_id": "20250402LTHH02025",
+    "game_date": "2025-04-02",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 315,
+    "game_index": 10
+  },
+  {
+    "game_id": "20250403LTHH02025",
+    "game_date": "2025-04-03",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 279,
+    "game_index": 11
+  },
+  {
+    "game_id": "20250404HHSS02025",
+    "game_date": "2025-04-04",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 266,
+    "game_index": 12
+  },
+  {
+    "game_id": "20250405HHSS02025",
+    "game_date": "2025-04-05",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 329,
+    "game_index": 13
+  },
+  {
+    "game_id": "20250406HHSS02025",
+    "game_date": "2025-04-06",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 295,
+    "game_index": 14
+  },
+  {
+    "game_id": "20250408HHOB02025",
+    "game_date": "2025-04-08",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 329,
+    "game_index": 15
+  },
+  {
+    "game_id": "20250409HHOB02025",
+    "game_date": "2025-04-09",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 294,
+    "game_index": 16
+  },
+  {
+    "game_id": "20250410HHOB02025",
+    "game_date": "2025-04-10",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 305,
+    "game_index": 17
+  },
+  {
+    "game_id": "20250411WOHH02025",
+    "game_date": "2025-04-11",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 330,
+    "game_index": 18
+  },
+  {
+    "game_id": "20250412WOHH02025",
+    "game_date": "2025-04-12",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 340,
+    "game_index": 19
+  },
+  {
+    "game_id": "20250413WOHH02025",
+    "game_date": "2025-04-13",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 289,
+    "game_index": 20
+  },
+  {
+    "game_id": "20250415HHSK02025",
+    "game_date": "2025-04-15",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 298,
+    "game_index": 21
+  },
+  {
+    "game_id": "20250416HHSK02025",
+    "game_date": "2025-04-16",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 312,
+    "game_index": 22
+  },
+  {
+    "game_id": "20250417HHSK02025",
+    "game_date": "2025-04-17",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 290,
+    "game_index": 23
+  },
+  {
+    "game_id": "20250418NCHH02025",
+    "game_date": "2025-04-18",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 353,
+    "game_index": 24
+  },
+  {
+    "game_id": "20250419NCHH02025",
+    "game_date": "2025-04-19",
+    "status": "ok",
+    "innings": 5,
+    "pitch_rows": 179,
+    "game_index": 25
+  },
+  {
+    "game_id": "20250420NCHH02025",
+    "game_date": "2025-04-20",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 295,
+    "game_index": 26
+  },
+  {
+    "game_id": "20250422HHLT02025",
+    "game_date": "2025-04-22",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 27
+  },
+  {
+    "game_id": "20250423HHLT02025",
+    "game_date": "2025-04-23",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 293,
+    "game_index": 28
+  },
+  {
+    "game_id": "20250424HHLT02025",
+    "game_date": "2025-04-24",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 278,
+    "game_index": 29
+  },
+  {
+    "game_id": "20250425KTHH02025",
+    "game_date": "2025-04-25",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 303,
+    "game_index": 30
+  },
+  {
+    "game_id": "20250426KTHH02025",
+    "game_date": "2025-04-26",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 213,
+    "game_index": 31
+  },
+  {
+    "game_id": "20250427KTHH02025",
+    "game_date": "2025-04-27",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 268,
+    "game_index": 32
+  },
+  {
+    "game_id": "20250429LGHH02025",
+    "game_date": "2025-04-29",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 271,
+    "game_index": 33
+  },
+  {
+    "game_id": "20250430LGHH02025",
+    "game_date": "2025-04-30",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 259,
+    "game_index": 34
+  },
+  {
+    "game_id": "20250501LGHH02025",
+    "game_date": "2025-05-01",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 35
+  },
+  {
+    "game_id": "20250502HHHT02025",
+    "game_date": "2025-05-02",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 358,
+    "game_index": 36
+  },
+  {
+    "game_id": "20250503HHHT02025",
+    "game_date": "2025-05-03",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 37
+  },
+  {
+    "game_id": "20250504HHHT02025",
+    "game_date": "2025-05-04",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 268,
+    "game_index": 38
+  },
+  {
+    "game_id": "20250505SSHH02025",
+    "game_date": "2025-05-05",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 260,
+    "game_index": 39
+  },
+  {
+    "game_id": "20250506SSHH02025",
+    "game_date": "2025-05-06",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 292,
+    "game_index": 40
+  },
+  {
+    "game_id": "20250507SSHH02025",
+    "game_date": "2025-05-07",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 335,
+    "game_index": 41
+  },
+  {
+    "game_id": "20250509HHWO02025",
+    "game_date": "2025-05-09",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 324,
+    "game_index": 42
+  },
+  {
+    "game_id": "20250510HHWO02025",
+    "game_date": "2025-05-10",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 310,
+    "game_index": 43
+  },
+  {
+    "game_id": "20250511HHWO02025",
+    "game_date": "2025-05-11",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 262,
+    "game_index": 44
+  },
+  {
+    "game_id": "20250513OBHH02025",
+    "game_date": "2025-05-13",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 361,
+    "game_index": 45
+  },
+  {
+    "game_id": "20250514OBHH02025",
+    "game_date": "2025-05-14",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 295,
+    "game_index": 46
+  },
+  {
+    "game_id": "20250515OBHH02025",
+    "game_date": "2025-05-15",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 286,
+    "game_index": 47
+  },
+  {
+    "game_id": "20250516SKHH02025",
+    "game_date": "2025-05-16",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 48
+  },
+  {
+    "game_id": "20250517SKHH12025",
+    "game_date": "2025-05-17",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 273,
+    "game_index": 49
+  },
+  {
+    "game_id": "20250517SKHH22025",
+    "game_date": "2025-05-17",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 306,
+    "game_index": 50
+  },
+  {
+    "game_id": "20250518SKHH02025",
+    "game_date": "2025-05-18",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 331,
+    "game_index": 51
+  },
+  {
+    "game_id": "20250520HHNC02025",
+    "game_date": "2025-05-20",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 270,
+    "game_index": 52
+  },
+  {
+    "game_id": "20250521HHNC02025",
+    "game_date": "2025-05-21",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 299,
+    "game_index": 53
+  },
+  {
+    "game_id": "20250522HHNC02025",
+    "game_date": "2025-05-22",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 284,
+    "game_index": 54
+  },
+  {
+    "game_id": "20250523LTHH02025",
+    "game_date": "2025-05-23",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 230,
+    "game_index": 55
+  },
+  {
+    "game_id": "20250524LTHH02025",
+    "game_date": "2025-05-24",
+    "status": "ok",
+    "innings": 10,
+    "pitch_rows": 355,
+    "game_index": 56
+  },
+  {
+    "game_id": "20250525LTHH02025",
+    "game_date": "2025-05-25",
+    "status": "ok",
+    "innings": 10,
+    "pitch_rows": 367,
+    "game_index": 57
+  },
+  {
+    "game_id": "20250527HHLG02025",
+    "game_date": "2025-05-27",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 261,
+    "game_index": 58
+  },
+  {
+    "game_id": "20250528HHLG02025",
+    "game_date": "2025-05-28",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 318,
+    "game_index": 59
+  },
+  {
+    "game_id": "20250529HHLG02025",
+    "game_date": "2025-05-29",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 278,
+    "game_index": 60
+  },
+  {
+    "game_id": "20250530HHNC02025",
+    "game_date": "2025-05-30",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 285,
+    "game_index": 61
+  },
+  {
+    "game_id": "20250531HHNC02025",
+    "game_date": "2025-05-31",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 327,
+    "game_index": 62
+  },
+  {
+    "game_id": "20250601HHNC02025",
+    "game_date": "2025-06-01",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 321,
+    "game_index": 63
+  },
+  {
+    "game_id": "20250603KTHH02025",
+    "game_date": "2025-06-03",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 295,
+    "game_index": 64
+  },
+  {
+    "game_id": "20250604KTHH02025",
+    "game_date": "2025-06-04",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 278,
+    "game_index": 65
+  },
+  {
+    "game_id": "20250605KTHH02025",
+    "game_date": "2025-06-05",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 293,
+    "game_index": 66
+  },
+  {
+    "game_id": "20250606HHHT02025",
+    "game_date": "2025-06-06",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 266,
+    "game_index": 67
+  },
+  {
+    "game_id": "20250607HHHT02025",
+    "game_date": "2025-06-07",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 356,
+    "game_index": 68
+  },
+  {
+    "game_id": "20250608HHHT02025",
+    "game_date": "2025-06-08",
+    "status": "ok",
+    "innings": 10,
+    "pitch_rows": 334,
+    "game_index": 69
+  },
+  {
+    "game_id": "20250610OBHH02025",
+    "game_date": "2025-06-10",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 268,
+    "game_index": 70
+  },
+  {
+    "game_id": "20250611OBHH02025",
+    "game_date": "2025-06-11",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 282,
+    "game_index": 71
+  },
+  {
+    "game_id": "20250612OBHH02025",
+    "game_date": "2025-06-12",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 258,
+    "game_index": 72
+  },
+  {
+    "game_id": "20250613LGHH02025",
+    "game_date": "2025-06-13",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 73
+  },
+  {
+    "game_id": "20250614LGHH02025",
+    "game_date": "2025-06-14",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 362,
+    "game_index": 74
+  },
+  {
+    "game_id": "20250615LGHH02025",
+    "game_date": "2025-06-15",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 316,
+    "game_index": 75
+  },
+  {
+    "game_id": "20250617HHLT02025",
+    "game_date": "2025-06-17",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 250,
+    "game_index": 76
+  },
+  {
+    "game_id": "20250618HHLT02025",
+    "game_date": "2025-06-18",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 267,
+    "game_index": 77
+  },
+  {
+    "game_id": "20250619HHLT02025",
+    "game_date": "2025-06-19",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 272,
+    "game_index": 78
+  },
+  {
+    "game_id": "20250620WOHH02025",
+    "game_date": "2025-06-20",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 79
+  },
+  {
+    "game_id": "20250621WOHH02025",
+    "game_date": "2025-06-21",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 80
+  },
+  {
+    "game_id": "20250622WOHH02025",
+    "game_date": "2025-06-22",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 335,
+    "game_index": 81
+  },
+  {
+    "game_id": "20250624HHSS02025",
+    "game_date": "2025-06-24",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 82
+  },
+  {
+    "game_id": "20250625HHSS02025",
+    "game_date": "2025-06-25",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 280,
+    "game_index": 83
+  },
+  {
+    "game_id": "20250626HHSS02025",
+    "game_date": "2025-06-26",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 289,
+    "game_index": 84
+  },
+  {
+    "game_id": "20250627HHSK02025",
+    "game_date": "2025-06-27",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 295,
+    "game_index": 85
+  },
+  {
+    "game_id": "20250628HHSK02025",
+    "game_date": "2025-06-28",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 285,
+    "game_index": 86
+  },
+  {
+    "game_id": "20250629HHSK02025",
+    "game_date": "2025-06-29",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 271,
+    "game_index": 87
+  },
+  {
+    "game_id": "20250701NCHH02025",
+    "game_date": "2025-07-01",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 300,
+    "game_index": 88
+  },
+  {
+    "game_id": "20250702NCHH02025",
+    "game_date": "2025-07-02",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 252,
+    "game_index": 89
+  },
+  {
+    "game_id": "20250703NCHH02025",
+    "game_date": "2025-07-03",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 377,
+    "game_index": 90
+  },
+  {
+    "game_id": "20250704HHWO02025",
+    "game_date": "2025-07-04",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 262,
+    "game_index": 91
+  },
+  {
+    "game_id": "20250705HHWO02025",
+    "game_date": "2025-07-05",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 339,
+    "game_index": 92
+  },
+  {
+    "game_id": "20250706HHWO02025",
+    "game_date": "2025-07-06",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 324,
+    "game_index": 93
+  },
+  {
+    "game_id": "20250708HTHH02025",
+    "game_date": "2025-07-08",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 332,
+    "game_index": 94
+  },
+  {
+    "game_id": "20250709HTHH02025",
+    "game_date": "2025-07-09",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 305,
+    "game_index": 95
+  },
+  {
+    "game_id": "20250710HTHH02025",
+    "game_date": "2025-07-10",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 305,
+    "game_index": 96
+  },
+  {
+    "game_id": "20250717HHKT02025",
+    "game_date": "2025-07-17",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 97
+  },
+  {
+    "game_id": "20250718HHKT02025",
+    "game_date": "2025-07-18",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 287,
+    "game_index": 98
+  },
+  {
+    "game_id": "20250719HHKT02025",
+    "game_date": "2025-07-19",
+    "status": "ok",
+    "innings": 6,
+    "pitch_rows": 206,
+    "game_index": 99
+  },
+  {
+    "game_id": "20250720HHKT02025",
+    "game_date": "2025-07-20",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 320,
+    "game_index": 100
+  },
+  {
+    "game_id": "20250722HHOB02025",
+    "game_date": "2025-07-22",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 286,
+    "game_index": 101
+  },
+  {
+    "game_id": "20250723HHOB02025",
+    "game_date": "2025-07-23",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 325,
+    "game_index": 102
+  },
+  {
+    "game_id": "20250724HHOB02025",
+    "game_date": "2025-07-24",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 368,
+    "game_index": 103
+  },
+  {
+    "game_id": "20250725SKHH02025",
+    "game_date": "2025-07-25",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 260,
+    "game_index": 104
+  },
+  {
+    "game_id": "20250726SKHH02025",
+    "game_date": "2025-07-26",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 289,
+    "game_index": 105
+  },
+  {
+    "game_id": "20250727SKHH02025",
+    "game_date": "2025-07-27",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 245,
+    "game_index": 106
+  },
+  {
+    "game_id": "20250729SSHH02025",
+    "game_date": "2025-07-29",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 328,
+    "game_index": 107
+  },
+  {
+    "game_id": "20250730SSHH02025",
+    "game_date": "2025-07-30",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 267,
+    "game_index": 108
+  },
+  {
+    "game_id": "20250731SSHH02025",
+    "game_date": "2025-07-31",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 266,
+    "game_index": 109
+  },
+  {
+    "game_id": "20250801HHHT02025",
+    "game_date": "2025-08-01",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 275,
+    "game_index": 110
+  },
+  {
+    "game_id": "20250802HHHT02025",
+    "game_date": "2025-08-02",
+    "status": "ok",
+    "innings": 1,
+    "pitch_rows": 0,
+    "game_index": 111
+  },
+  {
+    "game_id": "20250803HHHT02025",
+    "game_date": "2025-08-03",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 112
+  },
+  {
+    "game_id": "20250805KTHH02025",
+    "game_date": "2025-08-05",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 280,
+    "game_index": 113
+  },
+  {
+    "game_id": "20250806KTHH02025",
+    "game_date": "2025-08-06",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 322,
+    "game_index": 114
+  },
+  {
+    "game_id": "20250807KTHH02025",
+    "game_date": "2025-08-07",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 315,
+    "game_index": 115
+  },
+  {
+    "game_id": "20250808HHLG02025",
+    "game_date": "2025-08-08",
+    "status": "ok",
+    "innings": 10,
+    "pitch_rows": 310,
+    "game_index": 116
+  },
+  {
+    "game_id": "20250809HHLG02025",
+    "game_date": "2025-08-09",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 338,
+    "game_index": 117
+  },
+  {
+    "game_id": "20250810HHLG02025",
+    "game_date": "2025-08-10",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 289,
+    "game_index": 118
+  },
+  {
+    "game_id": "20250812LTHH02025",
+    "game_date": "2025-08-12",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 279,
+    "game_index": 119
+  },
+  {
+    "game_id": "20250813LTHH02025",
+    "game_date": "2025-08-13",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 312,
+    "game_index": 120
+  },
+  {
+    "game_id": "20250814LTHH02025",
+    "game_date": "2025-08-14",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 340,
+    "game_index": 121
+  },
+  {
+    "game_id": "20250815HHNC02025",
+    "game_date": "2025-08-15",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 354,
+    "game_index": 122
+  },
+  {
+    "game_id": "20250816HHNC02025",
+    "game_date": "2025-08-16",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 301,
+    "game_index": 123
+  },
+  {
+    "game_id": "20250817HHNC02025",
+    "game_date": "2025-08-17",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 319,
+    "game_index": 124
+  },
+  {
+    "game_id": "20250819OBHH02025",
+    "game_date": "2025-08-19",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 284,
+    "game_index": 125
+  },
+  {
+    "game_id": "20250820OBHH02025",
+    "game_date": "2025-08-20",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 332,
+    "game_index": 126
+  },
+  {
+    "game_id": "20250821OBHH02025",
+    "game_date": "2025-08-21",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 262,
+    "game_index": 127
+  },
+  {
+    "game_id": "20250822SKHH02025",
+    "game_date": "2025-08-22",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 300,
+    "game_index": 128
+  },
+  {
+    "game_id": "20250823SKHH02025",
+    "game_date": "2025-08-23",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 237,
+    "game_index": 129
+  },
+  {
+    "game_id": "20250824SKHH02025",
+    "game_date": "2025-08-24",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 292,
+    "game_index": 130
+  },
+  {
+    "game_id": "20250826HHWO02025",
+    "game_date": "2025-08-26",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 267,
+    "game_index": 131
+  },
+  {
+    "game_id": "20250827HHWO02025",
+    "game_date": "2025-08-27",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 274,
+    "game_index": 132
+  },
+  {
+    "game_id": "20250828HHWO02025",
+    "game_date": "2025-08-28",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 340,
+    "game_index": 133
+  },
+  {
+    "game_id": "20250829SSHH02025",
+    "game_date": "2025-08-29",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 323,
+    "game_index": 134
+  },
+  {
+    "game_id": "20250830SSHH02025",
+    "game_date": "2025-08-30",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 286,
+    "game_index": 135
+  },
+  {
+    "game_id": "20250831SSHH02025",
+    "game_date": "2025-08-31",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 284,
+    "game_index": 136
+  },
+  {
+    "game_id": "20250902HTHH02025",
+    "game_date": "2025-09-02",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 343,
+    "game_index": 137
+  },
+  {
+    "game_id": "20250903NCHH02025",
+    "game_date": "2025-09-03",
+    "status": "ok",
+    "innings": 10,
+    "pitch_rows": 325,
+    "game_index": 138
+  },
+  {
+    "game_id": "20250906HHSS02025",
+    "game_date": "2025-09-06",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 313,
+    "game_index": 139
+  },
+  {
+    "game_id": "20250907HHSS02025",
+    "game_date": "2025-09-07",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 271,
+    "game_index": 140
+  },
+  {
+    "game_id": "20250909HHLT02025",
+    "game_date": "2025-09-09",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 313,
+    "game_index": 141
+  },
+  {
+    "game_id": "20250910HHLT02025",
+    "game_date": "2025-09-10",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 292,
+    "game_index": 142
+  },
+  {
+    "game_id": "20250912WOHH02025",
+    "game_date": "2025-09-12",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 143
+  },
+  {
+    "game_id": "20250913WOHH02025",
+    "game_date": "2025-09-13",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 311,
+    "game_index": 144
+  },
+  {
+    "game_id": "20250914WOHH02025",
+    "game_date": "2025-09-14",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 377,
+    "game_index": 145
+  },
+  {
+    "game_id": "20250915WOHH02025",
+    "game_date": "2025-09-15",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 306,
+    "game_index": 146
+  },
+  {
+    "game_id": "20250916HHHT02025",
+    "game_date": "2025-09-16",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 331,
+    "game_index": 147
+  },
+  {
+    "game_id": "20250917HHHT02025",
+    "game_date": "2025-09-17",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 275,
+    "game_index": 148
+  },
+  {
+    "game_id": "20250918HHHT02025",
+    "game_date": "2025-09-18",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 298,
+    "game_index": 149
+  },
+  {
+    "game_id": "20250919HHKT02025",
+    "game_date": "2025-09-19",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 150
+  },
+  {
+    "game_id": "20250920HHKT02025",
+    "game_date": "2025-09-20",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 272,
+    "game_index": 151
+  },
+  {
+    "game_id": "20250924HHSK02025",
+    "game_date": "2025-09-24",
+    "status": "error",
+    "error": "'NoneType' object has no attribute 'get'",
+    "game_index": 152
+  },
+  {
+    "game_id": "20250925HHOB02025",
+    "game_date": "2025-09-25",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 265,
+    "game_index": 153
+  },
+  {
+    "game_id": "20250926LGHH02025",
+    "game_date": "2025-09-26",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 266,
+    "game_index": 154
+  },
+  {
+    "game_id": "20250927LGHH02025",
+    "game_date": "2025-09-27",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 311,
+    "game_index": 155
+  },
+  {
+    "game_id": "20250928LGHH02025",
+    "game_date": "2025-09-28",
+    "status": "ok",
+    "innings": 1,
+    "pitch_rows": 0,
+    "game_index": 156
+  },
+  {
+    "game_id": "20250929LGHH02025",
+    "game_date": "2025-09-29",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 293,
+    "game_index": 157
+  },
+  {
+    "game_id": "20250930LTHH02025",
+    "game_date": "2025-09-30",
+    "status": "ok",
+    "innings": 10,
+    "pitch_rows": 269,
+    "game_index": 158
+  },
+  {
+    "game_id": "20251001HHSK02025",
+    "game_date": "2025-10-01",
+    "status": "ok",
+    "innings": 9,
+    "pitch_rows": 319,
+    "game_index": 159
+  },
+  {
+    "game_id": "20251003HHKT02025",
+    "game_date": "2025-10-03",
+    "status": "ok",
+    "innings": 11,
+    "pitch_rows": 391,
+    "game_index": 160
+  }
+]
