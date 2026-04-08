@@ -75,6 +75,15 @@ Powered by Dabin Jeon
 - 화이트 / 조형우 / 이지영 baseline 비교 차트  
   
   ![Pitch Baseline Comparison 2025](examples/pitch_baseline_comparison_2025.svg)
+- 화이트 XGBoost 예측 스냅샷  
+  
+  ![White XGBoost Prediction Snapshot](examples/xgb_white_prediction_snapshot.svg)
+- 2024 타자 약점 prior 반영 전후 비교  
+  
+  ![Weakness Prior Impact](examples/weakness_prior_impact.svg)
+- 화이트의 약점 방향 공략률 스냅샷  
+  
+  ![White Weakness Targeting Snapshot](examples/white_weakness_targeting_snapshot.svg)
 
 이러한 결과물은 단순한 시각 자료가 아니라, 실제로 아래와 같은 질문에 답하기 위한 분석 도구입니다.
 
@@ -82,6 +91,27 @@ Powered by Dabin Jeon
 - 좌우타 반응형인가
 - 포수에 따라 배합 흐름이 달라지는가
 - 복잡한 상황 변수는 정말 예측력에 기여하는가
+
+## XGBoost Snapshot
+
+현재는 빈도 기반 baseline을 넘어서 XGBoost 기반의 1차 예측 실험까지 진행했습니다.
+
+- 화이트 전체 구종 예측: `Top-1 0.4596`, `Top-3 0.8383`
+- 화이트 초구 이후 다음 구종 예측: `Top-1 0.3717`, `Top-3 0.8938`
+- 화이트 초구 이후 다음 위치 9분할 예측: `Top-1 0.4956`, `Top-3 0.6372`
+
+현재 결과는 `초구가 어디에 어떤 구종으로 들어갔는지`와 `주자상황`, `타자 상태`, `포수` 정보가 다음 공 예측에 실제로 의미 있는 신호를 준다는 점을 보여줍니다.
+
+## Weakness Prior Snapshot
+
+`2024` 타자 약점 프로파일을 고정 prior로 만들고, 이를 `2025` 화이트의 `초구 -> 다음 공` 예측에 결합하는 실험도 추가했습니다.
+
+- 약점 prior 추가 후 다음 구종 예측: `Top-1 0.3186`
+- 약점 prior 추가 후 다음 위치 9분할 예측: `Top-1 0.5133`
+- INSIDE-weak 타자 대상 다음 공 약점 방향 공략률: `10.08%`
+- OUTSIDE-weak 타자 대상 다음 공 약점 방향 공략률: `13.03%`
+
+현재까지는 `2024 약점 prior`가 다음 구종 자체보다 `다음 위치 예측`에 더 직접적으로 기여하고 있습니다. 즉 약점 정보는 지금 단계에서 `무슨 공인가`보다 `어디로 공략하는가`를 설명하는 signal에 더 가깝습니다.
 
 ## Current Scope
 

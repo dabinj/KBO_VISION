@@ -528,3 +528,134 @@
 - 가중 방식: 시즌 진행 또는 누적 타석 수 기반 blend
 
 이 구조가 가장 야구적으로도 자연스럽고, 누설 없이 운영 가능한 형태다.
+
+## 18. Current XGBoost Findings
+
+현재까지는 frequency baseline을 넘어서 XGBoost 기반의 1차 실험까지 완료했다.
+
+### 18.1 White overall pitch-type model
+
+입력 피처:
+
+- `count_state`
+- `runner_state`
+- `score_diff_pitcher`
+- `batter_stance`
+- `batter_season_ba_bucket`
+- `prev_pitch_type_pa_1`
+- `prev_zone_9_pa_1`
+- `catcher_name`
+
+테스트 결과:
+
+- `top1_accuracy = 0.4596`
+- `top3_accuracy = 0.8383`
+- `log_loss = 1.9524`
+
+관찰:
+
+- 화이트의 배합은 여전히 카운트 중심 루틴 신호가 강하다.
+- 하지만 좌우타, 포수, 직전 존, 주자상황까지 모두 유의미한 gain을 보였다.
+- 즉 화이트는 단순한 자기 루틴형이 아니라, 상황과 타자 특성에 반응하는 혼합형 투수로 보는 것이 더 자연스럽다.
+
+### 18.2 First-pitch-to-next-pitch experiment
+
+실전 목표에 더 가까운 전용 실험도 별도로 수행했다.
+
+질문:
+
+`초구의 구종과 위치를 알고 있을 때, 현재 볼카운트/주자상황/타자 상태를 바탕으로 다음 공의 구종과 위치를 얼마나 예측할 수 있는가?`
+
+입력 피처:
+
+- `count_state`
+- `runner_state`
+- `score_diff_pitcher`
+- `batter_stance`
+- `batter_season_ba_bucket`
+- `current_pitch_type`
+- `current_zone_9`
+- `catcher_name`
+
+테스트 결과:
+
+- 다음 구종: `top1_accuracy = 0.3717`, `top3_accuracy = 0.8938`
+- 다음 위치 9분할: `top1_accuracy = 0.4956`, `top3_accuracy = 0.6372`
+- 다음 구종 x 위치 조합: `top1_accuracy = 0.1062`, `top3_accuracy = 0.3805`
+
+관찰:
+
+- 다음 위치는 이미 절반 가까이 맞히고 있어 실전 신호가 분명하다.
+- 다음 구종도 초구 정보와 현재 상황만으로 의미 있는 수준의 예측이 가능하다.
+- 반면 `구종 x 위치`를 한 번에 맞히는 작업은 표본 수와 클래스 수 때문에 아직 매우 어렵다.
+
+### 18.3 Practical implication
+
+현재 실험은 최종 모델이 아니라, 실전형 예측 문제를 다음과 같이 재정의하는 근거가 된다.
+
+- 입력: `초구 구종`, `초구 위치`, `볼카운트`, `주자상황`, `점수차`, `포수`, `타자 라이브 상태`
+- 출력 1: 다음 구종
+- 출력 2: 다음 위치 9분할
+- 출력 3: 필요시 다음 구종 x 위치 조합
+
+즉 다음 단계의 주력 모델은 `타석 중 실시간으로 다음 공의 구종과 위치를 함께 안내하는 구조`가 되어야 한다.
+
+## 19. 2024 Batter Weakness Prior
+
+`2024` 시즌 전체 pitch-level 결과를 사용해 타자별 약점 prior를 생성했다.
+
+현재 profile은 아래 축을 포함한다.
+
+- 약한 방향: `INSIDE / MIDDLE / OUTSIDE`
+- 약한 높이: `HIGH / MIDDLE / LOW`
+- 약한 구종군: `FASTBALL / BREAKING`
+- 약한 대표 존: `weak_zone_2024`
+- 각 축별 disadvantage score와 sample count
+
+### 19.1 Current implementation note
+
+이 prior는 순수 타율만이 아니라 pitch 결과와 plate 결과를 함께 반영한 `batter disadvantage score` 기반으로 계산했다.
+
+즉 다음과 같은 결과를 점수화했다.
+
+- 헛스윙, 스트라이크, 삼진, 아웃: 투수 우위
+- 안타, 볼넷, 몸에 맞는 볼: 타자 우위
+
+이 점수는 완전한 최종 정의가 아니라 1차 prior용 heuristic이다.
+
+### 19.2 Where it helped
+
+화이트 `초구 -> 다음 공` XGBoost에서 약점 prior를 결합한 결과:
+
+- 다음 구종 예측: `top1_accuracy = 0.3186`
+- 다음 위치 9분할 예측: `top1_accuracy = 0.5133`
+
+기준 모델 대비 해석은 다음과 같다.
+
+- 구종 예측은 오히려 악화
+- 위치 예측은 소폭 개선
+
+즉 현재 약점 prior는 `무슨 공을 던질까`보다 `어디를 더 노릴까`를 설명하는 데 더 적합하다.
+
+### 19.3 Important practical reading
+
+위치 모델에서 중요도가 크게 나온 약점 관련 feature:
+
+- `current_pitch_targets_weak_side_2024`
+- `current_pitch_targets_weak_height_2024`
+- `current_zone_side_weakness_score_2024`
+- `weak_height_2024`
+- `weak_side_2024`
+
+이 결과는 다음 해석을 지지한다.
+
+`투수-포수는 타자의 약한 방향을 전혀 무시하지 않으며, 특히 다음 위치 선택에서는 그 prior를 참고할 가능성이 있다.`
+
+### 19.4 Next refinement
+
+다음 개선 방향:
+
+1. 2024 약점 score 정의를 더 정교화
+2. 단순 heuristic 대신 zone x pitch_family weakness matrix 생성
+3. 2025 시점 직전 live weakness와 blended feature 구성
+4. next pitch type과 next zone을 분리 학습하되, 약점 prior는 우선 zone branch에 더 강하게 반영
