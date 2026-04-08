@@ -84,6 +84,9 @@ Powered by Dabin Jeon
 - 화이트의 약점 방향 공략률 스냅샷  
   
   ![White Weakness Targeting Snapshot](examples/white_weakness_targeting_snapshot.svg)
+- 한화 타자 2025 약점 존 및 2스트라이크 헛스윙 존  
+  
+  ![Hanwha Batter Weak Zones 2025](examples/hanwha_batter_weak_zones_2025.svg)
 
 이러한 결과물은 단순한 시각 자료가 아니라, 실제로 아래와 같은 질문에 답하기 위한 분석 도구입니다.
 
