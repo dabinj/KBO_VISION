@@ -147,6 +147,7 @@ def main() -> None:
     parser.add_argument("--input-csv", required=True)
     parser.add_argument("--output-csv", required=True)
     parser.add_argument("--min-samples", type=int, default=8)
+    parser.add_argument("--label", default="2024", help="Suffix label for generated weakness columns, e.g. 2024 or 2025")
     args = parser.parse_args()
 
     rows = read_rows(Path(args.input_csv))
@@ -183,6 +184,7 @@ def main() -> None:
         update_bucket(store["zone"], zone_label, score)
 
     output_rows = []
+    suffix = args.label
     for batter_code, store in sorted(batter_store.items()):
         weak_side = best_key(store["side"], ["INSIDE", "MIDDLE", "OUTSIDE"], args.min_samples, "UNKNOWN")
         weak_height = best_key(store["height"], ["HIGH", "MIDDLE", "LOW"], args.min_samples, "UNKNOWN")
@@ -199,27 +201,27 @@ def main() -> None:
                 "batter_code": batter_code,
                 "batter_name": store["batter_name"],
                 "stance": store["stance"],
-                "weak_side_2024": weak_side,
-                "weak_height_2024": weak_height,
-                "weak_pitch_family_2024": weak_family,
-                "weak_zone_2024": weak_zone,
-                "weakness_score_inside_2024": avg_or_zero(store["side"], "INSIDE"),
-                "weakness_score_middle_side_2024": avg_or_zero(store["side"], "MIDDLE"),
-                "weakness_score_outside_2024": avg_or_zero(store["side"], "OUTSIDE"),
-                "weakness_score_high_2024": avg_or_zero(store["height"], "HIGH"),
-                "weakness_score_middle_height_2024": avg_or_zero(store["height"], "MIDDLE"),
-                "weakness_score_low_2024": avg_or_zero(store["height"], "LOW"),
-                "weakness_score_fastball_2024": avg_or_zero(store["family"], "FASTBALL"),
-                "weakness_score_breaking_2024": avg_or_zero(store["family"], "BREAKING"),
-                "weakness_score_weak_zone_2024": avg_or_zero(store["zone"], weak_zone) if weak_zone != "UNKNOWN" else 0.0,
-                "samples_inside_2024": count_or_zero(store["side"], "INSIDE"),
-                "samples_middle_side_2024": count_or_zero(store["side"], "MIDDLE"),
-                "samples_outside_2024": count_or_zero(store["side"], "OUTSIDE"),
-                "samples_high_2024": count_or_zero(store["height"], "HIGH"),
-                "samples_middle_height_2024": count_or_zero(store["height"], "MIDDLE"),
-                "samples_low_2024": count_or_zero(store["height"], "LOW"),
-                "samples_fastball_2024": count_or_zero(store["family"], "FASTBALL"),
-                "samples_breaking_2024": count_or_zero(store["family"], "BREAKING"),
+                f"weak_side_{suffix}": weak_side,
+                f"weak_height_{suffix}": weak_height,
+                f"weak_pitch_family_{suffix}": weak_family,
+                f"weak_zone_{suffix}": weak_zone,
+                f"weakness_score_inside_{suffix}": avg_or_zero(store["side"], "INSIDE"),
+                f"weakness_score_middle_side_{suffix}": avg_or_zero(store["side"], "MIDDLE"),
+                f"weakness_score_outside_{suffix}": avg_or_zero(store["side"], "OUTSIDE"),
+                f"weakness_score_high_{suffix}": avg_or_zero(store["height"], "HIGH"),
+                f"weakness_score_middle_height_{suffix}": avg_or_zero(store["height"], "MIDDLE"),
+                f"weakness_score_low_{suffix}": avg_or_zero(store["height"], "LOW"),
+                f"weakness_score_fastball_{suffix}": avg_or_zero(store["family"], "FASTBALL"),
+                f"weakness_score_breaking_{suffix}": avg_or_zero(store["family"], "BREAKING"),
+                f"weakness_score_weak_zone_{suffix}": avg_or_zero(store["zone"], weak_zone) if weak_zone != "UNKNOWN" else 0.0,
+                f"samples_inside_{suffix}": count_or_zero(store["side"], "INSIDE"),
+                f"samples_middle_side_{suffix}": count_or_zero(store["side"], "MIDDLE"),
+                f"samples_outside_{suffix}": count_or_zero(store["side"], "OUTSIDE"),
+                f"samples_high_{suffix}": count_or_zero(store["height"], "HIGH"),
+                f"samples_middle_height_{suffix}": count_or_zero(store["height"], "MIDDLE"),
+                f"samples_low_{suffix}": count_or_zero(store["height"], "LOW"),
+                f"samples_fastball_{suffix}": count_or_zero(store["family"], "FASTBALL"),
+                f"samples_breaking_{suffix}": count_or_zero(store["family"], "BREAKING"),
             }
         )
 

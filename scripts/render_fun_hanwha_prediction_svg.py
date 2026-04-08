@@ -7,74 +7,74 @@ PREDICTIONS = [
     {
         "name": "오재원",
         "stance": "L",
-        "prior": "2024 prior 부족",
-        "first": "초구: 낮은 코스 직구",
-        "next": "다음 공: 바깥쪽 낮은 커브",
-        "result": "예상 결과: 2루수 땅볼",
+        "prior": "2025 live 약점 표본 부족, 화이트 좌타 상대 패턴 위주",
+        "first": "유력 초구: 낮은 코스 직구",
+        "next": "유력 2구: 낮은 코스 커브",
+        "result": "유력 결과: 중견수 뜬공",
     },
     {
         "name": "페라자",
         "stance": "L",
-        "prior": "약점: 바깥쪽 / 낮은 코스 / 변화구",
-        "first": "초구: 바깥쪽 낮은 커터",
-        "next": "다음 공: 바깥쪽 낮은 커브",
-        "result": "예상 결과: 헛스윙 삼진",
+        "prior": "2025 live 약점 표본 부족, 화이트 좌타 상대 패턴 위주",
+        "first": "유력 초구: 바깥쪽 직구",
+        "next": "유력 2구: 바깥쪽 낮은 커브",
+        "result": "유력 결과: 헛스윙 삼진",
     },
     {
         "name": "문현빈",
         "stance": "L",
-        "prior": "약점: 몸쪽 / 낮은 코스 / 변화구",
-        "first": "초구: 몸쪽 낮은 직구",
-        "next": "다음 공: 몸쪽 낮은 커브",
-        "result": "예상 결과: 유격수 땅볼",
+        "prior": "2025 live 약점: 바깥쪽 / 높은 코스 / 변화구",
+        "first": "유력 초구: 높은 코스 직구",
+        "next": "유력 2구: 바깥쪽 높은 커브",
+        "result": "유력 결과: 좌익수 뜬공",
     },
     {
         "name": "노시환",
         "stance": "R",
-        "prior": "약점: 바깥쪽 / 높은 코스 / 변화구",
-        "first": "초구: 바깥쪽 높은 커터",
-        "next": "다음 공: 바깥쪽 슬라이더",
-        "result": "예상 결과: 루킹 삼진",
+        "prior": "2025 live 약점: 바깥쪽 / 높은 코스 / 변화구",
+        "first": "유력 초구: 바깥쪽 높은 커터",
+        "next": "유력 2구: 바깥쪽 슬라이더",
+        "result": "유력 결과: 루킹 삼진",
     },
     {
         "name": "강백호",
         "stance": "L",
-        "prior": "약점: 바깥쪽 / 낮은 코스 / 변화구",
-        "first": "초구: 바깥쪽 낮은 직구",
-        "next": "다음 공: 바깥쪽 낮은 커브",
-        "result": "예상 결과: 볼넷",
+        "prior": "2025 live 약점: 바깥쪽 / 중간 높이 / 변화구",
+        "first": "유력 초구: 바깥쪽 직구",
+        "next": "유력 2구: 바깥쪽 커브",
+        "result": "유력 결과: 볼넷",
     },
     {
         "name": "채은성",
         "stance": "R",
-        "prior": "약점: 바깥쪽 / 높은 코스 / 속구",
-        "first": "초구: 바깥쪽 높은 직구",
-        "next": "다음 공: 바깥쪽 낮은 커터",
-        "result": "예상 결과: 우익수 뜬공",
+        "prior": "2025 live 약점: 바깥쪽 / 낮은 코스 / 속구",
+        "first": "유력 초구: 바깥쪽 커터",
+        "next": "유력 2구: 바깥쪽 낮은 투심",
+        "result": "유력 결과: 우익수 뜬공",
     },
     {
         "name": "하주석",
         "stance": "L",
-        "prior": "약점: 몸쪽 / 높은 코스 / 변화구",
-        "first": "초구: 몸쪽 높은 직구",
-        "next": "다음 공: 몸쪽 커브",
-        "result": "예상 결과: 내야 뜬공",
+        "prior": "2025 live 약점: 바깥쪽 / 낮은 코스 / 변화구",
+        "first": "유력 초구: 바깥쪽 직구",
+        "next": "유력 2구: 바깥쪽 낮은 커브",
+        "result": "유력 결과: 내야 뜬공",
     },
     {
         "name": "최재훈",
         "stance": "R",
-        "prior": "약점: 몸쪽 / 중간 높이 / 속구",
-        "first": "초구: 몸쪽 투심",
-        "next": "다음 공: 몸쪽 커터",
-        "result": "예상 결과: 3루수 땅볼",
+        "prior": "2025 live 약점: 바깥쪽 / 높은 코스 / 속구",
+        "first": "유력 초구: 바깥쪽 높은 직구",
+        "next": "유력 2구: 바깥쪽 커터",
+        "result": "유력 결과: 3루수 땅볼",
     },
     {
         "name": "심우준",
         "stance": "R",
-        "prior": "약점: 가운데 / 높은 코스 / 속구",
-        "first": "초구: 높은 코스 직구",
-        "next": "다음 공: 바깥쪽 슬라이더",
-        "result": "예상 결과: 헛스윙 삼진",
+        "prior": "2025 live 약점: 가운데 / 중간 높이 / 속구",
+        "first": "유력 초구: 가운데 높은 직구",
+        "next": "유력 2구: 바깥쪽 슬라이더",
+        "result": "유력 결과: 헛스윙 삼진",
     },
 ]
 
@@ -99,7 +99,7 @@ def main() -> None:
         '<rect width="100%" height="100%" fill="#f8fafc"/>',
         '<text x="24" y="38" font-size="28" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">Tomorrow Fun Board: Hanwha vs White</text>',
         '<text x="24" y="64" font-size="13" font-family="Segoe UI, Arial" fill="#486581">Experimental and for fun only. Assumes the 2026-04-08 Hanwha lineup carries into the next game.</text>',
-        '<text x="24" y="86" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Built from White pitch tendencies, left/right split, and 2024 batter weakness prior where available.</text>',
+        '<text x="24" y="86" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Built from White 2025 pitch history, catcher-weighted tendencies, and 2025 live batter weakness rather than a fixed 2024 prior.</text>',
     ]
 
     start_y = 120
@@ -113,9 +113,9 @@ def main() -> None:
 
     parts.append('<rect x="24" y="590" width="1082" height="128" rx="14" fill="#ffffff" stroke="#d9e2ec"/>')
     parts.append('<text x="42" y="622" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">Fun Read</text>')
-    parts.append('<text x="42" y="648" font-size="13" font-family="Segoe UI, Arial" fill="#102a43">1. 좌타 상대로는 낮은 코스 직구와 커브 축, 우타 상대로는 커터와 슬라이더 축을 더 자주 가정했습니다.</text>')
-    parts.append('<text x="42" y="672" font-size="13" font-family="Segoe UI, Arial" fill="#102a43">2. 2024 약점 prior는 현재 실험상 구종보다 위치 예측에 더 잘 작동해서, 카드에서도 코스 방향을 더 강하게 반영했습니다.</text>')
-    parts.append('<text x="42" y="696" font-size="13" font-family="Segoe UI, Arial" fill="#102a43">3. 실제 라인업과 카운트 상태가 바뀌면 예측도 달라질 수 있습니다.</text>')
+    parts.append('<text x="42" y="648" font-size="13" font-family="Segoe UI, Arial" fill="#102a43">1. 좌타 상대로는 화이트의 2025 패턴상 직구-커브 축, 우타 상대로는 커터-투심-슬라이더 축을 더 강하게 반영했습니다.</text>')
+    parts.append('<text x="42" y="672" font-size="13" font-family="Segoe UI, Arial" fill="#102a43">2. 2025 live 약점은 방향 prior로만 사용했고, 그 약점으로 무조건 간다고 가정하지는 않았습니다.</text>')
+    parts.append('<text x="42" y="696" font-size="13" font-family="Segoe UI, Arial" fill="#102a43">3. 포수는 화이트의 2025 수신 비중이 가장 큰 조형우 계열 배합 흐름을 우선 가정했습니다.</text>')
     parts.append('</svg>')
 
     Path("examples/hanwha_tomorrow_fun_board.svg").write_text("\n".join(parts), encoding="utf-8")
