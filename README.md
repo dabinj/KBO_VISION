@@ -285,3 +285,14 @@ python scripts\run_pitch_baseline_experiments.py `
 - 포수 전체 수신 데이터에서도 상황별 패턴이 확인됩니다.
 - 다만 `주자상황 + 점수차 + 직전 위치`까지 모두 넣는 순간 frequency baseline은 쉽게 과적합됩니다.
 - 따라서 다음 단계는 더 강한 학습기와 `2024 타자 약점 프로파일`의 결합입니다.
+
+## Tomorrow Fun Board
+
+아래 보드는 README용 재미 요소로 넣은 예시입니다.
+
+- 기준: `2026-04-08` 한화 선발 라인업이 다음 경기에도 유지된다고 가정
+- 상대: `SSG 화이트`
+- 카드 내용: 타자별 `초구 예상 위치`, `다음 공 예상`, `타석 결과 예상`
+- 성격: 실험적 예시이며, 실제 라인업과 경기 흐름에 따라 달라질 수 있습니다.
+
+![Hanwha Tomorrow Fun Board](examples/hanwha_tomorrow_fun_board.svg)
