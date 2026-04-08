@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1900">
 <rect width="100%" height="100%" fill="#f8fafc"/>
 <text x="24" y="38" font-size="28" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">Hanwha Batter Weak Zones 2025</text>
 <text x="24" y="62" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Left: 2025 season weakness zone by disadvantage score. Right: two-strike zone with the most whiffs.</text>
 <text x="24" y="82" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Players are ordered by plate appearances, and the chart is built only from Hanwha 2025 batter data.</text>
-<rect x="24" y="110" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<rect x="24" y="110" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
 <text x="40" y="138" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">노시환</text>
 <text x="132" y="138" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
 <text x="40" y="158" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 619 | AVG 0.3043</text>
@@ -19,9 +19,9 @@
 <rect x="84" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="40" y="254" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <text x="71.0" y="267" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="176" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
+<text x="174" y="176" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
 <rect x="174" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="186" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
 <rect x="218" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="174" y="208" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="196" y="208" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
@@ -29,10 +29,14 @@
 <rect x="174" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="196" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="218" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="254" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
+<rect x="174" y="254" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <text x="205.0" y="267" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="264" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 56</text>
-<rect x="380" y="110" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="264" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 슬라이더 / OUT</text>
+<text x="40" y="280" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 18 | rate 0.1538</text>
+<text x="40" y="300" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / HIGH_MIDDLE</text>
+<text x="40" y="316" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 4 | rate 0.2105</text>
+<text x="40" y="334" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="110" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
 <text x="396" y="138" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">문현빈</text>
 <text x="488" y="138" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
 <text x="396" y="158" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 590 | AVG 0.3617</text>
@@ -48,8 +52,8 @@
 <rect x="440" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="396" y="254" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <text x="427.0" y="267" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="176" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="530" y="176" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="186" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
 <rect x="552" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="574" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="530" y="208" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
@@ -58,10 +62,14 @@
 <rect x="530" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="552" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="574" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="254" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
+<rect x="530" y="254" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <text x="561.0" y="267" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="264" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 56</text>
-<rect x="736" y="110" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="264" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="396" y="280" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 15 | rate 0.1064</text>
+<text x="396" y="300" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / HIGH_LEFT</text>
+<text x="396" y="316" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.1429</text>
+<text x="396" y="334" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="110" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
 <text x="752" y="138" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">채은성</text>
 <text x="844" y="138" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
 <text x="752" y="158" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 523 | AVG 0.325</text>
@@ -77,713 +85,810 @@
 <rect x="796" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="752" y="254" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <text x="783.0" y="267" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="176" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
+<text x="886" y="176" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
 <rect x="886" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="908" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="930" y="186" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="886" y="208" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="908" y="208" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="208" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="208" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
 <rect x="886" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="908" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <rect x="930" y="230" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="254" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
+<rect x="886" y="254" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
 <text x="917.0" y="267" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="264" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 72</text>
-<rect x="24" y="288" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="316" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이진영</text>
-<text x="132" y="316" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="40" y="336" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 366 | AVG 0.3375</text>
-<text x="40" y="354" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="364" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="40" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="432" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="445" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="354" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="432" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="445" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="442" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 55</text>
-<rect x="380" y="288" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="316" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">최재훈</text>
-<text x="488" y="316" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="396" y="336" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 349 | AVG 0.3296</text>
-<text x="396" y="354" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="386" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="396" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="432" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="445" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="354" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="432" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="561.0" y="445" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="442" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 23</text>
-<rect x="736" y="288" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="316" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">김태연</text>
-<text x="844" y="316" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="752" y="336" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 342 | AVG 0.3234</text>
-<text x="752" y="354" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="386" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="752" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="432" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="445" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="354" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="364" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="386" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="408" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="432" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="917.0" y="445" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="442" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 36</text>
-<rect x="24" y="466" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="494" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">하주석</text>
-<text x="132" y="494" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="40" y="514" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 306 | AVG 0.3597</text>
-<text x="40" y="532" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="586" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="40" y="610" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="623" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="532" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="610" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="623" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="620" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 44</text>
-<rect x="380" y="466" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="494" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">황영묵</text>
-<text x="488" y="494" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="396" y="514" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 286 | AVG 0.3295</text>
-<text x="396" y="532" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="542" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="418" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="610" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="623" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="532" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="610" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="561.0" y="623" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="620" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 23</text>
-<rect x="736" y="466" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="494" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">플로리얼</text>
-<text x="844" y="494" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="752" y="514" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 285 | AVG 0.2907</text>
-<text x="752" y="532" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="542" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="774" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="610" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="623" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="532" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="542" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="564" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="586" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="610" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="917.0" y="623" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="620" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 43</text>
-<rect x="24" y="644" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="672" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이도윤</text>
-<text x="132" y="672" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="40" y="692" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 276 | AVG 0.328</text>
-<text x="40" y="710" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="788" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="801" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="710" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="788" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="801" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="798" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 35</text>
-<rect x="380" y="644" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="672" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">심우준</text>
-<text x="488" y="672" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="396" y="692" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 275 | AVG 0.2908</text>
-<text x="396" y="710" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="788" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="801" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="710" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="788" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="561.0" y="801" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="798" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 39</text>
-<rect x="736" y="644" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="672" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">리베라토</text>
-<text x="844" y="672" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="752" y="692" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 273 | AVG 0.3374</text>
-<text x="752" y="710" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="742" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="774" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="788" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="801" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="710" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="720" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="742" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="764" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="788" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="917.0" y="801" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="798" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 34</text>
-<rect x="24" y="822" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="850" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이원석</text>
-<text x="132" y="850" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="40" y="870" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 248 | AVG 0.2547</text>
-<text x="40" y="888" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="942" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="40" y="966" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="979" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="888" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="966" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="979" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="976" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 32</text>
-<rect x="380" y="822" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="850" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">안치홍</text>
-<text x="488" y="850" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="396" y="870" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 197 | AVG 0.2286</text>
-<text x="396" y="888" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="942" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="396" y="966" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="979" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="888" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="966" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="561.0" y="979" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="976" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 28</text>
-<rect x="736" y="822" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="850" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">최인호</text>
-<text x="844" y="850" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="752" y="870" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 160 | AVG 0.2806</text>
-<text x="752" y="888" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="920" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="774" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="966" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="979" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="888" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="898" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="920" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="942" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="966" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="917.0" y="979" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="976" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 16</text>
-<rect x="24" y="1000" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="1028" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이재원</text>
-<text x="132" y="1028" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="40" y="1048" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 151 | AVG 0.2598</text>
-<text x="40" y="1066" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1076" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="84" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1144" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="1157" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1066" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1144" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="1157" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1154" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 15</text>
-<rect x="380" y="1000" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="1028" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">손아섭</text>
-<text x="488" y="1028" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="396" y="1048" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 149 | AVG 0.303</text>
-<text x="396" y="1066" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1120" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="418" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1144" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="1157" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1066" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1144" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="561.0" y="1157" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1154" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 16</text>
-<rect x="736" y="1000" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="1028" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">임종찬</text>
-<text x="844" y="1028" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="752" y="1048" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 36 | AVG 0.1935</text>
-<text x="752" y="1066" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1098" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="774" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1144" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="1157" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1066" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1076" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1098" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1120" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1144" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="917.0" y="1157" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1154" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 6</text>
-<rect x="24" y="1178" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="1206" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">허인서</text>
-<text x="132" y="1206" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="40" y="1226" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 30 | AVG 0.2069</text>
-<text x="40" y="1244" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1254" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="84" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1322" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="1335" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1244" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1322" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="1335" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1332" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 11</text>
-<rect x="380" y="1178" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="1206" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">김인환</text>
-<text x="488" y="1206" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="396" y="1226" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 26 | AVG 0.08</text>
-<text x="396" y="1244" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1276" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="440" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1322" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="1335" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1244" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1322" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="561.0" y="1335" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1332" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 5</text>
-<rect x="736" y="1178" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="1206" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">권광민</text>
-<text x="844" y="1206" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="752" y="1226" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 18 | AVG 0.1667</text>
-<text x="752" y="1244" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1254" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="796" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1322" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="1335" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1244" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1254" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1276" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1298" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1322" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="917.0" y="1335" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1332" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 4</text>
-<rect x="24" y="1356" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="1384" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">유로결</text>
-<text x="132" y="1384" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="40" y="1404" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 16 | AVG 0.3077</text>
-<text x="40" y="1422" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1454" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="62" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1500" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="1513" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1422" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1500" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="1513" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1510" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 3</text>
-<rect x="380" y="1356" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="1384" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이상혁</text>
-<text x="488" y="1384" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="396" y="1404" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 12 | AVG 0.2</text>
-<text x="396" y="1422" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1454" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="418" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1500" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="1513" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1422" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1500" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="561.0" y="1513" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1510" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 2</text>
-<rect x="736" y="1356" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="1384" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이민재</text>
-<text x="844" y="1384" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="752" y="1404" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 4 | AVG 0.0</text>
-<text x="752" y="1422" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1476" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="796" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1500" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="1513" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1422" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="1432" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="908" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1432" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1454" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1476" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1500" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="917.0" y="1513" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1510" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 1</text>
-<rect x="24" y="1534" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="40" y="1562" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">박정현</text>
-<text x="132" y="1562" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
-<text x="40" y="1582" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 2 | AVG 0.0</text>
-<text x="40" y="1600" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="40" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="84" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="62" y="1654" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="84" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="40" y="1678" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="71.0" y="1691" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1600" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="174" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="196" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="218" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="174" y="1678" width="62" height="18" rx="4" fill="#fecaca" stroke="#dc2626"/>
-<text x="205.0" y="1691" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="174" y="1688" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 1</text>
-<rect x="380" y="1534" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="396" y="1562" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">장규현</text>
-<text x="488" y="1562" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="396" y="1582" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 2 | AVG 1.0</text>
-<text x="396" y="1600" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="396" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="440" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="418" y="1654" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="440" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="396" y="1678" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="427.0" y="1691" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1600" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="530" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="552" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="574" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="530" y="1678" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="561.0" y="1691" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="530" y="1688" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 0</text>
-<rect x="736" y="1534" width="340" height="162" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="752" y="1562" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이승현</text>
-<text x="844" y="1562" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
-<text x="752" y="1582" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 1 | AVG 1.0</text>
-<text x="752" y="1600" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
-<rect x="752" y="1610" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
-<rect x="774" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="774" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="796" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="752" y="1678" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="783.0" y="1691" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1600" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 헛스윙 최다 존</text>
-<rect x="886" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1610" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1632" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="908" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="930" y="1654" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<rect x="886" y="1678" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-<text x="917.0" y="1691" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
-<text x="886" y="1688" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count 0</text>
+<text x="752" y="264" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 슬라이더 / OUT</text>
+<text x="752" y="280" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 25 | rate 0.2193</text>
+<text x="752" y="300" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / MIDDLE_RIGHT</text>
+<text x="752" y="316" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 3 | rate 0.4286</text>
+<text x="752" y="334" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="24" y="364" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="392" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이진영</text>
+<text x="132" y="392" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="40" y="412" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 366 | AVG 0.3375</text>
+<text x="40" y="430" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="440" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="40" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="508" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="521" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="430" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="440" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="218" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="508" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="521" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="518" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="40" y="534" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 14 | rate 0.1728</text>
+<text x="40" y="554" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / HIGH_MIDDLE</text>
+<text x="40" y="570" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 4 | rate 0.5714</text>
+<text x="40" y="588" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="364" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="392" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">최재훈</text>
+<text x="488" y="392" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="396" y="412" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 349 | AVG 0.3296</text>
+<text x="396" y="430" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="462" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="396" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="508" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="521" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="430" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="462" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="530" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="508" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="521" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="518" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="396" y="534" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 7 | rate 0.0631</text>
+<text x="396" y="554" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 슬라이더 / MIDDLE_RIGHT</text>
+<text x="396" y="570" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.2222</text>
+<text x="396" y="588" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="364" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="392" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">김태연</text>
+<text x="844" y="392" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="752" y="412" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 342 | AVG 0.3234</text>
+<text x="752" y="430" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="462" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="752" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="508" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="521" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="430" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="440" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="462" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="462" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="886" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="484" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="508" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="521" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="518" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 슬라이더 / OUT</text>
+<text x="752" y="534" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 10 | rate 0.1613</text>
+<text x="752" y="554" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / MIDDLE_RIGHT</text>
+<text x="752" y="570" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.2222</text>
+<text x="752" y="588" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="24" y="618" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="646" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">하주석</text>
+<text x="132" y="646" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="40" y="666" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 306 | AVG 0.3597</text>
+<text x="40" y="684" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="738" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="40" y="762" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="775" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="684" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="694" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="174" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="762" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="775" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="772" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 포크 / OUT</text>
+<text x="40" y="788" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 12 | rate 0.2353</text>
+<text x="40" y="808" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 슬라이더 / HIGH_RIGHT</text>
+<text x="40" y="824" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 0.3333</text>
+<text x="40" y="842" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="618" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="646" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">황영묵</text>
+<text x="488" y="646" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="396" y="666" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 286 | AVG 0.3295</text>
+<text x="396" y="684" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="694" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="418" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="762" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="775" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="684" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="694" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="552" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="762" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="775" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="772" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 커브 / OUT</text>
+<text x="396" y="788" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 6 | rate 0.2857</text>
+<text x="396" y="808" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 슬라이더 / HIGH_LEFT</text>
+<text x="396" y="824" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 0.3333</text>
+<text x="396" y="842" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="618" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="646" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">플로리얼</text>
+<text x="844" y="646" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="752" y="666" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 285 | AVG 0.2907</text>
+<text x="752" y="684" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="694" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="774" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="762" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="775" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="684" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="694" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="716" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="930" y="716" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="738" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="762" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="775" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="772" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="752" y="788" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 10 | rate 0.1042</text>
+<text x="752" y="808" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / MIDDLE_MIDDLE</text>
+<text x="752" y="824" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.4</text>
+<text x="752" y="842" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="24" y="872" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="900" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이도윤</text>
+<text x="132" y="900" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="40" y="920" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 276 | AVG 0.328</text>
+<text x="40" y="938" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1016" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="1029" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="938" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="948" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="196" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1016" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="1029" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="1026" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="40" y="1042" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 10 | rate 0.119</text>
+<text x="40" y="1062" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / HIGH_LEFT</text>
+<text x="40" y="1078" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.4</text>
+<text x="40" y="1096" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="872" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="900" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">심우준</text>
+<text x="488" y="900" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="396" y="920" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 275 | AVG 0.2908</text>
+<text x="396" y="938" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1016" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="1029" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="938" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="970" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="530" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1016" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="1029" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="1026" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="396" y="1042" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 12 | rate 0.1622</text>
+<text x="396" y="1062" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / MIDDLE_RIGHT</text>
+<text x="396" y="1078" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.2222</text>
+<text x="396" y="1096" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="872" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="900" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">리베라토</text>
+<text x="844" y="900" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="752" y="920" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 273 | AVG 0.3374</text>
+<text x="752" y="938" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="970" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="774" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1016" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="1029" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="938" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="948" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="970" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="908" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="970" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="992" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1016" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="1029" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="1026" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 포크 / OUT</text>
+<text x="752" y="1042" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 7 | rate 0.25</text>
+<text x="752" y="1062" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / MIDDLE_LEFT</text>
+<text x="752" y="1078" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.4</text>
+<text x="752" y="1096" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="24" y="1126" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="1154" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이원석</text>
+<text x="132" y="1154" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="40" y="1174" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 248 | AVG 0.2547</text>
+<text x="40" y="1192" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1246" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="40" y="1270" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="1283" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="1192" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1246" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="174" y="1270" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="1283" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="1280" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="40" y="1296" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 8 | rate 0.1067</text>
+<text x="40" y="1316" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 체인지업 / LOW_RIGHT</text>
+<text x="40" y="1332" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 3 | rate 1.0</text>
+<text x="40" y="1350" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="1126" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="1154" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">안치홍</text>
+<text x="488" y="1154" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="396" y="1174" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 197 | AVG 0.2286</text>
+<text x="396" y="1192" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1246" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="396" y="1270" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="1283" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="1192" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1246" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="530" y="1270" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="1283" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="1280" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 포크 / OUT</text>
+<text x="396" y="1296" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 9 | rate 0.4286</text>
+<text x="396" y="1316" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 슬라이더 / LOW_RIGHT</text>
+<text x="396" y="1332" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 0.3333</text>
+<text x="396" y="1350" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="1126" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="1154" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">최인호</text>
+<text x="844" y="1154" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="752" y="1174" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 160 | AVG 0.2806</text>
+<text x="752" y="1192" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1224" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="774" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1270" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="1283" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="1192" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1202" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1202" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="886" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1224" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1246" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1270" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="1283" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="1280" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 포크 / OUT</text>
+<text x="752" y="1296" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 4 | rate 0.2667</text>
+<text x="752" y="1316" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 슬라이더 / HIGH_RIGHT</text>
+<text x="752" y="1332" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<text x="752" y="1350" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="24" y="1380" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="1408" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이재원</text>
+<text x="132" y="1408" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="40" y="1428" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 151 | AVG 0.2598</text>
+<text x="40" y="1446" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1456" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="84" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1524" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="1537" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="1446" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1500" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="218" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1524" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="1537" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="1534" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 슬라이더 / OUT</text>
+<text x="40" y="1550" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 6 | rate 0.2143</text>
+<text x="40" y="1570" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 포크 / LOW_MIDDLE</text>
+<text x="40" y="1586" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<text x="40" y="1604" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="1380" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="1408" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">손아섭</text>
+<text x="488" y="1408" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="396" y="1428" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 149 | AVG 0.303</text>
+<text x="396" y="1446" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1500" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="418" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1524" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="1537" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="1446" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1500" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="574" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1524" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="1537" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="1534" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="396" y="1550" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 5 | rate 0.1042</text>
+<text x="396" y="1570" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 슬라이더 / LOW_MIDDLE</text>
+<text x="396" y="1586" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.6667</text>
+<text x="396" y="1604" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="1380" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="1408" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">임종찬</text>
+<text x="844" y="1408" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="752" y="1428" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 36 | AVG 0.1935</text>
+<text x="752" y="1446" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1478" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="774" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1524" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="1537" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="1446" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1456" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1478" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="908" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1478" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1500" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1524" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="1537" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="1534" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 체인지업 / OUT</text>
+<text x="752" y="1550" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 3 | rate 0.4286</text>
+<text x="752" y="1570" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / MIDDLE_LEFT</text>
+<text x="752" y="1586" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<text x="752" y="1604" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="24" y="1634" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="1662" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">허인서</text>
+<text x="132" y="1662" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="40" y="1682" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 30 | AVG 0.2069</text>
+<text x="40" y="1700" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1710" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="84" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1778" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="1791" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="1700" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1754" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="174" y="1778" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="1791" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="1788" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="40" y="1804" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 5 | rate 0.5556</text>
+<text x="40" y="1824" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 체인지업 / LOW_RIGHT</text>
+<text x="40" y="1840" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<text x="40" y="1858" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="1634" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="1662" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">김인환</text>
+<text x="488" y="1662" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="396" y="1682" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 26 | AVG 0.08</text>
+<text x="396" y="1700" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1732" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="440" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1778" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="1791" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="1700" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1732" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="574" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1778" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="1791" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="1788" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 체인지업 / OUT</text>
+<text x="396" y="1804" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.1538</text>
+<text x="396" y="1824" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 직구 / MIDDLE_MIDDLE</text>
+<text x="396" y="1840" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 0.5</text>
+<text x="396" y="1858" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="1634" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="1662" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">권광민</text>
+<text x="844" y="1662" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="752" y="1682" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 18 | AVG 0.1667</text>
+<text x="752" y="1700" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1710" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="796" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1778" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="1791" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="1700" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1710" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1732" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1754" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1754" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="886" y="1778" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="1791" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="1788" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 포크 / OUT</text>
+<text x="752" y="1804" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 2 | rate 0.5</text>
+<text x="752" y="1824" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 체인지업 / LOW_RIGHT</text>
+<text x="752" y="1840" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<text x="752" y="1858" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="24" y="1888" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="1916" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">유로결</text>
+<text x="132" y="1916" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="40" y="1936" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 16 | AVG 0.3077</text>
+<text x="40" y="1954" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="1986" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="62" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="2032" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="2045" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="1954" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="2032" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="2045" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="2042" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 직구 / OUT</text>
+<text x="40" y="2058" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 0.2</text>
+<text x="40" y="2078" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: UNKNOWN / UNKNOWN</text>
+<text x="40" y="2094" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 0 | rate 0.0</text>
+<text x="40" y="2112" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="1888" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="1916" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이상혁</text>
+<text x="488" y="1916" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="396" y="1936" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 12 | AVG 0.2</text>
+<text x="396" y="1954" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="1986" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="418" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="2032" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="2045" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="1954" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="2032" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="2045" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="2042" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 슬라이더 / OUT</text>
+<text x="396" y="2058" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 0.5</text>
+<text x="396" y="2078" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: UNKNOWN / UNKNOWN</text>
+<text x="396" y="2094" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 0 | rate 0.0</text>
+<text x="396" y="2112" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="736" y="1888" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="1916" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이민재</text>
+<text x="844" y="1916" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="752" y="1936" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 4 | AVG 0.0</text>
+<text x="752" y="1954" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="2008" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="796" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="2032" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="2045" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="1954" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="1964" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="908" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1964" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="1986" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="2008" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="2032" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="2045" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="2042" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 슬라이더 / HIGH_LEFT</text>
+<text x="752" y="2058" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<text x="752" y="2078" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: 슬라이더 / HIGH_LEFT</text>
+<text x="752" y="2094" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<rect x="24" y="2142" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="40" y="2170" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">박정현</text>
+<text x="132" y="2170" font-size="12" font-family="Segoe UI, Arial" fill="#486581">RHB</text>
+<text x="40" y="2190" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 2 | AVG 0.0</text>
+<text x="40" y="2208" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="40" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="84" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="62" y="2262" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="84" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="40" y="2286" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="71.0" y="2299" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="174" y="2208" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="174" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="196" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="218" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="174" y="2286" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="205.0" y="2299" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="40" y="2296" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: 슬라이더 / OUT</text>
+<text x="40" y="2312" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 1 | rate 1.0</text>
+<text x="40" y="2332" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: UNKNOWN / UNKNOWN</text>
+<text x="40" y="2348" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 0 | rate 0.0</text>
+<text x="40" y="2366" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>
+<rect x="380" y="2142" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="396" y="2170" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">장규현</text>
+<text x="488" y="2170" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="396" y="2190" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 2 | AVG 1.0</text>
+<text x="396" y="2208" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="396" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="440" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="418" y="2262" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="440" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="396" y="2286" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="427.0" y="2299" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="530" y="2208" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="530" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="552" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="574" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="530" y="2286" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="561.0" y="2299" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="396" y="2296" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: UNKNOWN / UNKNOWN</text>
+<text x="396" y="2312" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 0 | rate 0.0</text>
+<text x="396" y="2332" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: UNKNOWN / UNKNOWN</text>
+<text x="396" y="2348" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 0 | rate 0.0</text>
+<rect x="736" y="2142" width="340" height="238" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="752" y="2170" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">이승현</text>
+<text x="844" y="2170" font-size="12" font-family="Segoe UI, Arial" fill="#486581">LHB</text>
+<text x="752" y="2190" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA 1 | AVG 1.0</text>
+<text x="752" y="2208" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2025 시즌 약점 존</text>
+<rect x="752" y="2218" width="18" height="18" rx="4" fill="#dbeafe" stroke="#2563eb"/>
+<rect x="774" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="774" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="796" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="752" y="2286" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="783.0" y="2299" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="886" y="2208" font-size="11" font-family="Segoe UI, Arial" fill="#486581">2스트라이크 인존 최다 헛스윙 코스</text>
+<rect x="886" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="2218" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="2240" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="908" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="930" y="2262" width="18" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="886" y="2286" width="62" height="18" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="917.0" y="2299" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#334155">OUT</text>
+<text x="752" y="2296" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: UNKNOWN / UNKNOWN</text>
+<text x="752" y="2312" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 0 | rate 0.0</text>
+<text x="752" y="2332" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: UNKNOWN / UNKNOWN</text>
+<text x="752" y="2348" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count 0 | rate 0.0</text>
 </svg>

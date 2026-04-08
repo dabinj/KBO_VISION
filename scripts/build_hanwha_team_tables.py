@@ -232,6 +232,8 @@ def build_batter_tables(rows: list[dict]) -> tuple[list[dict], list[dict]]:
                 "two_strike_whiffs": 0,
                 "zone_two_strike_whiffs": Counter(),
                 "zone_two_strike_pitches": Counter(),
+                "pitch_zone_two_strike_whiffs": Counter(),
+                "pitch_zone_two_strike_pitches": Counter(),
                 "zone_disadvantage": defaultdict(float),
                 "zone_pitches": Counter(),
                 "family_two_strike_whiffs": Counter(),
@@ -271,6 +273,8 @@ def build_batter_tables(rows: list[dict]) -> tuple[list[dict], list[dict]]:
                 batter["two_strike_pitches"] += 1
                 batter["zone_two_strike_pitches"][current_zone] += 1
                 batter["family_two_strike_pitches"][family] += 1
+                pitch_zone_key = (pitch.get("pitch_type") or "UNKNOWN", current_zone)
+                batter["pitch_zone_two_strike_pitches"][pitch_zone_key] += 1
                 zone_bucket["two_strike_pitches"] += 1
                 if is_swing(event_text):
                     batter["two_strike_swings"] += 1
@@ -278,6 +282,7 @@ def build_batter_tables(rows: list[dict]) -> tuple[list[dict], list[dict]]:
                     batter["two_strike_whiffs"] += 1
                     batter["zone_two_strike_whiffs"][current_zone] += 1
                     batter["family_two_strike_whiffs"][family] += 1
+                    batter["pitch_zone_two_strike_whiffs"][pitch_zone_key] += 1
                     zone_bucket["two_strike_whiffs"] += 1
 
             pre_strikes = int(pitch.get("strikes") or pre_strikes)
@@ -285,6 +290,11 @@ def build_batter_tables(rows: list[dict]) -> tuple[list[dict], list[dict]]:
     summary_rows = []
     for batter in sorted(summary.values(), key=lambda item: (-item["pas"], item["batter_name"])):
         whiff_zone, whiff_zone_count = pick_best(batter["zone_two_strike_whiffs"])
+        whiff_pitch_zone, whiff_pitch_zone_count = pick_best(batter["pitch_zone_two_strike_whiffs"], minimum_count=1, fallback=("UNKNOWN", "UNKNOWN"))
+        in_zone_pitch_whiff_counter = Counter(
+            {key: value for key, value in batter["pitch_zone_two_strike_whiffs"].items() if key[1] not in {"OUT", "UNKNOWN"}}
+        )
+        in_zone_pitch_zone, in_zone_pitch_zone_count = pick_best(in_zone_pitch_whiff_counter, minimum_count=1, fallback=("UNKNOWN", "UNKNOWN"))
         weak_zone = "UNKNOWN"
         weak_score = None
         if batter["zone_pitches"]:
@@ -295,6 +305,8 @@ def build_batter_tables(rows: list[dict]) -> tuple[list[dict], list[dict]]:
             weak_score = round(batter["zone_disadvantage"][weak_zone] / max(batter["zone_pitches"][weak_zone], 1), 4)
 
         weak_family, _ = pick_best(batter["family_two_strike_whiffs"], minimum_count=1)
+        whiff_pitch, whiff_pitch_zone_label = whiff_pitch_zone if isinstance(whiff_pitch_zone, tuple) else ("UNKNOWN", "UNKNOWN")
+        in_zone_pitch, in_zone_zone_label = in_zone_pitch_zone if isinstance(in_zone_pitch_zone, tuple) else ("UNKNOWN", "UNKNOWN")
         summary_rows.append(
             {
                 "batter_code": batter["batter_code"],
@@ -321,6 +333,20 @@ def build_batter_tables(rows: list[dict]) -> tuple[list[dict], list[dict]]:
                     4,
                 ) if whiff_zone != "UNKNOWN" else 0.0,
                 "two_strike_most_whiff_family_2025": weak_family,
+                "two_strike_most_whiff_pitch_2025": whiff_pitch,
+                "two_strike_most_whiff_pitch_zone_2025": whiff_pitch_zone_label,
+                "two_strike_most_whiff_pitch_zone_count_2025": whiff_pitch_zone_count,
+                "two_strike_most_whiff_pitch_zone_rate_2025": round(
+                    batter["pitch_zone_two_strike_whiffs"][whiff_pitch_zone] / max(batter["pitch_zone_two_strike_pitches"][whiff_pitch_zone], 1),
+                    4,
+                ) if whiff_pitch != "UNKNOWN" else 0.0,
+                "two_strike_in_zone_most_whiff_pitch_2025": in_zone_pitch,
+                "two_strike_in_zone_most_whiff_zone_2025": in_zone_zone_label,
+                "two_strike_in_zone_most_whiff_count_2025": in_zone_pitch_zone_count,
+                "two_strike_in_zone_most_whiff_rate_2025": round(
+                    batter["pitch_zone_two_strike_whiffs"][in_zone_pitch_zone] / max(batter["pitch_zone_two_strike_pitches"][in_zone_pitch_zone], 1),
+                    4,
+                ) if in_zone_pitch != "UNKNOWN" else 0.0,
             }
         )
 

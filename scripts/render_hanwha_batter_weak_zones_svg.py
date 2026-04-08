@@ -36,14 +36,19 @@ def draw_zone_grid(parts: list[str], x: int, y: int, active_zone: str, title: st
 
 def draw_card(parts: list[str], x: int, y: int, row: dict) -> None:
     width = 340
-    height = 162
+    height = 238
     parts.append(f'<rect x="{x}" y="{y}" width="{width}" height="{height}" rx="14" fill="#ffffff" stroke="#d9e2ec"/>')
     parts.append(f'<text x="{x+16}" y="{y+28}" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">{row["batter_name"]}</text>')
     parts.append(f'<text x="{x+108}" y="{y+28}" font-size="12" font-family="Segoe UI, Arial" fill="#486581">{row["stance"]}HB</text>')
     parts.append(f'<text x="{x+16}" y="{y+48}" font-size="11" font-family="Segoe UI, Arial" fill="#486581">PA {row["pas"]} | AVG {row["ba"]}</text>')
     draw_zone_grid(parts, x+16, y+76, row.get("weakest_zone_2025") or "UNKNOWN", "2025 시즌 약점 존")
-    draw_zone_grid(parts, x+150, y+76, row.get("two_strike_most_whiff_zone_2025") or "UNKNOWN", "2스트라이크 헛스윙 최다 존")
-    parts.append(f'<text x="{x+150}" y="{y+154}" font-size="10" font-family="Segoe UI, Arial" fill="#486581">헛스윙 count {row["two_strike_most_whiff_zone_count_2025"]}</text>')
+    draw_zone_grid(parts, x+150, y+76, row.get("two_strike_in_zone_most_whiff_zone_2025") or "UNKNOWN", "2스트라이크 인존 최다 헛스윙 코스")
+    parts.append(f'<text x="{x+16}" y="{y+154}" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">전체 최다 헛스윙: {row.get("two_strike_most_whiff_pitch_2025") or "UNKNOWN"} / {row.get("two_strike_most_whiff_pitch_zone_2025") or "UNKNOWN"}</text>')
+    parts.append(f'<text x="{x+16}" y="{y+170}" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count {row.get("two_strike_most_whiff_pitch_zone_count_2025") or "0"} | rate {row.get("two_strike_most_whiff_pitch_zone_rate_2025") or "0.0"}</text>')
+    parts.append(f'<text x="{x+16}" y="{y+190}" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">인존 최다 헛스윙: {row.get("two_strike_in_zone_most_whiff_pitch_2025") or "UNKNOWN"} / {row.get("two_strike_in_zone_most_whiff_zone_2025") or "UNKNOWN"}</text>')
+    parts.append(f'<text x="{x+16}" y="{y+206}" font-size="10" font-family="Segoe UI, Arial" fill="#486581">count {row.get("two_strike_in_zone_most_whiff_count_2025") or "0"} | rate {row.get("two_strike_in_zone_most_whiff_rate_2025") or "0.0"}</text>')
+    if (row.get("two_strike_most_whiff_pitch_zone_2025") or "") == "OUT":
+        parts.append(f'<text x="{x+16}" y="{y+224}" font-size="10" font-family="Segoe UI, Arial" fill="#b45309">전체 최다는 존 밖 유인구 포함</text>')
 
 
 def main() -> None:
@@ -51,7 +56,7 @@ def main() -> None:
     rows = sorted(rows, key=lambda row: int(row.get("pas") or 0), reverse=True)
 
     width = 1100
-    height = 1300
+    height = 1900
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">',
         '<rect width="100%" height="100%" fill="#f8fafc"/>',
@@ -62,7 +67,7 @@ def main() -> None:
 
     cols = 3
     card_w = 356
-    card_h = 178
+    card_h = 254
     for idx, row in enumerate(rows):
         col = idx % cols
         line = idx // cols
