@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360">
+<rect width="100%" height="100%" fill="#f8fbff"/>
+<text x="24" y="30" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">White Pitch Mix by Batter Stance</text>
+<text x="24" y="52" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Left-handed and right-handed hitter pitch usage split</text>
+<line x1="120" y1="70.0" x2="730" y2="70.0" stroke="#d9e2ec" stroke-width="1"/>
+<text x="108" y="74.0" text-anchor="end" font-size="11" font-family="Segoe UI, Arial" fill="#486581">60%</text>
+<line x1="120" y1="120.0" x2="730" y2="120.0" stroke="#d9e2ec" stroke-width="1"/>
+<text x="108" y="124.0" text-anchor="end" font-size="11" font-family="Segoe UI, Arial" fill="#486581">48%</text>
+<line x1="120" y1="170.0" x2="730" y2="170.0" stroke="#d9e2ec" stroke-width="1"/>
+<text x="108" y="174.0" text-anchor="end" font-size="11" font-family="Segoe UI, Arial" fill="#486581">36%</text>
+<line x1="120" y1="220.0" x2="730" y2="220.0" stroke="#d9e2ec" stroke-width="1"/>
+<text x="108" y="224.0" text-anchor="end" font-size="11" font-family="Segoe UI, Arial" fill="#486581">24%</text>
+<line x1="120" y1="270.0" x2="730" y2="270.0" stroke="#d9e2ec" stroke-width="1"/>
+<text x="108" y="274.0" text-anchor="end" font-size="11" font-family="Segoe UI, Arial" fill="#486581">12%</text>
+<line x1="120" y1="320.0" x2="730" y2="320.0" stroke="#d9e2ec" stroke-width="1"/>
+<text x="108" y="324.0" text-anchor="end" font-size="11" font-family="Segoe UI, Arial" fill="#486581">0%</text>
+<rect x="130" y="105.58333333333331" width="20.875" height="214.41666666666669" fill="#3b82f6" rx="3"/>
+<rect x="160.875" y="147.32916666666665" width="20.875" height="172.67083333333335" fill="#f97316" rx="3"/>
+<text x="140.4375" y="99.58333333333331" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">51.5</text>
+<text x="171.3125" y="141.32916666666665" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">41.4</text>
+<text x="155.875" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">직구</text>
+<rect x="203.75" y="189.60000000000002" width="20.875" height="130.39999999999998" fill="#3b82f6" rx="3"/>
+<rect x="234.625" y="288.0375" width="20.875" height="31.9625" fill="#f97316" rx="3"/>
+<text x="214.1875" y="183.60000000000002" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">31.3</text>
+<text x="245.0625" y="282.0375" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">7.7</text>
+<text x="229.625" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">커브</text>
+<rect x="277.5" y="280.8416666666667" width="20.875" height="39.15833333333333" fill="#3b82f6" rx="3"/>
+<rect x="308.375" y="211.25416666666666" width="20.875" height="108.74583333333334" fill="#f97316" rx="3"/>
+<text x="287.9375" y="274.8416666666667" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">9.4</text>
+<text x="318.8125" y="205.25416666666666" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">26.1</text>
+<text x="303.375" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">커터</text>
+<rect x="351.25" y="294.52916666666664" width="20.875" height="25.470833333333335" fill="#3b82f6" rx="3"/>
+<rect x="382.125" y="272.8375" width="20.875" height="47.1625" fill="#f97316" rx="3"/>
+<text x="361.6875" y="288.52916666666664" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">6.1</text>
+<text x="392.5625" y="266.8375" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">11.3</text>
+<text x="377.125" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">투심</text>
+<rect x="425.0" y="315.81666666666666" width="20.875" height="4.183333333333334" fill="#3b82f6" rx="3"/>
+<rect x="455.875" y="320.0" width="20.875" height="0.0" fill="#f97316" rx="3"/>
+<text x="435.4375" y="309.81666666666666" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">1.0</text>
+<text x="466.3125" y="314.0" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">0.0</text>
+<text x="450.875" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">체인지업</text>
+<rect x="498.75" y="317.3375" width="20.875" height="2.6625" fill="#3b82f6" rx="3"/>
+<rect x="529.625" y="320.0" width="20.875" height="0.0" fill="#f97316" rx="3"/>
+<text x="509.1875" y="311.3375" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">0.6</text>
+<text x="540.0625" y="314.0" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">0.0</text>
+<text x="524.625" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">포크</text>
+<rect x="572.5" y="319.62083333333334" width="20.875" height="0.37916666666666665" fill="#3b82f6" rx="3"/>
+<rect x="603.375" y="285.30833333333334" width="20.875" height="34.69166666666667" fill="#f97316" rx="3"/>
+<text x="582.9375" y="313.62083333333334" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">0.1</text>
+<text x="613.8125" y="279.30833333333334" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">8.3</text>
+<text x="598.375" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">슬라이더</text>
+<rect x="646.25" y="320.0" width="20.875" height="0.0" fill="#3b82f6" rx="3"/>
+<rect x="677.125" y="298.5625" width="20.875" height="21.4375" fill="#f97316" rx="3"/>
+<text x="656.6875" y="314.0" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#1d4ed8">0.0</text>
+<text x="687.5625" y="292.5625" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#c2410c">5.1</text>
+<text x="672.125" y="336" text-anchor="middle" font-size="10" font-family="Segoe UI, Arial" fill="#102a43">스위퍼</text>
+<rect x="560" y="20" width="12" height="12" fill="#3b82f6" rx="2"/>
+<text x="578" y="30" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">LHB</text>
+<rect x="620" y="20" width="12" height="12" fill="#f97316" rx="2"/>
+<text x="638" y="30" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">RHB</text>
+</svg>

@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="24" y="34" font-size="24" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">2025 Pitch Baseline Comparison</text>
+<text x="24" y="56" font-size="12" font-family="Segoe UI, Arial" fill="#486581">White overall, White second-pitch, and SSG primary catcher receiving baselines</text>
+<rect x="930" y="22" width="12" height="12" rx="2" fill="#d1495b"/>
+<text x="948" y="32" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">Top-1</text>
+<rect x="1000" y="22" width="12" height="12" rx="2" fill="#2d6a4f"/>
+<text x="1018" y="32" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">Top-3</text>
+<rect x="24" y="80" width="560" height="350" rx="12" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="108" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">White Overall</text>
+<text x="42" y="126" font-size="11" font-family="Segoe UI, Arial" fill="#486581">Test Top-1 / Top-3 by cumulative feature stage</text>
+<line x1="78" y1="150.0" x2="558" y2="150.0" stroke="#e5e7eb"/>
+<text x="70" y="154.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">1.0</text>
+<line x1="78" y1="200.0" x2="558" y2="200.0" stroke="#e5e7eb"/>
+<text x="70" y="204.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.8</text>
+<line x1="78" y1="250.0" x2="558" y2="250.0" stroke="#e5e7eb"/>
+<text x="70" y="254.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.6</text>
+<line x1="78" y1="300.0" x2="558" y2="300.0" stroke="#e5e7eb"/>
+<text x="70" y="304.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.4</text>
+<line x1="78" y1="350.0" x2="558" y2="350.0" stroke="#e5e7eb"/>
+<text x="70" y="354.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.2</text>
+<line x1="78" y1="400.0" x2="558" y2="400.0" stroke="#e5e7eb"/>
+<text x="70" y="404.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.0</text>
+<rect x="92.0" y="270.1" width="22" height="129.89999999999998" rx="3" fill="#d1495b"/>
+<rect x="122.0" y="190.42499999999998" width="22" height="209.57500000000002" rx="3" fill="#2d6a4f"/>
+<text x="103.0" y="265.1" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.520</text>
+<text x="133.0" y="185.42499999999998" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.838</text>
+<text x="118.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Count</text>
+<rect x="172.0" y="277.025" width="22" height="122.975" rx="3" fill="#d1495b"/>
+<rect x="202.0" y="191.575" width="22" height="208.425" rx="3" fill="#2d6a4f"/>
+<text x="183.0" y="272.025" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.492</text>
+<text x="213.0" y="186.575" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.834</text>
+<text x="198.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Count+Stance</text>
+<rect x="252.0" y="278.175" width="22" height="121.825" rx="3" fill="#d1495b"/>
+<rect x="282.0" y="200.225" width="22" height="199.775" rx="3" fill="#2d6a4f"/>
+<text x="263.0" y="273.175" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.487</text>
+<text x="293.0" y="195.225" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.799</text>
+<text x="278.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Count+Stance+BA</text>
+<rect x="332.0" y="292.025" width="22" height="107.97500000000001" rx="3" fill="#d1495b"/>
+<rect x="362.0" y="217.55" width="22" height="182.45" rx="3" fill="#2d6a4f"/>
+<text x="343.0" y="287.025" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.432</text>
+<text x="373.0" y="212.55" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.730</text>
+<text x="358.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Count+Stance+BA+PrevType</text>
+<rect x="412.0" y="291.45" width="22" height="108.55" rx="3" fill="#d1495b"/>
+<rect x="442.0" y="223.9" width="22" height="176.1" rx="3" fill="#2d6a4f"/>
+<text x="423.0" y="286.45" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.434</text>
+<text x="453.0" y="218.9" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.704</text>
+<text x="438.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Count+Stance+BA+PrevType+PrevZone</text>
+<rect x="492.0" y="295.5" width="22" height="104.5" rx="3" fill="#d1495b"/>
+<rect x="522.0" y="228.525" width="22" height="171.475" rx="3" fill="#2d6a4f"/>
+<text x="503.0" y="290.5" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.418</text>
+<text x="533.0" y="223.525" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.686</text>
+<text x="518.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Count+Stance+BA+PrevType+PrevZone+Catcher</text>
+<rect x="612" y="80" width="560" height="350" rx="12" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="630" y="108" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">White Second Pitch Only</text>
+<text x="630" y="126" font-size="11" font-family="Segoe UI, Arial" fill="#486581">Test Top-1 / Top-3 by cumulative feature stage</text>
+<line x1="666" y1="150.0" x2="1146" y2="150.0" stroke="#e5e7eb"/>
+<text x="658" y="154.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">1.0</text>
+<line x1="666" y1="200.0" x2="1146" y2="200.0" stroke="#e5e7eb"/>
+<text x="658" y="204.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.8</text>
+<line x1="666" y1="250.0" x2="1146" y2="250.0" stroke="#e5e7eb"/>
+<text x="658" y="254.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.6</text>
+<line x1="666" y1="300.0" x2="1146" y2="300.0" stroke="#e5e7eb"/>
+<text x="658" y="304.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.4</text>
+<line x1="666" y1="350.0" x2="1146" y2="350.0" stroke="#e5e7eb"/>
+<text x="658" y="354.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.2</text>
+<line x1="666" y1="400.0" x2="1146" y2="400.0" stroke="#e5e7eb"/>
+<text x="658" y="404.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.0</text>
+<rect x="688.0" y="270.1" width="22" height="129.89999999999998" rx="3" fill="#d1495b"/>
+<rect x="718.0" y="189.22500000000002" width="22" height="210.77499999999998" rx="3" fill="#2d6a4f"/>
+<text x="699.0" y="265.1" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.520</text>
+<text x="729.0" y="184.22500000000002" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.843</text>
+<text x="714.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">FirstPitchType</text>
+<rect x="784.0" y="279.9" width="22" height="120.1" rx="3" fill="#d1495b"/>
+<rect x="814.0" y="213.725" width="22" height="186.275" rx="3" fill="#2d6a4f"/>
+<text x="795.0" y="274.9" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.480</text>
+<text x="825.0" y="208.725" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.745</text>
+<text x="810.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">FirstPitchType+FirstPitchZone</text>
+<rect x="880.0" y="287.25" width="22" height="112.75" rx="3" fill="#d1495b"/>
+<rect x="910.0" y="208.825" width="22" height="191.175" rx="3" fill="#2d6a4f"/>
+<text x="891.0" y="282.25" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.451</text>
+<text x="921.0" y="203.825" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.765</text>
+<text x="906.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">FirstPitchType+FirstPitchZone+Count</text>
+<rect x="976.0" y="289.7" width="22" height="110.3" rx="3" fill="#d1495b"/>
+<rect x="1006.0" y="218.625" width="22" height="181.375" rx="3" fill="#2d6a4f"/>
+<text x="987.0" y="284.7" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.441</text>
+<text x="1017.0" y="213.625" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.726</text>
+<text x="1002.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">FirstPitchType+FirstPitchZone+Count+Stance</text>
+<rect x="1072.0" y="299.5" width="22" height="100.5" rx="3" fill="#d1495b"/>
+<rect x="1102.0" y="238.225" width="22" height="161.775" rx="3" fill="#2d6a4f"/>
+<text x="1083.0" y="294.5" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.402</text>
+<text x="1113.0" y="233.225" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.647</text>
+<text x="1098.0" y="418" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">FirstPitchType+FirstPitchZone+Count+Stance+BA</text>
+<rect x="24" y="460" width="560" height="350" rx="12" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="488" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">Jo Hyung-woo Overall</text>
+<text x="42" y="506" font-size="11" font-family="Segoe UI, Arial" fill="#486581">Test Top-1 / Top-3 by cumulative feature stage</text>
+<line x1="78" y1="530.0" x2="558" y2="530.0" stroke="#e5e7eb"/>
+<text x="70" y="534.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">1.0</text>
+<line x1="78" y1="580.0" x2="558" y2="580.0" stroke="#e5e7eb"/>
+<text x="70" y="584.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.8</text>
+<line x1="78" y1="630.0" x2="558" y2="630.0" stroke="#e5e7eb"/>
+<text x="70" y="634.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.6</text>
+<line x1="78" y1="680.0" x2="558" y2="680.0" stroke="#e5e7eb"/>
+<text x="70" y="684.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.4</text>
+<line x1="78" y1="730.0" x2="558" y2="730.0" stroke="#e5e7eb"/>
+<text x="70" y="734.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.2</text>
+<line x1="78" y1="780.0" x2="558" y2="780.0" stroke="#e5e7eb"/>
+<text x="70" y="784.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.0</text>
+<rect x="100.0" y="656.05" width="22" height="123.95" rx="3" fill="#d1495b"/>
+<rect x="130.0" y="586.85" width="22" height="193.14999999999998" rx="3" fill="#2d6a4f"/>
+<text x="111.0" y="651.05" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.496</text>
+<text x="141.0" y="581.85" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.773</text>
+<text x="126.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation</text>
+<rect x="196.0" y="656.05" width="22" height="123.95" rx="3" fill="#d1495b"/>
+<rect x="226.0" y="588.55" width="22" height="191.45000000000002" rx="3" fill="#2d6a4f"/>
+<text x="207.0" y="651.05" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.496</text>
+<text x="237.0" y="583.55" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.766</text>
+<text x="222.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance</text>
+<rect x="292.0" y="661.75" width="22" height="118.25" rx="3" fill="#d1495b"/>
+<rect x="322.0" y="593.075" width="22" height="186.925" rx="3" fill="#2d6a4f"/>
+<text x="303.0" y="656.75" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.473</text>
+<text x="333.0" y="588.075" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.748</text>
+<text x="318.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance+BA</text>
+<rect x="388.0" y="668.625" width="22" height="111.375" rx="3" fill="#d1495b"/>
+<rect x="418.0" y="596.25" width="22" height="183.75" rx="3" fill="#2d6a4f"/>
+<text x="399.0" y="663.625" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.446</text>
+<text x="429.0" y="591.25" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.735</text>
+<text x="414.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance+BA+PrevType</text>
+<rect x="484.0" y="676.65" width="22" height="103.35" rx="3" fill="#d1495b"/>
+<rect x="514.0" y="609.875" width="22" height="170.125" rx="3" fill="#2d6a4f"/>
+<text x="495.0" y="671.65" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.413</text>
+<text x="525.0" y="604.875" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.680</text>
+<text x="510.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance+BA+PrevType+PrevZone</text>
+<rect x="612" y="460" width="560" height="350" rx="12" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="630" y="488" font-size="18" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">Lee Ji-young Overall</text>
+<text x="630" y="506" font-size="11" font-family="Segoe UI, Arial" fill="#486581">Test Top-1 / Top-3 by cumulative feature stage</text>
+<line x1="666" y1="530.0" x2="1146" y2="530.0" stroke="#e5e7eb"/>
+<text x="658" y="534.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">1.0</text>
+<line x1="666" y1="580.0" x2="1146" y2="580.0" stroke="#e5e7eb"/>
+<text x="658" y="584.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.8</text>
+<line x1="666" y1="630.0" x2="1146" y2="630.0" stroke="#e5e7eb"/>
+<text x="658" y="634.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.6</text>
+<line x1="666" y1="680.0" x2="1146" y2="680.0" stroke="#e5e7eb"/>
+<text x="658" y="684.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.4</text>
+<line x1="666" y1="730.0" x2="1146" y2="730.0" stroke="#e5e7eb"/>
+<text x="658" y="734.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.2</text>
+<line x1="666" y1="780.0" x2="1146" y2="780.0" stroke="#e5e7eb"/>
+<text x="658" y="784.0" text-anchor="end" font-size="10" font-family="Segoe UI, Arial" fill="#486581">0.0</text>
+<rect x="688.0" y="658.1" width="22" height="121.89999999999999" rx="3" fill="#d1495b"/>
+<rect x="718.0" y="580.35" width="22" height="199.65" rx="3" fill="#2d6a4f"/>
+<text x="699.0" y="653.1" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.488</text>
+<text x="729.0" y="575.35" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.799</text>
+<text x="714.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation</text>
+<rect x="784.0" y="658.25" width="22" height="121.75" rx="3" fill="#d1495b"/>
+<rect x="814.0" y="580.8" width="22" height="199.2" rx="3" fill="#2d6a4f"/>
+<text x="795.0" y="653.25" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.487</text>
+<text x="825.0" y="575.8" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.797</text>
+<text x="810.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance</text>
+<rect x="880.0" y="661.05" width="22" height="118.95" rx="3" fill="#d1495b"/>
+<rect x="910.0" y="587.775" width="22" height="192.225" rx="3" fill="#2d6a4f"/>
+<text x="891.0" y="656.05" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.476</text>
+<text x="921.0" y="582.775" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.769</text>
+<text x="906.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance+BA</text>
+<rect x="976.0" y="663.975" width="22" height="116.025" rx="3" fill="#d1495b"/>
+<rect x="1006.0" y="594.6" width="22" height="185.4" rx="3" fill="#2d6a4f"/>
+<text x="987.0" y="658.975" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.464</text>
+<text x="1017.0" y="589.6" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.742</text>
+<text x="1002.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance+BA+PrevType</text>
+<rect x="1072.0" y="669.55" width="22" height="110.45" rx="3" fill="#d1495b"/>
+<rect x="1102.0" y="606.375" width="22" height="173.625" rx="3" fill="#2d6a4f"/>
+<text x="1083.0" y="664.55" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#7f1d1d">0.442</text>
+<text x="1113.0" y="601.375" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#14532d">0.695</text>
+<text x="1098.0" y="798" text-anchor="middle" font-size="9" font-family="Segoe UI, Arial" fill="#102a43">Situation+Stance+BA+PrevType+PrevZone</text>
+</svg>
