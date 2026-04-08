@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1050">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="24" y="38" font-size="28" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">White 6-Inning Long Sequence Scenario</text>
+<text x="24" y="64" font-size="13" font-family="Segoe UI, Arial" fill="#486581">Assumes White works through 6 innings. Built from White 2025 count flow, pitch-to-pitch transitions, lineup turn, and catcher tendency.</text>
+<text x="24" y="86" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Each inning card is a scenario board, not a deterministic forecast.</text>
+<rect x="24" y="120" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="148" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">1회</text>
+<text x="42" y="170" font-size="12" font-family="Segoe UI, Arial" fill="#486581">주자상황 가정: 무사 주자 없음</text>
+<text x="42" y="200" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">오재원: 초구 낮은 직구 -> 2구 낮은 커브 -> 중견수 뜬공</text>
+<text x="42" y="222" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">페라자: 초구 바깥 직구 -> 2구 바깥 낮은 커브 -> 헛스윙 삼진</text>
+<text x="42" y="244" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">문현빈: 초구 높은 직구 -> 2구 바깥 높은 커브 -> 좌익수 뜬공</text>
+<rect x="560" y="120" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="578" y="148" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">2회</text>
+<text x="578" y="170" font-size="12" font-family="Segoe UI, Arial" fill="#486581">주자상황 가정: 1사 1루</text>
+<text x="578" y="200" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">노시환: 초구 바깥 높은 커터 -> 2구 슬라이더 -> 루킹 삼진</text>
+<text x="578" y="222" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">강백호: 초구 바깥 직구 -> 2구 바깥 커브 -> 볼넷</text>
+<text x="578" y="244" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">채은성: 초구 바깥 커터 -> 2구 바깥 낮은 투심 -> 우익수 뜬공</text>
+<rect x="24" y="290" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="318" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">3회</text>
+<text x="42" y="340" font-size="12" font-family="Segoe UI, Arial" fill="#486581">주자상황 가정: 2사 1,2루</text>
+<text x="42" y="370" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">하주석: 초구 바깥 직구 -> 2구 바깥 낮은 커브 -> 내야 뜬공</text>
+<text x="42" y="392" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">최재훈: 초구 바깥 높은 직구 -> 2구 바깥 커터 -> 3루수 땅볼</text>
+<text x="42" y="414" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">심우준: 초구 가운데 높은 직구 -> 2구 바깥 슬라이더 -> 헛스윙 삼진</text>
+<rect x="560" y="290" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="578" y="318" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">4회</text>
+<text x="578" y="340" font-size="12" font-family="Segoe UI, Arial" fill="#486581">주자상황 가정: 무사 주자 없음, 2번째 타순 시작</text>
+<text x="578" y="370" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">오재원: 초구 직구 비중 유지 -> 2구 커브 전환 -> 유격수 땅볼</text>
+<text x="578" y="392" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">페라자: 초구 바깥 커터 -> 2구 바깥 낮은 커브 -> 삼진</text>
+<text x="578" y="414" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">문현빈: 초구 높은 직구 -> 2구 바깥 변화구 -> 우익수 뜬공</text>
+<rect x="24" y="460" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="488" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">5회</text>
+<text x="42" y="510" font-size="12" font-family="Segoe UI, Arial" fill="#486581">주자상황 가정: 1사 2루</text>
+<text x="42" y="540" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">노시환: 초구 커터 -> 2구 슬라이더 -> 볼카운트 불리하게 유도</text>
+<text x="42" y="562" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">강백호: 초구 바깥 직구 -> 2구 변화구 -> 볼넷 또는 우전 안타</text>
+<text x="42" y="584" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">채은성: 초구 직구보다 커터/투심 비중 상승 -> 우익수 뜬공</text>
+<rect x="560" y="460" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="578" y="488" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">6회</text>
+<text x="578" y="510" font-size="12" font-family="Segoe UI, Arial" fill="#486581">주자상황 가정: 2사 1루, 화이트 80구 안팎</text>
+<text x="578" y="540" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">하주석: 초구 직구로 스트라이크 선점 -> 2구 낮은 커브</text>
+<text x="578" y="562" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">최재훈: 초구 높은 직구 -> 2구 커터 -> 3루수 땅볼</text>
+<text x="578" y="584" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">심우준: 초구 직구 -> 2구 슬라이더, 화이트는 타이밍 차 유도</text>
+<rect x="24" y="960" width="1050" height="58" rx="12" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="993" font-size="13" font-family="Segoe UI, Arial" fill="#102a43">핵심 가정: 초반에는 좌타 상대로 직구-커브 축, 중후반 우타 2번째 타순부터는 커터/투심/슬라이더 전환 비중이 높아진다고 보았습니다.</text>
+</svg>

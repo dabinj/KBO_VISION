@@ -290,4 +290,12 @@ python scripts\run_pitch_baseline_experiments.py `
 
 내일의 결과 예측!!!!
 
+기준: 화이트의 `2025` 실제 투구 패턴, 좌우타 차이, 카운트 흐름, 포수 경향
+
 ![Hanwha Tomorrow Fun Board](examples/hanwha_tomorrow_fun_board.svg)
+
+화이트가 6회까지 던진다는 가정의 장기 시퀀스 예측!!!!
+
+기준: 화이트의 `2025` 이닝 흐름과 타순 순환 패턴 기반 시나리오
+
+![White 6-Inning Long Sequence Scenario](examples/hanwha_white_6inning_sequence_board.svg)
