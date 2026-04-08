@@ -18,6 +18,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "Referer": "https://m.sports.naver.com/",
 }
+SESSION = requests.Session()
+SESSION.trust_env = False
 DEFENSIVE_POSITIONS = {
     "투수",
     "포수",
@@ -33,8 +35,9 @@ DEFENSIVE_POSITIONS = {
 
 def fetch_game(game_id: str) -> dict:
     url = GAME_URL.format(game_id=game_id)
-    response = requests.get(url, headers=HEADERS, timeout=20)
+    response = SESSION.get(url, headers=HEADERS, timeout=20)
     response.raise_for_status()
+    response.encoding = "utf-8"
     return response.json()
 
 
@@ -42,8 +45,9 @@ def fetch_relay(game_id: str, inning: int | None = None) -> dict:
     url = RELAY_URL.format(game_id=game_id)
     if inning is not None:
         url = f"{url}?inning={inning}"
-    response = requests.get(url, headers=HEADERS, timeout=20)
+    response = SESSION.get(url, headers=HEADERS, timeout=20)
     response.raise_for_status()
+    response.encoding = "utf-8"
     return response.json()
 
 

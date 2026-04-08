@@ -15,6 +15,8 @@ HEADERS = {
     "Referer": "https://m.sports.naver.com/",
 }
 DEFAULT_OUTPUT_DIR = Path("data/schedule")
+SESSION = requests.Session()
+SESSION.trust_env = False
 
 
 def parse_date(value: str) -> date:
@@ -36,8 +38,9 @@ def fetch_schedule_for_day(target_date: date) -> list[dict]:
         "toDate": target_date.isoformat(),
         "size": 500,
     }
-    response = requests.get(SCHEDULE_URL, headers=HEADERS, params=params, timeout=20)
+    response = SESSION.get(SCHEDULE_URL, headers=HEADERS, params=params, timeout=20)
     response.raise_for_status()
+    response.encoding = "utf-8"
     payload = response.json()
     return payload["result"]["games"]
 

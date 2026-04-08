@@ -21,29 +21,6 @@ from test_naver_relay import (
 DEFAULT_OUTPUT_ROOT = Path("data/seasons")
 
 
-def filter_team_games(rows: list[dict], team_code: str, round_code: str | None) -> list[dict]:
-    team_code = team_code.upper()
-    filtered = []
-    for row in rows:
-        if round_code and row.get("round_code") != round_code:
-            continue
-        if row.get("home_team_code") == team_code or row.get("away_team_code") == team_code:
-            filtered.append(row)
-    return filtered
-
-
-def dedupe_games_by_id(rows: list[dict]) -> list[dict]:
-    deduped = []
-    seen_game_ids = set()
-    for row in rows:
-        game_id = row.get("game_id")
-        if not game_id or game_id in seen_game_ids:
-            continue
-        seen_game_ids.add(game_id)
-        deduped.append(row)
-    return deduped
-
-
 def write_rows_csv(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
@@ -64,20 +41,39 @@ def load_rows_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(handle))
 
 
-def build_season_pitch_rows(game_row: dict, pitch_rows: list[dict]) -> list[dict]:
+def dedupe_games_by_id(rows: list[dict]) -> list[dict]:
+    deduped = []
+    seen_game_ids = set()
+    for row in rows:
+        game_id = row.get("game_id")
+        if not game_id or game_id in seen_game_ids:
+            continue
+        seen_game_ids.add(game_id)
+        deduped.append(row)
+    return deduped
+
+
+def filter_round_code(rows: list[dict], round_code: str | None) -> list[dict]:
+    if not round_code:
+        return rows
+    return [row for row in rows if row.get("round_code") == round_code]
+
+
+def build_enriched_pitch_rows(game_row: dict, pitch_rows: list[dict]) -> list[dict]:
     enriched = []
     for row in pitch_rows:
-        merged = {
-            "game_id": game_row.get("game_id"),
-            "game_date": game_row.get("game_date"),
-            "game_datetime": game_row.get("game_datetime"),
-            "home_team_code": game_row.get("home_team_code"),
-            "home_team_name": game_row.get("home_team_name"),
-            "away_team_code": game_row.get("away_team_code"),
-            "away_team_name": game_row.get("away_team_name"),
-            **row,
-        }
-        enriched.append(merged)
+        enriched.append(
+            {
+                "game_id": game_row.get("game_id"),
+                "game_date": game_row.get("game_date"),
+                "game_datetime": game_row.get("game_datetime"),
+                "home_team_code": game_row.get("home_team_code"),
+                "home_team_name": game_row.get("home_team_name"),
+                "away_team_code": game_row.get("away_team_code"),
+                "away_team_name": game_row.get("away_team_name"),
+                **row,
+            }
+        )
     return enriched
 
 
@@ -106,9 +102,8 @@ def fetch_game_payloads_with_retry(game_id: str, max_retries: int, retry_delay: 
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Fetch one KBO team's full-season game relays and pitch tables.")
-    parser.add_argument("--season-year", type=int, required=True, help="Season year, e.g. 2025")
-    parser.add_argument("--team-code", required=True, help="Team code, e.g. HH")
+    parser = argparse.ArgumentParser(description="Fetch full-league KBO game relays and pitch tables for a season.")
+    parser.add_argument("--season-year", type=int, required=True, help="Season year, e.g. 2024")
     parser.add_argument("--start-date", help="Optional explicit start date YYYY-MM-DD")
     parser.add_argument("--end-date", help="Optional explicit end date YYYY-MM-DD")
     parser.add_argument(
@@ -133,28 +128,29 @@ def main() -> None:
     args = parser.parse_args()
 
     season_year = args.season_year
-    team_code = args.team_code.upper()
     start_date = parse_date(args.start_date) if args.start_date else parse_date(f"{season_year}-01-01")
     end_date = parse_date(args.end_date) if args.end_date else parse_date(f"{season_year}-12-31")
-    round_code = args.round_code.strip() or None
+    if end_date < start_date:
+        raise SystemExit("end-date must be on or after start-date")
 
-    output_root = Path(args.output_root) / f"{season_year}_{team_code}"
+    round_code = args.round_code.strip() or None
+    output_root = Path(args.output_root) / f"{season_year}_FULL"
     raw_dir = output_root / "raw"
     pitch_dir = output_root / "pitch"
     output_root.mkdir(parents=True, exist_ok=True)
 
     raw_daily, kbo_games = collect_kbo_games(start_date, end_date)
-    team_games = dedupe_games_by_id(filter_team_games(kbo_games, team_code, round_code))
+    games = dedupe_games_by_id(filter_round_code(kbo_games, round_code))
     if args.limit_games is not None:
-        team_games = team_games[: args.limit_games]
+        games = games[: args.limit_games]
 
-    save_json(output_root / f"schedule_{season_year}_{team_code}.json", raw_daily)
-    write_rows_csv(output_root / f"games_{season_year}_{team_code}.csv", team_games)
+    save_json(output_root / f"schedule_{season_year}_FULL.json", raw_daily)
+    write_rows_csv(output_root / f"games_{season_year}_FULL.csv", games)
 
     all_pitch_rows = []
     fetch_log = []
 
-    for index, game_row in enumerate(team_games, start=1):
+    for index, game_row in enumerate(games, start=1):
         game_id = game_row["game_id"]
         raw_path = raw_dir / f"naver_relay_all_innings_{game_id}.json"
         pitch_path = pitch_dir / f"naver_relay_pitches_all_innings_{game_id}.csv"
@@ -174,7 +170,7 @@ def main() -> None:
         try:
             if args.reuse_existing and not args.overwrite_existing and raw_path.exists() and pitch_path.exists():
                 pitch_rows = load_rows_csv(pitch_path)
-                all_pitch_rows.extend(build_season_pitch_rows(game_row, pitch_rows))
+                all_pitch_rows.extend(build_enriched_pitch_rows(game_row, pitch_rows))
                 fetch_log.append(
                     {
                         "game_id": game_id,
@@ -236,7 +232,7 @@ def main() -> None:
             save_json(raw_path, payloads)
             save_csv(pitch_path, pitch_rows)
 
-            all_pitch_rows.extend(build_season_pitch_rows(game_row, pitch_rows))
+            all_pitch_rows.extend(build_enriched_pitch_rows(game_row, pitch_rows))
             fetch_log.append(
                 {
                     "game_id": game_id,
@@ -281,20 +277,21 @@ def main() -> None:
                 )
             )
 
-    save_json(output_root / f"fetch_log_{season_year}_{team_code}.json", fetch_log)
-    save_csv(output_root / f"pitches_{season_year}_{team_code}.csv", all_pitch_rows)
+    save_json(output_root / f"fetch_log_{season_year}_FULL.json", fetch_log)
+    save_csv(output_root / f"pitches_{season_year}_FULL.csv", all_pitch_rows)
 
     print(f"season_year: {season_year}")
-    print(f"team_code: {team_code}")
+    print(f"start_date: {start_date.isoformat()}")
+    print(f"end_date: {end_date.isoformat()}")
     print(f"round_code: {round_code}")
-    print(f"team_games: {len(team_games)}")
-    print(f"season_pitch_rows: {len(all_pitch_rows)}")
+    print(f"games: {len(games)}")
+    print(f"pitch_rows: {len(all_pitch_rows)}")
     print(f"reuse_existing: {args.reuse_existing and not args.overwrite_existing}")
     print(f"max_retries: {max(args.max_retries, 1)}")
     print(f"output_root: {output_root}")
-    print(f"games_csv: {output_root / f'games_{season_year}_{team_code}.csv'}")
-    print(f"season_pitch_csv: {output_root / f'pitches_{season_year}_{team_code}.csv'}")
-    print(f"fetch_log_json: {output_root / f'fetch_log_{season_year}_{team_code}.json'}")
+    print(f"games_csv: {output_root / f'games_{season_year}_FULL.csv'}")
+    print(f"pitch_csv: {output_root / f'pitches_{season_year}_FULL.csv'}")
+    print(f"fetch_log_json: {output_root / f'fetch_log_{season_year}_FULL.json'}")
 
 
 if __name__ == "__main__":
