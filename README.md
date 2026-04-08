@@ -67,11 +67,14 @@ Powered by Dabin Jeon
 아래는 현재 프로젝트에서 생성 가능한 대표 예시입니다.
 
 - 화이트 baseline 단계별 정확도 차트  
-  [examples/white_baseline_stage_accuracy.svg](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/examples/white_baseline_stage_accuracy.svg)
+  
+  ![White Baseline Stage Accuracy](examples/white_baseline_stage_accuracy.svg)
 - 화이트 좌 / 우타 상대 구종 분포 차트  
-  [examples/white_pitch_mix_by_stance.svg](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/examples/white_pitch_mix_by_stance.svg)
+  
+  ![White Pitch Mix By Stance](examples/white_pitch_mix_by_stance.svg)
 - 화이트 / 조형우 / 이지영 baseline 비교 차트  
-  [examples/pitch_baseline_comparison_2025.svg](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/examples/pitch_baseline_comparison_2025.svg)
+  
+  ![Pitch Baseline Comparison 2025](examples/pitch_baseline_comparison_2025.svg)
 
 이러한 결과물은 단순한 시각 자료가 아니라, 실제로 아래와 같은 질문에 답하기 위한 분석 도구입니다.
 
