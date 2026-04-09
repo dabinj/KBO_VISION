@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+<rect width="100%" height="100%" fill="#f5f1e8"/>
+<rect x="28" y="28" width="1544" height="984" rx="30" fill="#fcfaf5" stroke="#d4c7ad" stroke-width="2"/>
+<text x="70" y="92" font-size="36" font-weight="700" fill="#2d2418">KIA 포수별 초구 구종 분포 비교</text>
+<text x="70" y="128" font-size="19" fill="#665844">2025 KIA 전체와 2025 네일 조합만 따로 분리해, 김태군과 한준수의 초구 배합을 비교했습니다.</text>
+<rect x="70" y="160" width="700" height="360" rx="24" fill="#fffdf9" stroke="#d8ccb5" stroke-width="2"/>
+<text x="94" y="202" font-size="28" font-weight="700" fill="#2d2418">KIA 전체 + 김태군</text>
+<text x="94" y="232" font-size="17" fill="#6a5a45">초구 표본 2840개</text>
+<text x="94" y="278" font-size="17" fill="#3d3428">직구</text>
+<rect x="214" y="260" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="260" width="450.0" height="24" rx="10" fill="#d94f45"/>
+<text x="686" y="278" font-size="16" fill="#3d3428">33.5% (950)</text>
+<text x="94" y="314" font-size="17" fill="#3d3428">슬라이더</text>
+<rect x="214" y="296" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="296" width="234.5" height="24" rx="10" fill="#2f6fd6"/>
+<text x="686" y="314" font-size="16" fill="#3d3428">17.4% (495)</text>
+<text x="94" y="350" font-size="17" fill="#3d3428">체인지업</text>
+<rect x="214" y="332" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="332" width="192.8" height="24" rx="10" fill="#2d9c6c"/>
+<text x="686" y="350" font-size="16" fill="#3d3428">14.3% (407)</text>
+<text x="94" y="386" font-size="17" fill="#3d3428">투심</text>
+<rect x="214" y="368" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="368" width="177.2" height="24" rx="10" fill="#d98b2b"/>
+<text x="686" y="386" font-size="16" fill="#3d3428">13.2% (374)</text>
+<text x="94" y="422" font-size="17" fill="#3d3428">커브</text>
+<rect x="214" y="404" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="404" width="128.4" height="24" rx="10" fill="#8c6239"/>
+<text x="686" y="422" font-size="16" fill="#3d3428">9.5% (271)</text>
+<text x="94" y="458" font-size="17" fill="#3d3428">포크</text>
+<rect x="214" y="440" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="440" width="70.6" height="24" rx="10" fill="#c95ca6"/>
+<text x="686" y="458" font-size="16" fill="#3d3428">5.2% (149)</text>
+<text x="94" y="494" font-size="17" fill="#3d3428">커터</text>
+<rect x="214" y="476" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="476" width="70.6" height="24" rx="10" fill="#7b61c7"/>
+<text x="686" y="494" font-size="16" fill="#3d3428">5.2% (149)</text>
+<text x="94" y="530" font-size="17" fill="#3d3428">스위퍼</text>
+<rect x="214" y="512" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="512" width="21.3" height="24" rx="10" fill="#1ea7b6"/>
+<text x="686" y="530" font-size="16" fill="#3d3428">1.6% (45)</text>
+<rect x="830" y="160" width="700" height="360" rx="24" fill="#fffdf9" stroke="#d8ccb5" stroke-width="2"/>
+<text x="854" y="202" font-size="28" font-weight="700" fill="#2d2418">KIA 전체 + 한준수</text>
+<text x="854" y="232" font-size="17" fill="#6a5a45">초구 표본 2325개</text>
+<text x="854" y="278" font-size="17" fill="#3d3428">직구</text>
+<rect x="974" y="260" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="260" width="450.0" height="24" rx="10" fill="#d94f45"/>
+<text x="1446" y="278" font-size="16" fill="#3d3428">47.8% (1112)</text>
+<text x="854" y="314" font-size="17" fill="#3d3428">슬라이더</text>
+<rect x="974" y="296" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="296" width="187.4" height="24" rx="10" fill="#2f6fd6"/>
+<text x="1446" y="314" font-size="16" fill="#3d3428">19.9% (463)</text>
+<text x="854" y="350" font-size="17" fill="#3d3428">커브</text>
+<rect x="974" y="332" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="332" width="91.9" height="24" rx="10" fill="#8c6239"/>
+<text x="1446" y="350" font-size="16" fill="#3d3428">9.8% (227)</text>
+<text x="854" y="386" font-size="17" fill="#3d3428">체인지업</text>
+<rect x="974" y="368" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="368" width="85.0" height="24" rx="10" fill="#2d9c6c"/>
+<text x="1446" y="386" font-size="16" fill="#3d3428">9.0% (210)</text>
+<text x="854" y="422" font-size="17" fill="#3d3428">투심</text>
+<rect x="974" y="404" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="404" width="71.6" height="24" rx="10" fill="#d98b2b"/>
+<text x="1446" y="422" font-size="16" fill="#3d3428">7.6% (177)</text>
+<text x="854" y="458" font-size="17" fill="#3d3428">커터</text>
+<rect x="974" y="440" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="440" width="26.3" height="24" rx="10" fill="#7b61c7"/>
+<text x="1446" y="458" font-size="16" fill="#3d3428">2.8% (65)</text>
+<text x="854" y="494" font-size="17" fill="#3d3428">포크</text>
+<rect x="974" y="476" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="476" width="16.6" height="24" rx="10" fill="#c95ca6"/>
+<text x="1446" y="494" font-size="16" fill="#3d3428">1.8% (41)</text>
+<text x="854" y="530" font-size="17" fill="#3d3428">스위퍼</text>
+<rect x="974" y="512" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="512" width="12.1" height="24" rx="10" fill="#1ea7b6"/>
+<text x="1446" y="530" font-size="16" fill="#3d3428">1.3% (30)</text>
+<rect x="70" y="560" width="700" height="360" rx="24" fill="#fffdf9" stroke="#d8ccb5" stroke-width="2"/>
+<text x="94" y="602" font-size="28" font-weight="700" fill="#2d2418">네일 + 김태군</text>
+<text x="94" y="632" font-size="17" fill="#6a5a45">초구 표본 603개</text>
+<text x="94" y="678" font-size="17" fill="#3d3428">투심</text>
+<rect x="214" y="660" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="660" width="450.0" height="24" rx="10" fill="#d98b2b"/>
+<text x="686" y="678" font-size="16" fill="#3d3428">35.8% (216)</text>
+<text x="94" y="714" font-size="17" fill="#3d3428">체인지업</text>
+<rect x="214" y="696" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="696" width="312.5" height="24" rx="10" fill="#2d9c6c"/>
+<text x="686" y="714" font-size="16" fill="#3d3428">24.9% (150)</text>
+<text x="94" y="750" font-size="17" fill="#3d3428">슬라이더</text>
+<rect x="214" y="732" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="732" width="185.4" height="24" rx="10" fill="#2f6fd6"/>
+<text x="686" y="750" font-size="16" fill="#3d3428">14.8% (89)</text>
+<text x="94" y="786" font-size="17" fill="#3d3428">커터</text>
+<rect x="214" y="768" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="768" width="135.4" height="24" rx="10" fill="#7b61c7"/>
+<text x="686" y="786" font-size="16" fill="#3d3428">10.8% (65)</text>
+<text x="94" y="822" font-size="17" fill="#3d3428">직구</text>
+<rect x="214" y="804" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="804" width="87.5" height="24" rx="10" fill="#d94f45"/>
+<text x="686" y="822" font-size="16" fill="#3d3428">7.0% (42)</text>
+<text x="94" y="858" font-size="17" fill="#3d3428">스위퍼</text>
+<rect x="214" y="840" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="840" width="79.2" height="24" rx="10" fill="#1ea7b6"/>
+<text x="686" y="858" font-size="16" fill="#3d3428">6.3% (38)</text>
+<text x="94" y="894" font-size="17" fill="#3d3428">커브</text>
+<rect x="214" y="876" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="214" y="876" width="6.3" height="24" rx="10" fill="#8c6239"/>
+<text x="686" y="894" font-size="16" fill="#3d3428">0.5% (3)</text>
+<rect x="830" y="560" width="700" height="360" rx="24" fill="#fffdf9" stroke="#d8ccb5" stroke-width="2"/>
+<text x="854" y="602" font-size="28" font-weight="700" fill="#2d2418">네일 + 한준수</text>
+<text x="854" y="632" font-size="17" fill="#6a5a45">초구 표본 60개</text>
+<text x="854" y="678" font-size="17" fill="#3d3428">투심</text>
+<rect x="974" y="660" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="660" width="450.0" height="24" rx="10" fill="#d98b2b"/>
+<text x="1446" y="678" font-size="16" fill="#3d3428">55.0% (33)</text>
+<text x="854" y="714" font-size="17" fill="#3d3428">스위퍼</text>
+<rect x="974" y="696" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="696" width="136.4" height="24" rx="10" fill="#1ea7b6"/>
+<text x="1446" y="714" font-size="16" fill="#3d3428">16.7% (10)</text>
+<text x="854" y="750" font-size="17" fill="#3d3428">체인지업</text>
+<rect x="974" y="732" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="732" width="109.1" height="24" rx="10" fill="#2d9c6c"/>
+<text x="1446" y="750" font-size="16" fill="#3d3428">13.3% (8)</text>
+<text x="854" y="786" font-size="17" fill="#3d3428">커터</text>
+<rect x="974" y="768" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="768" width="81.8" height="24" rx="10" fill="#7b61c7"/>
+<text x="1446" y="786" font-size="16" fill="#3d3428">10.0% (6)</text>
+<text x="854" y="822" font-size="17" fill="#3d3428">슬라이더</text>
+<rect x="974" y="804" width="460" height="24" rx="10" fill="#efe7d7"/>
+<rect x="974" y="804" width="40.9" height="24" rx="10" fill="#2f6fd6"/>
+<text x="1446" y="822" font-size="16" fill="#3d3428">5.0% (3)</text>
+</svg>

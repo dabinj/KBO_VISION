@@ -208,14 +208,12 @@ def simulate_innings() -> list[dict]:
             if runs:
                 line += f" (+{runs}점)"
             lines.append(line)
-            if len(lines) >= 5 and outs < 3:
-                # Keep the card readable while preserving inning progression.
-                continue
         innings.append(
             {
                 "inning": f"{inning_no}회",
                 "state": f"종료 점수 가정: 한화 {score}점, 이닝 종료 상태 {runner_state(bases)} / {outs}아웃",
-                "flow": [line for line in lines if "|" in line][:5],
+                "faced_batters": len(lines),
+                "flow": lines,
             }
         )
     return innings
@@ -223,18 +221,19 @@ def simulate_innings() -> list[dict]:
 
 def inning_card(parts: list[str], x: int, y: int, inning: dict) -> None:
     w = 520
-    h = 170
+    h = 92 + len(inning["flow"]) * 20
     parts.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="#ffffff" stroke="#d9e2ec"/>')
     parts.append(f'<text x="{x+18}" y="{y+28}" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">{inning["inning"]}</text>')
     parts.append(f'<text x="{x+18}" y="{y+50}" font-size="12" font-family="Segoe UI, Arial" fill="#486581">{inning["state"]}</text>')
+    parts.append(f'<text x="{x+18}" y="{y+68}" font-size="11" font-family="Segoe UI, Arial" fill="#486581">상대한 타자 수: {inning["faced_batters"]}</text>')
     for idx, line in enumerate(inning["flow"]):
-        parts.append(f'<text x="{x+18}" y="{y+78 + idx*20}" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">{line}</text>')
+        parts.append(f'<text x="{x+18}" y="{y+92 + idx*20}" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">{line}</text>')
 
 
 def main() -> None:
     innings = simulate_innings()
     width = 1100
-    height = 1120
+    height = 1500
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">',
         '<rect width="100%" height="100%" fill="#f8fafc"/>',
@@ -243,15 +242,22 @@ def main() -> None:
         '<text x="24" y="86" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Runner state updates follow each predicted PA result, so later innings depend on earlier outcomes.</text>',
     ]
 
+    left_y = 120
+    right_y = 120
     for idx, inning in enumerate(innings):
-        row = idx // 2
         col = idx % 2
-        x = 24 + col * 536
-        y = 120 + row * 188
+        x = 24 if col == 0 else 560
+        y = left_y if col == 0 else right_y
         inning_card(parts, x, y, inning)
+        used_h = 92 + len(inning["flow"]) * 20
+        if col == 0:
+            left_y += used_h + 18
+        else:
+            right_y += used_h + 18
 
-    parts.append('<rect x="24" y="1060" width="1050" height="36" rx="12" fill="#ffffff" stroke="#d9e2ec"/>')
-    parts.append('<text x="42" y="1084" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">표기 형식: 시작 주자상황 000/100/010/001 | 타자 : 초구, 2구, 예상 타석 결과</text>')
+    footer_y = max(left_y, right_y) + 12
+    parts.append(f'<rect x="24" y="{footer_y}" width="1050" height="36" rx="12" fill="#ffffff" stroke="#d9e2ec"/>')
+    parts.append(f'<text x="42" y="{footer_y + 24}" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">표기 형식: 시작 주자상황 000/100/010/001 | 타자 : 초구, 2구, 예상 타석 결과</text>')
     parts.append('</svg>')
 
     Path("examples/hanwha_white_6inning_sequence_board.svg").write_text("\n".join(parts), encoding="utf-8")

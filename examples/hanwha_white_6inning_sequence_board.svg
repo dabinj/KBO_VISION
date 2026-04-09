@@ -1,48 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1120">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1500">
 <rect width="100%" height="100%" fill="#f8fafc"/>
 <text x="24" y="38" font-size="28" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">White 6-Inning Sequence Simulation</text>
 <text x="24" y="64" font-size="13" font-family="Segoe UI, Arial" fill="#486581">Model-based inning flow using White 2025 first-pitch patterns, next-pitch transitions, and PA outcome modes by stance and times-through-order.</text>
 <text x="24" y="86" font-size="12" font-family="Segoe UI, Arial" fill="#486581">Runner state updates follow each predicted PA result, so later innings depend on earlier outcomes.</text>
-<rect x="24" y="120" width="520" height="170" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<rect x="24" y="120" width="520" height="172" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
 <text x="42" y="148" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">1회</text>
 <text x="42" y="170" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 100 / 3아웃</text>
-<text x="42" y="198" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 오재원: 초구 커브 OUT, 2구 커터 MIDDLE_RIGHT, 결과 안타</text>
-<text x="42" y="218" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 페라자: 초구 직구 OUT, 2구 직구 HIGH_LEFT, 결과 아웃</text>
-<text x="42" y="238" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 문현빈: 초구 투심 OUT, 2구 커터 OUT, 결과 땅볼 아웃</text>
-<text x="42" y="258" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 노시환: 초구 직구 MIDDLE_MIDDLE, 2구 직구 OUT, 결과 뜬공 아웃</text>
-<rect x="560" y="120" width="520" height="170" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="188" font-size="11" font-family="Segoe UI, Arial" fill="#486581">상대한 타자 수: 4</text>
+<text x="42" y="212" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 오재원: 초구 커브 OUT, 2구 커터 MIDDLE_RIGHT, 결과 안타</text>
+<text x="42" y="232" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 페라자: 초구 직구 OUT, 2구 직구 HIGH_LEFT, 결과 아웃</text>
+<text x="42" y="252" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 문현빈: 초구 투심 OUT, 2구 커터 OUT, 결과 땅볼 아웃</text>
+<text x="42" y="272" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 노시환: 초구 직구 MIDDLE_MIDDLE, 2구 직구 OUT, 결과 뜬공 아웃</text>
+<rect x="560" y="120" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
 <text x="578" y="148" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">2회</text>
 <text x="578" y="170" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 000 / 3아웃</text>
-<text x="578" y="198" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 강백호: 초구 직구 LOW_MIDDLE, 2구 직구 OUT, 결과 땅볼 아웃</text>
-<text x="578" y="218" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 채은성: 초구 직구 MIDDLE_LEFT, 2구 직구 OUT, 결과 뜬공 아웃</text>
-<text x="578" y="238" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 하주석: 초구 직구 HIGH_MIDDLE, 2구 커터 MIDDLE_RIGHT, 결과 뜬공 아웃</text>
-<rect x="24" y="308" width="520" height="170" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="42" y="336" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">3회</text>
-<text x="42" y="358" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 111 / 3아웃</text>
-<text x="42" y="386" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 최재훈: 초구 직구 HIGH_RIGHT, 2구 커터 OUT, 결과 삼진</text>
-<text x="42" y="406" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 심우준: 초구 커터 MIDDLE_LEFT, 2구 직구 OUT, 결과 삼진</text>
-<text x="42" y="426" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 오재원: 초구 커터 OUT, 2구 커브 HIGH_MIDDLE, 결과 안타</text>
-<text x="42" y="446" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 페라자: 초구 직구 HIGH_MIDDLE, 2구 직구 HIGH_LEFT, 결과 안타</text>
-<text x="42" y="466" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">110 | 문현빈: 초구 커터 HIGH_MIDDLE, 2구 직구 OUT, 결과 안타</text>
-<rect x="560" y="308" width="520" height="170" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="578" y="336" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">4회</text>
-<text x="578" y="358" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 000 / 3아웃</text>
-<text x="578" y="386" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 강백호: 초구 커브 OUT, 2구 투심 OUT, 결과 땅볼 아웃</text>
-<text x="578" y="406" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 채은성: 초구 직구 OUT, 2구 커터 OUT, 결과 삼진</text>
-<text x="578" y="426" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 하주석: 초구 직구 OUT, 2구 직구 OUT, 결과 땅볼 아웃</text>
-<rect x="24" y="496" width="520" height="170" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="42" y="524" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">5회</text>
-<text x="42" y="546" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 100 / 3아웃</text>
-<text x="42" y="574" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 최재훈: 초구 커브 OUT, 2구 커터 OUT, 결과 볼넷</text>
-<text x="42" y="594" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 심우준: 초구 직구 OUT, 2구 커터 OUT, 결과 뜬공 아웃</text>
-<text x="42" y="614" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 오재원: 초구 커브 OUT, 2구 커터 OUT, 결과 땅볼 아웃</text>
-<text x="42" y="634" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 페라자: 초구 직구 MIDDLE_MIDDLE, 2구 직구 OUT, 결과 아웃</text>
-<rect x="560" y="496" width="520" height="170" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="578" y="524" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">6회</text>
-<text x="578" y="546" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 000 / 3아웃</text>
-<text x="578" y="574" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 문현빈: 초구 커터 LOW_LEFT, 2구 투심 OUT, 결과 뜬공 아웃</text>
-<text x="578" y="594" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 노시환: 초구 커터 MIDDLE_RIGHT, 2구 커터 MIDDLE_RIGHT, 결과 삼진</text>
-<text x="578" y="614" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 강백호: 초구 직구 OUT, 2구 직구 OUT, 결과 삼진</text>
-<rect x="24" y="1060" width="1050" height="36" rx="12" fill="#ffffff" stroke="#d9e2ec"/>
-<text x="42" y="1084" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">표기 형식: 시작 주자상황 000/100/010/001 | 타자 : 초구, 2구, 예상 타석 결과</text>
+<text x="578" y="188" font-size="11" font-family="Segoe UI, Arial" fill="#486581">상대한 타자 수: 3</text>
+<text x="578" y="212" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 강백호: 초구 직구 LOW_MIDDLE, 2구 직구 OUT, 결과 땅볼 아웃</text>
+<text x="578" y="232" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 채은성: 초구 직구 MIDDLE_LEFT, 2구 직구 OUT, 결과 뜬공 아웃</text>
+<text x="578" y="252" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 하주석: 초구 직구 HIGH_MIDDLE, 2구 커터 MIDDLE_RIGHT, 결과 뜬공 아웃</text>
+<rect x="24" y="310" width="520" height="212" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="338" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">3회</text>
+<text x="42" y="360" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 111 / 3아웃</text>
+<text x="42" y="378" font-size="11" font-family="Segoe UI, Arial" fill="#486581">상대한 타자 수: 6</text>
+<text x="42" y="402" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 최재훈: 초구 직구 HIGH_RIGHT, 2구 커터 OUT, 결과 삼진</text>
+<text x="42" y="422" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 심우준: 초구 커터 MIDDLE_LEFT, 2구 직구 OUT, 결과 삼진</text>
+<text x="42" y="442" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 오재원: 초구 커터 OUT, 2구 커브 HIGH_MIDDLE, 결과 안타</text>
+<text x="42" y="462" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 페라자: 초구 직구 HIGH_MIDDLE, 2구 직구 HIGH_LEFT, 결과 안타</text>
+<text x="42" y="482" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">110 | 문현빈: 초구 커터 HIGH_MIDDLE, 2구 직구 OUT, 결과 안타</text>
+<text x="42" y="502" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">111 | 노시환: 초구 커브 MIDDLE_RIGHT, 2구 커브 OUT, 결과 뜬공 아웃</text>
+<rect x="560" y="290" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="578" y="318" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">4회</text>
+<text x="578" y="340" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 000 / 3아웃</text>
+<text x="578" y="358" font-size="11" font-family="Segoe UI, Arial" fill="#486581">상대한 타자 수: 3</text>
+<text x="578" y="382" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 강백호: 초구 커브 OUT, 2구 투심 OUT, 결과 땅볼 아웃</text>
+<text x="578" y="402" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 채은성: 초구 직구 OUT, 2구 커터 OUT, 결과 삼진</text>
+<text x="578" y="422" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 하주석: 초구 직구 OUT, 2구 직구 OUT, 결과 땅볼 아웃</text>
+<rect x="24" y="540" width="520" height="172" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="568" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">5회</text>
+<text x="42" y="590" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 100 / 3아웃</text>
+<text x="42" y="608" font-size="11" font-family="Segoe UI, Arial" fill="#486581">상대한 타자 수: 4</text>
+<text x="42" y="632" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 최재훈: 초구 커브 OUT, 2구 커터 OUT, 결과 볼넷</text>
+<text x="42" y="652" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 심우준: 초구 직구 OUT, 2구 커터 OUT, 결과 뜬공 아웃</text>
+<text x="42" y="672" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 오재원: 초구 커브 OUT, 2구 커터 OUT, 결과 땅볼 아웃</text>
+<text x="42" y="692" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">100 | 페라자: 초구 직구 MIDDLE_MIDDLE, 2구 직구 OUT, 결과 아웃</text>
+<rect x="560" y="460" width="520" height="152" rx="14" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="578" y="488" font-size="20" font-family="Segoe UI, Arial" font-weight="700" fill="#102a43">6회</text>
+<text x="578" y="510" font-size="12" font-family="Segoe UI, Arial" fill="#486581">종료 점수 가정: 한화 0점, 이닝 종료 상태 000 / 3아웃</text>
+<text x="578" y="528" font-size="11" font-family="Segoe UI, Arial" fill="#486581">상대한 타자 수: 3</text>
+<text x="578" y="552" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 문현빈: 초구 커터 LOW_LEFT, 2구 투심 OUT, 결과 뜬공 아웃</text>
+<text x="578" y="572" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 노시환: 초구 커터 MIDDLE_RIGHT, 2구 커터 MIDDLE_RIGHT, 결과 삼진</text>
+<text x="578" y="592" font-size="11" font-family="Segoe UI, Arial" fill="#102a43">000 | 강백호: 초구 직구 OUT, 2구 직구 OUT, 결과 삼진</text>
+<rect x="24" y="742" width="1050" height="36" rx="12" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="42" y="766" font-size="12" font-family="Segoe UI, Arial" fill="#102a43">표기 형식: 시작 주자상황 000/100/010/001 | 타자 : 초구, 2구, 예상 타석 결과</text>
 </svg>

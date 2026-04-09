@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860">
+<rect width="100%" height="100%" fill="#f5f1e8"/>
+<rect x="30" y="30" width="1220" height="800" rx="30" fill="#fcfaf5" stroke="#d4c7ad" stroke-width="2"/>
+<text x="70" y="92" font-size="38" font-weight="700" fill="#2d2418">네일 초구 예측 성능 요약</text>
+<text x="70" y="128" font-size="20" fill="#665844">피처를 거의 모두 넣은 상태에서, 초구 구종과 초구 위치가 얼마나 맞는지를 비교한 결과입니다.</text>
+<rect x="70" y="170" width="540" height="280" rx="28" fill="#fff9f0" stroke="#d8ccb5" stroke-width="2"/>
+<rect x="670" y="170" width="540" height="280" rx="28" fill="#f5fbff" stroke="#c7d8e8" stroke-width="2"/>
+<text x="100" y="222" font-size="30" font-weight="700" fill="#2d2418">초구 구종 예측</text>
+<text x="700" y="222" font-size="30" font-weight="700" fill="#2d2418">초구 위치 예측</text>
+<text x="100" y="300" font-size="72" font-weight="700" fill="#b5542f">26.3%</text>
+<text x="700" y="300" font-size="72" font-weight="700" fill="#2f6fd6">45.9%</text>
+<text x="100" y="334" font-size="22" fill="#6a5a45">Top-1 accuracy</text>
+<text x="700" y="334" font-size="22" fill="#6a5a45">Top-1 accuracy</text>
+<text x="100" y="384" font-size="22" fill="#6a5a45">Top-3: 63.9%</text>
+<text x="700" y="384" font-size="22" fill="#6a5a45">Top-3: 61.7%</text>
+<text x="100" y="415" font-size="18" fill="#7a6d57">7개 구종 중 하나를 정확히 맞힌 비율</text>
+<text x="700" y="415" font-size="18" fill="#7a6d57">9분할+OUT 위치를 정확히 맞힌 비율</text>
+<g transform="translate(100,470)">
+<text x="0" y="0" font-size="24" font-weight="700" fill="#2d2418">Top-1 비교</text>
+<g transform="translate(0,30)"><rect x="0" y="0" width="420" height="26" rx="13" fill="#eadfcd"/><rect x="0" y="0" width="110.5" height="26" rx="13" fill="#c96a3c"/></g>
+<text x="440" y="50" font-size="22" font-weight="700" fill="#2d2418">26.3%</text>
+<g transform="translate(0,90)"><rect x="0" y="0" width="420" height="26" rx="13" fill="#eadfcd"/><rect x="0" y="0" width="192.8" height="26" rx="13" fill="#2f6fd6"/></g>
+<text x="440" y="110" font-size="22" font-weight="700" fill="#2d2418">45.9%</text>
+<text x="0" y="50" font-size="18" fill="#6a5a45">구종</text>
+<text x="0" y="110" font-size="18" fill="#6a5a45">위치</text>
+</g>
+<text x="70" y="670" font-size="28" font-weight="700" fill="#2d2418">무슨 뜻인가?</text>
+<text x="70" y="710" font-size="20" fill="#665844">1. 현재 모델은 구종보다 위치를 더 잘 맞힙니다.</text>
+<text x="70" y="742" font-size="20" fill="#665844">2. 즉 네일의 초구는 “무슨 공인가”보다 “어디로 가는가”가 더 규칙적입니다.</text>
+<text x="70" y="774" font-size="20" fill="#665844">3. 실전 대응에서는 초구 구종 단일 맞히기보다, 위치 방향을 먼저 읽는 쪽이 더 유리합니다.</text>
+<text x="760" y="520" font-size="26" font-weight="700" fill="#2d2418">주요 영향 피처</text>
+<text x="760" y="556" font-size="18" fill="#6a5a45">구종 모델 상위</text>
+<text x="780" y="586" font-size="18" fill="#2d2418">- opponent_team_code</text>
+<text x="780" y="614" font-size="18" fill="#2d2418">- batter_stance</text>
+<text x="780" y="642" font-size="18" fill="#2d2418">- runner_state</text>
+<text x="780" y="670" font-size="18" fill="#2d2418">- catcher_name</text>
+<text x="780" y="698" font-size="18" fill="#2d2418">- weak_zone_2024</text>
+<text x="780" y="726" font-size="18" fill="#2d2418">- outs</text>
+<text x="760" y="764" font-size="18" fill="#6a5a45">위치 모델 상위</text>
+<text x="780" y="794" font-size="18" fill="#2d2418">- catcher_name</text>
+<text x="780" y="822" font-size="18" fill="#2d2418">- weak_zone_2024</text>
+<text x="780" y="850" font-size="18" fill="#2d2418">- weak_pitch_family_2024</text>
+<text x="780" y="878" font-size="18" fill="#2d2418">- opponent_team_code</text>
+<text x="780" y="906" font-size="18" fill="#2d2418">- batter_first_pitch_swing_bucket_2025</text>
+<text x="780" y="934" font-size="18" fill="#2d2418">- batter_first_pitch_called_strike_take_rate_2025</text>
+</svg>

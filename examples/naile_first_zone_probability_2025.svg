@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920">
+<rect width="100%" height="100%" fill="#f5f1e8"/>
+<rect x="30" y="30" width="1140" height="860" rx="28" fill="#fcfaf5" stroke="#d4c7ad" stroke-width="2"/>
+<text x="70" y="92" font-size="36" font-weight="700" fill="#2d2418">네일 2025 초구 위치 확률 지도</text>
+<text x="70" y="128" font-size="19" fill="#6a5a45">2025 전체 초구 기준입니다. 특정 타석 조건을 넣지 않은 전체 분포 prior로 보시면 됩니다.</text>
+<text x="70" y="160" font-size="18" fill="#6a5a45">모델 위치 정확도 Top-1 45.9%는 이 분포 위에서 상황 피처를 넣어 세부 조정한 결과입니다.</text>
+<rect x="118" y="148" width="514" height="514" rx="26" fill="#efe5d3" stroke="#cfbfa1" stroke-width="2"/>
+<rect x="150" y="180" width="450" height="450" rx="18" fill="#fffaf0" stroke="#8c7b5f" stroke-width="2.5"/>
+<rect x="150" y="180" width="150" height="150" fill="rgb(236,134,87)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="166" y="216" font-size="18" font-weight="700" fill="#2d2418">HIGH LEFT</text>
+<text x="166" y="258" font-size="34" font-weight="700" fill="#2d2418">6.0%</text>
+<text x="166" y="286" font-size="18" fill="#6a5a45">40 pitches</text>
+<rect x="300" y="180" width="150" height="150" fill="rgb(239,170,133)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="316" y="216" font-size="18" font-weight="700" fill="#2d2418">HIGH MIDDLE</text>
+<text x="316" y="258" font-size="34" font-weight="700" fill="#2d2418">3.8%</text>
+<text x="316" y="286" font-size="18" fill="#6a5a45">25 pitches</text>
+<rect x="450" y="180" width="150" height="150" fill="rgb(240,178,142)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="466" y="216" font-size="18" font-weight="700" fill="#2d2418">HIGH RIGHT</text>
+<text x="466" y="258" font-size="34" font-weight="700" fill="#2d2418">3.3%</text>
+<text x="466" y="286" font-size="18" fill="#6a5a45">22 pitches</text>
+<rect x="150" y="330" width="150" height="150" fill="rgb(238,148,105)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="166" y="366" font-size="18" font-weight="700" fill="#2d2418">MIDDLE LEFT</text>
+<text x="166" y="408" font-size="34" font-weight="700" fill="#2d2418">5.1%</text>
+<text x="166" y="436" font-size="18" fill="#6a5a45">34 pitches</text>
+<rect x="300" y="330" width="150" height="150" fill="rgb(235,112,60)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="316" y="366" font-size="18" font-weight="700" fill="#2d2418">MIDDLE MIDDLE</text>
+<text x="316" y="408" font-size="34" font-weight="700" fill="#2d2418">7.4%</text>
+<text x="316" y="436" font-size="18" fill="#6a5a45">49 pitches</text>
+<rect x="450" y="330" width="150" height="150" fill="rgb(238,148,105)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="466" y="366" font-size="18" font-weight="700" fill="#2d2418">MIDDLE RIGHT</text>
+<text x="466" y="408" font-size="34" font-weight="700" fill="#2d2418">5.1%</text>
+<text x="466" y="436" font-size="18" fill="#6a5a45">34 pitches</text>
+<rect x="150" y="480" width="150" height="150" fill="rgb(239,165,127)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="166" y="516" font-size="18" font-weight="700" fill="#2d2418">LOW LEFT</text>
+<text x="166" y="558" font-size="34" font-weight="700" fill="#2d2418">4.1%</text>
+<text x="166" y="586" font-size="18" fill="#6a5a45">27 pitches</text>
+<rect x="300" y="480" width="150" height="150" fill="rgb(237,136,90)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="316" y="516" font-size="18" font-weight="700" fill="#2d2418">LOW MIDDLE</text>
+<text x="316" y="558" font-size="34" font-weight="700" fill="#2d2418">5.9%</text>
+<text x="316" y="586" font-size="18" fill="#6a5a45">39 pitches</text>
+<rect x="450" y="480" width="150" height="150" fill="rgb(237,136,90)" stroke="#b8aa8e" stroke-width="1.4"/>
+<text x="466" y="516" font-size="18" font-weight="700" fill="#2d2418">LOW RIGHT</text>
+<text x="466" y="558" font-size="34" font-weight="700" fill="#2d2418">5.9%</text>
+<text x="466" y="586" font-size="18" fill="#6a5a45">39 pitches</text>
+<line x1="300" y1="180" x2="300" y2="630" stroke="#b8aa8e" stroke-width="1.6"/>
+<line x1="150" y1="330" x2="600" y2="330" stroke="#b8aa8e" stroke-width="1.6"/>
+<line x1="450" y1="180" x2="450" y2="630" stroke="#b8aa8e" stroke-width="1.6"/>
+<line x1="150" y1="480" x2="600" y2="480" stroke="#b8aa8e" stroke-width="1.6"/>
+<text x="710" y="255" font-size="28" font-weight="700" fill="#2d2418">존 밖(OUT)</text>
+<rect x="710" y="280" width="360" height="120" rx="20" fill="#e7dcc8" stroke="#c9b896" stroke-width="2"/>
+<text x="740" y="335" font-size="46" font-weight="700" fill="#2d2418">53.5%</text>
+<text x="740" y="367" font-size="18" fill="#6a5a45">355 pitches</text>
+<text x="740" y="395" font-size="16" fill="#6a5a45">엣지/유인구 포함 전체 존 밖 비율</text>
+<text x="710" y="470" font-size="28" font-weight="700" fill="#2d2418">인존 상위 위치</text>
+<text x="720" y="510" font-size="21" fill="#2d2418">MIDDLE MIDDLE</text>
+<text x="960" y="510" font-size="21" font-weight="700" fill="#2d2418">7.4%</text>
+<text x="720" y="548" font-size="21" fill="#2d2418">HIGH LEFT</text>
+<text x="960" y="548" font-size="21" font-weight="700" fill="#2d2418">6.0%</text>
+<text x="720" y="586" font-size="21" fill="#2d2418">LOW MIDDLE</text>
+<text x="960" y="586" font-size="21" font-weight="700" fill="#2d2418">5.9%</text>
+<text x="710" y="670" font-size="28" font-weight="700" fill="#2d2418">해석</text>
+<text x="720" y="710" font-size="18" fill="#6a5a45">1. 전체 prior 기준으로는 OUT 비율이 가장 큽니다.</text>
+<text x="720" y="742" font-size="18" fill="#6a5a45">2. 인존에서는 가운데와 낮은 코스가 상대적으로 많이 보입니다.</text>
+<text x="720" y="774" font-size="18" fill="#6a5a45">3. 실제 예측은 여기에 주자상황, 아웃카운트, 포수, 타자 성향을 더해 조정됩니다.</text>
+</svg>

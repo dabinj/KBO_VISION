@@ -709,3 +709,50 @@ README나 시나리오 보드처럼 경기 프리뷰용 출력물을 만들 때�
 - 좌우타 및 times-through-order별 PA 결과 분포
 
 를 사용한 `고정 시드 기반 시뮬레이션`으로 만들고, 각 타석 결과에 따라 주자상황을 실제로 갱신한다.
+
+## 21. Hanwha Daily Operation Layer
+
+예측 모델 고도화와 별개로, 현재는 한화 선수단 운영 테이블을 별도 축으로 유지한다.
+
+핵심 테이블:
+
+- 한화 타자 2025 요약 테이블
+- 한화 타자 zone detail 테이블
+- 한화 투수 2025 요약 테이블
+- 한화 투수 zone detail 테이블
+
+### 21.1 Batter-side practical focus
+
+한화 타자 테이블에서는 아래 두 질문을 바로 볼 수 있어야 한다.
+
+- 이 타자의 2025 시즌 약점 존은 어디인가
+- 이 타자는 2스트라이크 이후 어떤 `구종 + 코스` 조합에 가장 많이 헛스윙했는가
+
+중요:
+
+- `2스트라이크 최다 헛스윙 존`만 보면 `OUT` 유인구로 과도하게 몰릴 수 있다
+- 그래서 최신 기준은 `전체 최다 헛스윙 구종+코스`와 `인존 기준 최다 헛스윙 구종+코스`를 함께 관리
+
+### 21.2 Pitcher-side practical focus
+
+한화 투수 테이블에서는 선발부터 마무리까지 아래 누적 지표를 계속 기록한다.
+
+- batters faced
+- strike rate
+- whiff per pitch
+- first-pitch strike rate
+- putaway whiff rate
+- average velocity
+- primary pitch mix
+
+### 21.3 Operational meaning
+
+이 레이어는 리그 전체 모델보다 가볍고, 매일 경기 종료 후 재생성하기 쉬운 구조다.
+
+즉 현재 프로젝트는:
+
+- 리그 전체 예측 모델 실험
+- 화이트/포수 중심 matchup 분석
+- 한화 전용 daily operation tables
+
+이 세 축이 함께 굴러가는 구조로 이해하면 된다.
