@@ -70,6 +70,56 @@ def zone_9_label(row_label: str, col_label: str) -> str:
     return f"{row_label}_{col_label}"
 
 
+def zone_col_5(cross_plate_x: float | None) -> str:
+    if cross_plate_x is None:
+        return "UNKNOWN"
+    band = (ZONE_RIGHT - ZONE_LEFT) / 3.0
+    extended_left = ZONE_LEFT - band
+    extended_right = ZONE_RIGHT + band
+
+    if cross_plate_x <= ZONE_LEFT:
+        if cross_plate_x <= extended_left:
+            return "1"
+        return "2"
+    if cross_plate_x < ZONE_LEFT + band:
+        return "2"
+    if cross_plate_x < ZONE_LEFT + 2 * band:
+        return "3"
+    if cross_plate_x < ZONE_RIGHT:
+        return "4"
+    if cross_plate_x < extended_right:
+        return "5"
+    return "5"
+
+
+def zone_row_5(plate_z: float | None, bottom_sz: float | None, top_sz: float | None) -> str:
+    if plate_z is None or bottom_sz is None or top_sz is None:
+        return "UNKNOWN"
+    band = (top_sz - bottom_sz) / 3.0
+    extended_bottom = bottom_sz - band
+    extended_top = top_sz + band
+
+    if plate_z >= top_sz:
+        if plate_z >= extended_top:
+            return "A"
+        return "B"
+    if plate_z >= bottom_sz + 2 * band:
+        return "B"
+    if plate_z >= bottom_sz + band:
+        return "C"
+    if plate_z >= bottom_sz:
+        return "D"
+    if plate_z >= extended_bottom:
+        return "E"
+    return "E"
+
+
+def zone_25_label(row5: str, col5: str) -> str:
+    if "UNKNOWN" in (row5, col5):
+        return "UNKNOWN"
+    return f"{row5}{col5}"
+
+
 def build_context_rows(rows: list[dict]) -> list[dict]:
     rows = sorted(
         rows,
@@ -129,6 +179,9 @@ def build_context_rows(rows: list[dict]) -> list[dict]:
         z_row = zone_row(plate_z, bottom_sz, top_sz)
         z_col = zone_col(cross_plate_x)
         z9 = zone_9_label(z_row, z_col)
+        z_row_5 = zone_row_5(plate_z, bottom_sz, top_sz)
+        z_col_5 = zone_col_5(cross_plate_x)
+        z25 = zone_25_label(z_row_5, z_col_5)
 
         enriched_row = {
             **row,
@@ -152,6 +205,9 @@ def build_context_rows(rows: list[dict]) -> list[dict]:
             "zone_row_3": z_row,
             "zone_col_3": z_col,
             "zone_9": z9,
+            "zone_row_5": z_row_5,
+            "zone_col_5": z_col_5,
+            "zone_25": z25,
         }
         enriched.append(enriched_row)
 

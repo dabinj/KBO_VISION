@@ -45,6 +45,131 @@ Powered by Dabin Jeon
 
 한 줄로 정리하면, 현재 프로젝트는 `baseline을 명시적으로 feature로 넣는 계층형 예측 구조`로 가는 것이 맞다는 판단입니다.
 
+## Sequence Roadmap
+
+현재 프로젝트의 다음 단계는 투구를 `이벤트`가 아니라 `시퀀스`로 재구성하는 것입니다.
+
+우선 대상은 아래로 고정합니다.
+
+- `2025` 시즌
+- 공식 KBO 투수 기본기록 기준 `100이닝 이상` 투수
+
+시퀀스 레이어는 4개로 구성합니다.
+
+- `pitch_master`
+  - 1행 = 1투구
+- `pa_sequence_table`
+  - 1행 = 1타석
+- `inning_sequence_table`
+  - 1행 = 1이닝
+- `game_sequence_table`
+  - 1행 = 1경기
+
+핵심 원칙은 아래와 같습니다.
+
+- 위치는 반드시 포함
+- 구종 시퀀스와 위치 시퀀스를 동시에 보관
+- 투수, 포수, 팀, 상대팀, 타자, 타순, 직전년도/해당시즌 타율을 헤더 메타데이터로 포함
+- 가능한 한 동일한 공통 스키마를 유지
+
+현재 표준 위치 코드는 `A1 ~ E5` 25분할입니다.
+
+예시:
+
+- `pitch_seq = TUS`
+- `zone25_seq = C3-D5-E5`
+- `pitch_zone_seq = TC3-UD5-SE5`
+
+즉 한 타석은 구종만이 아니라 `구종+위치`의 서열로 저장됩니다.
+
+예시 형태는 아래와 같습니다.
+
+```text
+[pitch_master]
+game_id      inning  batter   pitch_no_pa  pitch_type  zone25  result
+20250410...  1       오재원   1            T           C3      strike
+20250410...  1       오재원   2            U           D5      ball
+20250410...  1       오재원   3            S           E5      whiff
+
+[pa_sequence_table]
+game_id      inning  pitcher  catcher  batter   lineup_slot  prev_ba  curr_ba  pitch_seq  zone25_seq  pitch_zone_seq  final_result
+20250410...  1       네일     김태군   오재원   1            0.000    0.287    TUS        C3-D5-E5    TC3-UD5-SE5     strikeout
+
+[PA FASTA-like]
+>pa_id=PA0001|game_id=20250410...|pitcher=네일|catcher=김태군|batter=오재원|lineup=1|prev_ba=0.000|curr_ba=0.287|inning=1|outs=0|runner=000|result=strikeout
+PITCH:TUS
+ZONE:C3-D5-E5
+PAIR:TC3-UD5-SE5
+```
+
+이 시퀀스는 이후 두 형태로 함께 관리할 예정입니다.
+
+- CSV 테이블
+  - 모델링, 필터링, 집계용
+- FASTA-like 텍스트
+  - motif, n-gram, sequence pattern 분석용
+
+관련 설계 문서:
+
+- [SEQUENCE_SCHEMA_PLAN.md](config/SEQUENCE_SCHEMA_PLAN.md)
+
+시퀀스 분석은 우선 아래 순서로 시작합니다.
+
+- `PA sequence` 기준 투수별 top motif
+- `2스트라이크` 종료 패턴
+- `좌타/우타`별 motif 차이
+- `pitch_zone_seq` 기준 위치 포함 motif
+- 그다음 투수 유형 군집화
+
+처음 확인할 결과물은 아래 4개입니다.
+
+- 투수별 top 10 `pitch_seq`
+- 투수별 top 10 `pitch_zone_seq`
+- `2스트라이크` top motif
+- `좌/우타 split motif table`
+
+현재 생성된 산출물:
+
+- [sequence_motif_report_2025_100ip.md](data/sequences/2025_100IP/analysis/sequence_motif_report_2025_100ip.md)
+- [pitch_seq_top10_by_pitcher_2025_100ip.csv](data/sequences/2025_100IP/analysis/pitch_seq_top10_by_pitcher_2025_100ip.csv)
+- [pitch_zone_seq_top10_by_pitcher_2025_100ip.csv](data/sequences/2025_100IP/analysis/pitch_zone_seq_top10_by_pitcher_2025_100ip.csv)
+- [two_strike_top_motif_2025_100ip.csv](data/sequences/2025_100IP/analysis/two_strike_top_motif_2025_100ip.csv)
+- [stance_split_motif_2025_100ip.csv](data/sequences/2025_100IP/analysis/stance_split_motif_2025_100ip.csv)
+
+## 최근 시퀀스 분석 업데이트
+
+`2025` 시즌 `100이닝 이상` 투수를 기준으로, 투구를 `PA / 이닝 / 경기` 3단 시퀀스로 재구성하고 아래 분석까지 확장했습니다.
+
+- `모티프분석`: 투수별 대표 `pitch_seq`, `pitch_zone_seq`, 2스트라이크 motif, 좌/우타 split motif
+- `규칙분석`: `pitch_result_seq`, `count_path + pitch_seq`, `pitch_zone + result` 조합 규칙
+- `거리분석`: `Levenshtein`, `Needleman–Wunsch`, `Smith–Waterman` 기반 거리 비교
+- `클러스터분석`: 경기 embedding, 동일 투수 경기 clustering, cluster characteristics
+- `경기반복분석`: 같은 투수의 여러 경기 사이에서 반복되는 운영 패턴과 유사 경기쌍 탐색
+
+분석 결과는 `data/sequences/2025_100IP/analysis` 아래를 한글 폴더 기준으로 정리했습니다.
+
+- [분석결과_안내.md](data/sequences/2025_100IP/analysis/분석결과_안내.md)
+- [클러스터분석](data/sequences/2025_100IP/analysis/클러스터분석)
+- [거리분석](data/sequences/2025_100IP/analysis/거리분석)
+- [모티프분석](data/sequences/2025_100IP/analysis/모티프분석)
+- [규칙분석](data/sequences/2025_100IP/analysis/규칙분석)
+- [경기반복분석](data/sequences/2025_100IP/analysis/경기반복분석)
+
+의미 있게 확인된 결과는 아래와 같습니다.
+
+- `오원석`은 같은 경기 안에서 반복되는 PA motif 기준으로 `FF` 패턴 빈도가 가장 높았습니다.
+- `류현진`은 시즌 경기들이 `직구-커브 반복형`, `커브 진입형`, `체인지업 연속형`의 3개 운영 클러스터로 나뉘는 흐름을 보였습니다.
+- 거리 기반 비교에서는 `Smith–Waterman`이 부분 패턴 재사용을 가장 민감하게 잡았고, `Needleman–Wunsch`는 더 엄격한 전역 정렬 기준으로 작동했습니다.
+- 동일 투수 경기 embedding은 경기별 운영 스타일을 군집으로 나누는 데 유효했고, 페이지별 SVG로 모든 100+ IP 투수를 확인할 수 있도록 정리했습니다.
+
+대표 결과물:
+
+- [within_pitcher_game_embedding_2025_100ip.svg](data/sequences/2025_100IP/analysis/클러스터분석/within_pitcher_game_embedding_2025_100ip.svg)
+- [페이지별 SVG](data/sequences/2025_100IP/analysis/클러스터분석/페이지별)
+- [within_pitcher_cluster_characteristics_2025_100ip.md](data/sequences/2025_100IP/analysis/클러스터분석/within_pitcher_cluster_characteristics_2025_100ip.md)
+- [within_pitcher_game_similarity_report_2025_100ip.md](data/sequences/2025_100IP/analysis/경기반복분석/within_pitcher_game_similarity_report_2025_100ip.md)
+- [game_distance_matrix_pairs_2025_100ip.csv](data/sequences/2025_100IP/analysis/거리분석/game_distance_matrix_pairs_2025_100ip.csv)
+
 ## 오늘 분석 요약
 
 `2026-04-10` 기준 네일 분석에서 확인된 내용은 아래와 같습니다.
@@ -81,6 +206,14 @@ Powered by Dabin Jeon
 
 ![Hanwha Batter Weak Zones 2025](examples/hanwha_batter_weak_zones_2025.svg)
 
+### 100이닝 이상 투수 경기별 운영 클러스터 요약
+
+![Within Pitcher Game Embedding 2025](examples/within_pitcher_game_embedding_2025_100ip.svg)
+
+### 100이닝 이상 투수 경기별 운영 클러스터 페이지 예시
+
+![Within Pitcher Game Embedding Page 1](examples/within_pitcher_game_embedding_2025_100ip_page_01.svg)
+
 ## 2026.04.10 선발투수 "네일" 예측
 
 기준: 네일 `2025` 실제 투구 패턴, 포수 영향, 타자 성향, 그리고 baseline prior 기반 시나리오
@@ -89,21 +222,22 @@ Powered by Dabin Jeon
 
 ## 주요 스크립트
 
-- [fetch_kbo_schedule.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/fetch_kbo_schedule.py)
-- [fetch_kbo_season.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/fetch_kbo_season.py)
-- [build_pitch_context_table.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/build_pitch_context_table.py)
-- [build_model_tables.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/build_model_tables.py)
-- [build_first_pitch_driver_table.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/build_first_pitch_driver_table.py)
-- [build_all_pitch_driver_table.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/build_all_pitch_driver_table.py)
-- [augment_first_pitch_baseline_priors.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/augment_first_pitch_baseline_priors.py)
-- [benchmark_first_pitch_algorithms.py](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/scripts/benchmark_first_pitch_algorithms.py)
+- [fetch_kbo_schedule.py](scripts/fetch_kbo_schedule.py)
+- [fetch_kbo_season.py](scripts/fetch_kbo_season.py)
+- [build_pitch_context_table.py](scripts/build_pitch_context_table.py)
+- [build_model_tables.py](scripts/build_model_tables.py)
+- [build_first_pitch_driver_table.py](scripts/build_first_pitch_driver_table.py)
+- [build_all_pitch_driver_table.py](scripts/build_all_pitch_driver_table.py)
+- [augment_first_pitch_baseline_priors.py](scripts/augment_first_pitch_baseline_priors.py)
+- [benchmark_first_pitch_algorithms.py](scripts/benchmark_first_pitch_algorithms.py)
 
 ## 관련 문서
 
-- [PITCH_SEQUENCE_MODEL_PLAN.md](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/config/PITCH_SEQUENCE_MODEL_PLAN.md)
-- [FIRST_PITCH_MODEL_ARCHITECTURE_RECOMMENDATION.md](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/config/FIRST_PITCH_MODEL_ARCHITECTURE_RECOMMENDATION.md)
-- [ALGORITHM_SELECTION_POLICY.md](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/config/ALGORITHM_SELECTION_POLICY.md)
-- [HANWHA_DAILY_TABLES_PLAN.md](/c:/Users/Dabin%20Jeon/Documents/DevOps/KBO_VISION/config/HANWHA_DAILY_TABLES_PLAN.md)
+- [PITCH_SEQUENCE_MODEL_PLAN.md](config/PITCH_SEQUENCE_MODEL_PLAN.md)
+- [FIRST_PITCH_MODEL_ARCHITECTURE_RECOMMENDATION.md](config/FIRST_PITCH_MODEL_ARCHITECTURE_RECOMMENDATION.md)
+- [ALGORITHM_SELECTION_POLICY.md](config/ALGORITHM_SELECTION_POLICY.md)
+- [HANWHA_DAILY_TABLES_PLAN.md](config/HANWHA_DAILY_TABLES_PLAN.md)
+- [SEQUENCE_SCHEMA_PLAN.md](config/SEQUENCE_SCHEMA_PLAN.md)
 
 ## 실행 예시
 
