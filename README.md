@@ -220,6 +220,13 @@ PAIR:TC3-UD5-SE5
 
 ![Hanwha Tomorrow Fun Board](examples/hanwha_tomorrow_fun_board.svg)
 
+## 2026 한화 선발 로테이션 캘린더
+
+기준: `2026-03-28` 개막일부터 `2026-04-12` 실제 경기 로그, 그리고 `2026-04-30`까지의 예고/로테이션 예측  
+가정: 화이트 이탈 이후 `황준서` 1회 임시 선발, 이후 `잭 쿠싱` 대체 선발 반영
+
+![Hanwha Rotation Calendar 2026](examples/hanwha_rotation_calendar_2026_03_04.svg)
+
 ## 주요 스크립트
 
 - [fetch_kbo_schedule.py](scripts/fetch_kbo_schedule.py)
